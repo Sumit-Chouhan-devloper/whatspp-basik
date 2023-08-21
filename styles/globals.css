@@ -1,26 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-decoration: none !important;
+  font-family: 'Work Sans', sans-serif !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.overflow_hidden_x {
+  overflow-x: hidden !important;
 }
 
-* {
-  box-sizing: border-box;
+::-webkit-scrollbar-thumb {
+  background-color: #C6C6C6;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+:root {
+  --color-gray: #6B7C85;
+  --color-lite-black: #111B21;
+  --font-xs: 9px;
+  --font-sm: 14px;
+  --font-base: 16px;
+  --font-md: 20px;
+}
+
+/*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
+.color_gray {
+  color: var(--color-gray) !important;
+}
+
+.color_lite_black {
+  color: var(--color-light-black) !important;
+}
+
+/*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
+.font-xs {
+  font-size: var(--font-xs) !important;
+}
+
+.font-base {
+  font-size: var(--font-base) !important;
+}
+
+.font-sm {
+  font-size: var(--font-sm) !important;
+}
+
+.font-md {
+  font-size: var(--font-md) !important;
+}
+
+/*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
+.fw_medium {
+  font-weight: 500 !important;
+}
+
+.fw_semibold {
+  font-weight: 600 !important;
+}
+
+/*----------------- FONT SIZE-SET --------------------  */
+@media (min-width:1200px) {
+  .custom_container {
+    max-width: 1744px !important;
   }
-  body {
-    color: white;
-    background: black;
+}
+
+@media (max-width:576px) {
+  :root {
+    --font-xs: 9px;
+    --font-sm: 14px;
+    --font-base: 16px;
+    --font-md: 20px;
   }
+}
+
+
+/* ------------------------------ COMMON CSS -------------------------- */
+.overflow_hidden {
+  overflow: hidden !important;
+}
+
+.cursor_pointer {
+  cursor: pointer !important;
+}
+
+.transition {
+  transition: all 0.2s ease-in-out !important;
+}
+
+.hov_scale:hover {
+  transform: scale(1.05) !important;
+}
+
+.index_0 {
+  z-index: 0;
+}
+
+.index_m_1 {
+  z-index: -1;
+}
+
+.index_1 {
+  z-index: 1;
+}
+
+.index_5 {
+  z-index: 5;
+}
+
+.small_nav {
+  width: 594px;
+  padding: 12px 36px 12px 29px;
+}
+
+.big_nav {
+  width: 594px;
+  padding: 12px 36px 12px 29px;
+}
+
+.bg_gray {
+  background-color: #F0F2F5;
+}
+
+.smal_tab_box {
+  padding: 20px 29px 0 24px;
+}
+
+.pb_20 {
+  padding-bottom: 20px;
+}
+
+.searc_icon_one {
+  top: 14px;
+  left: 20px;
+}
+
+.green_notification {
+  background-color: #25D366;
+  border-radius: 10px;
+}
+
+#new_chat input {
+  max-width: 490px !important;
+  padding: 15px 22px 11px 69px !important;
+  border-radius: 10px;
 }
