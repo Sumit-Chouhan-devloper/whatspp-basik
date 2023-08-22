@@ -2,6 +2,7 @@ import React from 'react'
 import DesktopHeader from './DesktopHeader'
 import Footer from './Footer'
 import Misscall from "../../public/assets/svg/missed_call_icon.svg";
+import Bluetick from "../../public/assets/svg/double_tick_icon.svg";
 
 import Image from 'next/image'
 
@@ -20,7 +21,7 @@ function DesktopChat() {
                     </div>
                     {/*---------- Recive Msg ---------- */}
                     <div className="ms-lg-5 ps-4 mt-1 ">
-                        <p className="ms-2 msg_bg_custom msg_bg_custom_corner_left d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Baba how fa na?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
                         </p>
@@ -38,27 +39,31 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*----------- Send Msg ----------- */}
-                    <div className="text-end me-lg-4 pe-2 mt-1">
-                        <p className="msg_bg_custom msg_bg_custom_corner_right d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
+                    <div className="text-end me-lg-4 mt-1">
+                        <p className="msg_bg_custom_tick green_corner_bg d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
                             Oboy the thing goes well
-                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
+                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
+                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                            </span>
                         </p>
                     </div>
                     <div className="text-end me-lg-4 pe-2 mt-1">
-                        <p className="msg_bg_custom d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             but na wetin the client even talk? i hope say him go pay?
-                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
-                        </p>
+                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
+                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                            </span>                        </p>
                     </div>
                     <div className="text-end me-lg-4 pe-2 mt-1">
-                        <p className="msg_bg_custom d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             na how much una been discuss for the project sef?
-                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
-                        </p>
+                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
+                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                            </span>                        </p>
                     </div>
                     {/*---------- Recive Msg ---------- */}
                     <div className="ms-lg-5 ps-4 mt-1 ">
-                        <p className="ms-2 msg_bg_custom msg_bg_custom_corner_left d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Na just 150k wey we agree on
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
                         </p>
@@ -89,21 +94,23 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*----------- Send Msg ----------- */}
-                    <div className="text-end me-lg-4 pe-2 mt-1">
-                        <p className="msg_bg_custom msg_bg_custom_corner_right d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
+                    <div className="text-end me-lg-4 mt-1">
+                        <p className="msg_bg_custom_tick green_corner_bg d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
                             Why you dy call me na?
-                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
-                        </p>
+                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
+                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                            </span>                        </p>
                     </div>
                     <div className="text-end me-lg-4 pe-2 mt-1">
-                        <p className="msg_bg_custom d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             I dy office like this oh. Any issue Bro?
-                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
-                        </p>
+                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
+                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                            </span>                        </p>
                     </div>
                     {/*----------- Recived Msg ----------- */}
                     <div className="ms-lg-5 ps-4 mt-1 ">
-                        <p className="ms-2 msg_bg_custom msg_bg_custom_corner_left d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Oboy dash me 2k na
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
                         </p>
@@ -117,7 +124,7 @@ function DesktopChat() {
                     </div>
                     {/*---------- Recive Msg ---------- */}
                     <div className="ms-lg-5 ps-4 mt-1 ">
-                        <p className="ms-2 msg_bg_custom msg_bg_custom_corner_left d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Baba how fa na?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
                         </p>
@@ -130,20 +137,21 @@ function DesktopChat() {
                     </div>
                     {/*----------- Send Msg ----------- */}
                     <div className="text-end me-lg-4 pe-2 mt-1">
-                        <p className="msg_bg_custom msg_bg_custom_corner_right d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom green_corner_bg d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
                             Oboy the thing goes well
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
                         </p>
                     </div>
                     <div className="text-end me-lg-4 pe-2 mt-1">
-                        <p className="msg_bg_custom d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             na how much una been discuss for the project sef?
-                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
-                        </p>
+                            <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
+                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                            </span>                        </p>
                     </div>
                     {/*---------- Recive Msg ---------- */}
                     <div className="ms-lg-5 ps-4 mt-1 ">
-                        <p className="ms-2 msg_bg_custom msg_bg_custom_corner_left d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Na just 150k wey we agree on
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
                         </p>

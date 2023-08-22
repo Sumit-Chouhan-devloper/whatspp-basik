@@ -191,19 +191,24 @@ body {
   border-radius: 10px;
 }
 
+.msg_bg_custom_tick {
+  border-radius: 10px;
+  padding: 10px 66px 10px 19px;
+}
+
 .msg_bg_custom {
   padding: 10px 49px 10px 19px;
 }
 
-.msg_bg_custom_corner_left {
+.white_corner_bg {
   block-size: cover;
   background-repeat: round;
   background-image: url("./../public/assets/image/msg_bg.png");
 }
 
-.msg_bg_custom_corner_right {
-  block-size: 100% 100%;
-  background-repeat: no-repeat;
+.green_corner_bg {
+  block-size: cover;
+  background-repeat: round;
   background-image: url("./../public/assets/image/msg_bg_green.png");
 }
 
