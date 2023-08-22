@@ -28,7 +28,6 @@ function SmallCountentBox() {
                         {Whatsappblocks.map((obj, index) => (
                             <div className="d-flex" key={index} >
                                 <div className="">
-
                                     <Image src={Designers_Corner} alt="NavLogo" className="" />
                                 </div>
                                 <div className="w-100 pb_20 border-bottom">
