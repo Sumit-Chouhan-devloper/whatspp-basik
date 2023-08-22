@@ -14,35 +14,35 @@ function DesktopHeader() {
                 <nav className="d-flex align-items-center justify-content-between big_nav w-100">
                     <div className="">
                         <Link href="/">
-                            <Image src={NavLogo} alt="NavLogo" />
+                            <Image src={NavLogo} alt="/" className='profiles' />
                         </Link>
                     </div>
-                    <div className="d-flex gap-4">
+                    <div className="d-flex gap-3 gap-lg-4">
                         <Link
                             href="/"
                             target="_blank"
                             className="">
-                            <Image src={Call_Icon} alt="NavLogo" />
+                            <Image src={Call_Icon} alt="/" className='common_icons_size' />
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="px-2">
-                            <Image src={Carbon_Video} alt="NavLogo" />
+                            <Image src={Carbon_Video} alt="/" className='common_icons_size' />
 
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="">
-                            <Image src={Search_Icon} alt="NavLogo" />
+                            <Image src={Search_Icon} alt="/" className='common_icons_size' />
 
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="ps-2">
-                            <Image src={ThreeDots} alt="NavLogo" />
+                            <Image src={ThreeDots} alt="/" className='common_icons_size' />
                         </Link>
                     </div>
                 </nav>

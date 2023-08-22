@@ -44,7 +44,9 @@ function SmallCountentBox() {
                                         <p className="font-sm green_notification p-1 fw_semibold text-white mb-0">
                                             {obj.unreadnotification}
                                         </p>
-                                    ) : null} </div>
+                                    ) : null}
+
+                                </div>
                             </div>
                         </div>
                     ))}

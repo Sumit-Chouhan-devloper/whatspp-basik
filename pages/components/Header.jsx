@@ -15,7 +15,7 @@ const Header = () => {
                 <nav className="d-flex align-items-center justify-content-between small_nav">
                     <div >
                         <Link href="/">
-                            <Image src={NavLogo} alt="NavLogo" />
+                            <Image src={NavLogo} alt="/" className="profiles" />
                         </Link>
                     </div>
                     <div className="d-flex gap-3 gap-lg-4">
@@ -23,27 +23,27 @@ const Header = () => {
                             href="/"
                             target="_blank"
                         >
-                            <Image src={Mdi_People_Group} alt="NavLogo" />
+                            <Image src={Mdi_People_Group} alt="/" className="common_icons_size" />
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="px-2">
-                            <Image src={Status_Icon} alt="NavLogo" />
+                            <Image src={Status_Icon} alt="/" className="common_icons_size" />
 
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                         >
-                            <Image src={Msg_Icon} alt="NavLogo" />
+                            <Image src={Msg_Icon} alt="/" className="common_icons_size" />
 
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="ps-2">
-                            <Image src={ThreeDots} alt="NavLogo" />
+                            <Image src={ThreeDots} alt="/" className="common_icons_size" />
                         </Link>
                     </div>
                 </nav>

@@ -266,9 +266,14 @@ body {
     padding: 12px 36px 12px 29px;
   }
 
-  .profileone {
+  .profiles {
     width: 40px;
     height: 40px;
+  }
+
+  .common_icons_size {
+    width: 20px;
+    height: 20px;
   }
 
   .footer_space {
