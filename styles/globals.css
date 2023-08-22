@@ -72,9 +72,9 @@ body {
 
 /*----------------- FONT SIZE-SET --------------------  */
 @media (min-width:1200px) {
-  .custom_container {
+  /* .custom_container {
     max-width: 1744px !important;
-  }
+  } */
 }
 
 @media (max-width:991.98px) {
@@ -181,9 +181,45 @@ body {
   background-repeat: no-repeat;
 }
 
+/* MSG BOX css  */
+.msg_bg_custom {
+  border-radius: 10px;
+}
+
+.msg_bg_custom_miss {
+  padding: 10px 24px;
+  border-radius: 10px;
+}
+
+.msg_bg_custom {
+  padding: 10px 49px 10px 19px;
+}
+
+.msg_bg_custom_corner_left {
+  block-size: cover;
+  background-repeat: round;
+  background-image: url("./../public/assets/image/msg_bg.png");
+}
+
+.msg_bg_custom_corner_right {
+  block-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("./../public/assets/image/msg_bg_green.png");
+}
+
+.bg_green {
+  background-color: #D9FDD3;
+}
+
+/* .chat_box_h {
+  height: calc(100vh - 164px);
+} */
+
+/* Footer Css  */
+
 #overflowTest {
   height: calc(100vh - 74px);
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .footer_space {
@@ -196,6 +232,15 @@ body {
   background-color: #fff !important;
 }
 
+:focus-visible {
+  outline: none !important;
+}
+
+@media (max-width:1199.98px) {
+  .small_nav {
+    width: 524px;
+  }
+}
 
 @media (max-width:991.98px) {
   .small_nav {
@@ -248,5 +293,4 @@ body {
     width: 100%;
     padding: 16px 16px 12px 12px;
   }
-
 }

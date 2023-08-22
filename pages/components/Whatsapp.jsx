@@ -6,7 +6,7 @@ function Whatsapp() {
     return (
         <div className='custom_container m-auto'>
             <div className="d-flex position-relative">
-                <div className='position-sticky top-0'>
+                <div>
                     <SmallCountentBox />
                 </div>
                 <div className='w-100 d-none d-md-inline-block bg_chat_box'>
