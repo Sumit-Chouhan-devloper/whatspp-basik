@@ -1,9 +1,84 @@
-// import Image from 'next/image'
-// import Designers_Corner from "../../../public/assets/svg/Designers_Corner.svg";
-
 export const Whatsappblocks = [
     {
-        profiles: "../../../public/assets/svg/Designers_Corner.svg",
+        profileone: "/assets/svg/Designers_Corner.svg",
+        headingone: "Designers Corner",
+        time: "3:11 pm",
+        phonenumber: "+2348128225157:",
+        chatheadline: "That’s a great news! Congratulations...",
+        greennotification: "197",
     },
-
+    {
+        profileone: "/assets/svg/daniel.svg",
+        headingone: "Daniel Kalio",
+        time: "2:24 pm",
+        chatheadline: "Oboy dash me 2k na",
+    },
+    {
+        profileone: "/assets/svg/Group_class.svg",
+        headingone: "Codegaminator 10.0 - UIUX Class",
+        time: "1:47 pm",
+        chatheadline: " Bryan: Submit your figma links here before the end of...",
+    },
+    {
+        profileone: "/assets/svg/beywond.svg",
+        headingone: "BEYOND PEXELS",
+        time: "1:22 pm",
+        chatheadline: " Bryan: Submit your figma links here before the end of...",
+        greennotification: "203",
+    },
+    {
+        profileone: "/assets/svg/nic.svg",
+        headingone: "Gideon Nic",
+        time: "1:3 pm",
+        chatheadline: " Photo",
+    },
+    {
+        profileone: "/assets/svg/benson.svg",
+        headingone: "Rejoice Benson",
+        time: "12:47 pm",
+        chatheadline: " Video",
+    },
+    {
+        profileone: "/assets/svg/longs.svg",
+        headingone: "Merry Longs",
+        time: "12:35 pm",
+        chatheadline: " Hello sir I’ve sent you the link",
+    },
+    {
+        profileone: "/assets/svg/goodgod.svg",
+        headingone: "Goodgod UIUX",
+        time: "12:1 pm",
+        chatheadline: "Video",
+    },
+    {
+        profileone: "/assets/svg/alex.svg",
+        headingone: "Alex (Tech Sis)",
+        time: "11:10 am",
+        chatheadline: " Video",
+    },
+    {
+        profileone: "/assets/svg/Designers_Corner.svg",
+        headingone: "Designers Corner",
+        time: "3:11 pm",
+        phonenumber: "+2348128225157:",
+        chatheadline: "That’s a great news! Congratulations...",
+    },
+    {
+        profileone: "/assets/svg/daniel.svg",
+        headingone: "Daniel Kalio",
+        time: "2:24 pm",
+        chatheadline: "Oboy dash me 2k na",
+    },
+    {
+        profileone: "/assets/svg/Group_class.svg",
+        headingone: "Codegaminator 10.0 - UIUX Class",
+        time: "1:47 pm",
+        chatheadline: " Bryan: Submit your figma links here before the end of...",
+    },
+    {
+        profileone: "/assets/svg/beywond.svg",
+        headingone: "BEYOND PEXELS",
+        time: "1:22 pm",
+        chatheadline: " Bryan: Submit your figma links here before the end of...",
+    },
 ];

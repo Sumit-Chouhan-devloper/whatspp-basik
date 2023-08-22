@@ -77,12 +77,21 @@ body {
   }
 }
 
+@media (max-width:991.98px) {
+  :root {
+    --font-md: 13px;
+    --font-sm: 12px;
+    --font-base: 12px;
+    --font-sm: 10px;
+  }
+}
+
 @media (max-width:576px) {
   :root {
-    --font-xs: 9px;
-    --font-sm: 14px;
-    --font-base: 16px;
-    --font-md: 20px;
+    --font-md: 14px;
+    --font-sm: 11px;
+    --font-base: 13px;
+    --font-sm: 9px;
   }
 }
 
@@ -138,6 +147,14 @@ body {
   padding: 20px 29px 0 24px;
 }
 
+.chats_box {
+  padding: 0 29px 0px 24px;
+}
+
+.pt_20 {
+  padding-top: 20px;
+}
+
 .pb_20 {
   padding-bottom: 20px;
 }
@@ -156,4 +173,80 @@ body {
   max-width: 490px !important;
   padding: 15px 22px 11px 69px !important;
   border-radius: 10px;
+}
+
+.bg_chat_box {
+  background-image: url("./../public/assets/image/chat_box_bg.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#overflowTest {
+  height: calc(100vh - 74px);
+  overflow: scroll;
+}
+
+.footer_space {
+  padding: 20px 52px 20px 24px;
+}
+
+#footer input {
+  padding: 15px 22px 11px 69px !important;
+  border-radius: 10px;
+  background-color: #fff !important;
+}
+
+
+@media (max-width:991.98px) {
+  .small_nav {
+    width: 350px;
+    padding: 12px 36px 12px 29px;
+  }
+
+  .smal_tab_box {
+    padding: 12px 20px 0 16px;
+  }
+
+  .chats_box {
+    padding: 0 20px 0px 16px;
+  }
+
+  .small_nav {
+    width: 350px;
+    padding: 12px 36px 12px 29px;
+  }
+
+  .profileone {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer_space {
+    padding: 12px 16px 12px 12px;
+  }
+
+  .big_nav {
+    width: 594px;
+    padding: 12px 12px 12px 12px;
+  }
+
+  .small_nav {
+    padding: 12px 20px 12px 12px;
+  }
+
+  .pb_20 {
+    padding-bottom: 12px;
+  }
+
+  .pt_20 {
+    padding-top: 12px;
+  }
+}
+
+@media (max-width:576px) {
+  .small_nav {
+    width: 100%;
+    padding: 16px 16px 12px 12px;
+  }
+
 }

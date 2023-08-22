@@ -11,40 +11,40 @@ const Header = () => {
 
     return (
         <>
-            <div className="bg_gray">
+            <div className="bg_gray position-sticky top-0 left-0 index_1">
                 <nav className="d-flex align-items-center justify-content-between small_nav">
-                    <div className="">
+                    <div >
                         <Link href="/">
                             <Image src={NavLogo} alt="NavLogo" />
                         </Link>
                     </div>
-                    <div className="d-flex gap-4">
-                        <a
+                    <div className="d-flex gap-3 gap-lg-4">
+                        <Link
                             href="/"
                             target="_blank"
-                            className="">
+                        >
                             <Image src={Mdi_People_Group} alt="NavLogo" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="/"
                             target="_blank"
                             className="px-2">
                             <Image src={Status_Icon} alt="NavLogo" />
 
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="/"
                             target="_blank"
-                            className="">
+                        >
                             <Image src={Msg_Icon} alt="NavLogo" />
 
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="/"
                             target="_blank"
                             className="ps-2">
                             <Image src={ThreeDots} alt="NavLogo" />
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </div>

@@ -10,7 +10,7 @@ import Link from 'next/link';
 function DesktopHeader() {
     return (
         <>
-            <div className="bg_gray">
+            <div className="bg_gray position-sticky top-0">
                 <nav className="d-flex align-items-center justify-content-between big_nav w-100">
                     <div className="">
                         <Link href="/">
