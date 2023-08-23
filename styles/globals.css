@@ -77,6 +77,14 @@ body {
   } */
 }
 
+@media (max-width:1199.98px) {
+  :root {
+    --font-sm: 13px;
+    --font-base: 14px;
+    --font-md: 18px;
+  }
+}
+
 @media (max-width:991.98px) {
   :root {
     --font-md: 13px;
@@ -243,7 +251,28 @@ body {
 
 @media (max-width:1199.98px) {
   .small_nav {
-    width: 524px;
+    width: 473px;
+  }
+
+  .footer_space {
+    padding: 16px 24px 16px 16px;
+  }
+
+  #new_chat input {
+    padding: 9px 0px 9px 44px !important;
+  }
+
+  #footer input {
+    padding: 9px 0px 9px 44px !important;
+  }
+
+  .searc_icon_one {
+    top: 11px;
+    left: 12px;
+  }
+
+  .smal_tab_box {
+    padding: 16px 29px 0 24px;
   }
 }
 

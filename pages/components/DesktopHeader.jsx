@@ -17,7 +17,7 @@ function DesktopHeader() {
                             <Image src={NavLogo} alt="/" className='profiles' />
                         </Link>
                     </div>
-                    <div className="d-flex gap-3 gap-lg-4">
+                    <div className="d-flex gap-3 gap-xl-4">
                         <Link
                             href="/"
                             target="_blank"
@@ -41,7 +41,7 @@ function DesktopHeader() {
                         <Link
                             href="/"
                             target="_blank"
-                            className="ps-2">
+                            className="ps-xl-2">
                             <Image src={ThreeDots} alt="/" className='common_icons_size' />
                         </Link>
                     </div>

@@ -18,7 +18,7 @@ function SmallCountentBox() {
                             <input type="text" placeholder='Search or start new chat' className='border-0 bg_gray w-100' />
                             <Image src={Search_Icon} alt="NavLogo" className="position-absolute searc_icon_one" />
                         </div>
-                        <Link href="/" className='ps-2 ps-lg-0'>
+                        <Link href="/" className='ps-2 ps-xl-0'>
                             <Image src={Toggle} alt="NavLogo" />
                         </Link>
                     </div>
@@ -45,7 +45,6 @@ function SmallCountentBox() {
                                             {obj.unreadnotification}
                                         </p>
                                     ) : null}
-
                                 </div>
                             </div>
                         </div>
