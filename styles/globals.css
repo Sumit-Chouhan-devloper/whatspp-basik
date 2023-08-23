@@ -71,6 +71,24 @@ body {
 }
 
 /*----------------- FONT SIZE-SET --------------------  */
+@media (min-width:1800px) {
+  :root {
+    --font-xs: 10px;
+    --font-sm: 16px;
+    --font-base: 17px;
+    --font-md: 24px;
+  }
+
+  .small_nav {
+    width: 645px !important;
+  }
+
+  .profiles {
+    width: 65px;
+    height: 65px;
+  }
+}
+
 @media (min-width:1200px) {
   /* .custom_container {
     max-width: 1744px !important;
@@ -247,6 +265,12 @@ body {
 
 :focus-visible {
   outline: none !important;
+}
+
+@media (max-width:1598.98px) {
+  .small_nav {
+    width: 601px;
+  }
 }
 
 @media (max-width:1199.98px) {
