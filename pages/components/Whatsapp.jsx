@@ -9,7 +9,7 @@ function Whatsapp() {
                 <div>
                     <SmallCountentBox />
                 </div>
-                <div className='w-100 d-none d-md-inline-block bg_chat_box'>
+                <div className='w-100 display_show bg_chat_box'>
                     <DesktopChat />
                 </div>
             </div>
