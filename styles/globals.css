@@ -252,6 +252,11 @@ body {
 @media (max-width:1199.98px) {
   .small_nav {
     width: 473px;
+    padding: 12px 30px 12px 24px;
+  }
+
+  .big_nav {
+    padding: 12px 30px 12px 24px;
   }
 
   .msg_bg_custom_miss {
