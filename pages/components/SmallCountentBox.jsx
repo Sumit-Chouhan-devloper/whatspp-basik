@@ -38,7 +38,7 @@ function SmallCountentBox() {
                                     <h1 className="font-md color_gray fw_semibold mb-0">{obj.holdername}</h1>
                                     <p className="font-sm fw_semibold color_gray mb-0" > {obj.time}</p>
                                 </div>
-                                <div className="d-flex justify-content-between align-items-center">
+                                <div className="d-flex justify-content-between align-items-center pt-1">
                                     <h2 className="font-base color_gray fw_medium mb-0"> {obj.title} <span className="fw-normal"> {obj.textmsg} </span> </h2>
                                     {obj.unreadnotification ? (
                                         <p className="font-sm green_notification p-1 fw_semibold text-white mb-0">
