@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +8,6 @@
 
 html,
 body {
-  overflow-y: hidden;
   padding: 0;
   margin: 0;
   text-decoration: none !important;
@@ -28,21 +28,47 @@ body {
 
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
+  --color-dark-green: #008069;
   --color-gray: #6B7C85;
+  --color-Sky-blue: #027EB5;
   --color-lite-black: #111B21;
+  --color-dark-black: #0E0E0F;
   --font-xs: 9px;
   --font-sm: 14px;
   --font-base: 16px;
   --font-md: 20px;
+  --font-lg: 24px;
+  --font-xl: 32px;
+}
+
+/*--------------------- DEFINE-ALL = Font-Family ------------------------------ */
+.ff_inter {
+  font-family: 'Inter', sans-serif !important;
 }
 
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
+.color_dark_green {
+  color: var(--color-dark-green) !important;
+}
+
+.color_sky_blue {
+  color: var(--color-Sky-blue) !important;
+}
+
+.bg_dark_green {
+  background-color: var(--color-dark-green);
+}
+
 .color_gray {
   color: var(--color-gray) !important;
 }
 
 .color_lite_black {
   color: var(--color-light-black) !important;
+}
+
+.color_dark_black {
+  color: var(--color-dark-black) !important;
 }
 
 /*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
@@ -60,6 +86,14 @@ body {
 
 .font-md {
   font-size: var(--font-md) !important;
+}
+
+.font-lg {
+  font-size: var(--font-lg) !important;
+}
+
+.font-xl {
+  font-size: var(--font-xl) !important;
 }
 
 /*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
@@ -119,6 +153,7 @@ body {
     --font-sm: 11px;
     --font-base: 13px;
     --font-sm: 9px;
+    --font-xl: 21px;
   }
 }
 
@@ -264,6 +299,33 @@ body {
   outline: none !important;
 }
 
+
+/*------------ Popups Css ------------ */
+.communitie_parent {
+  max-width: 631px;
+}
+
+.community_para {
+  max-width: 377px;
+}
+
+.communitiy_btn:hover {
+  color: #4BA586 !important;
+  background-color: #fff;
+  border: 1px solid #008069;
+}
+
+.communitiy_btn {
+  background-color: #4BA586;
+  padding: 13px 28px 13px 28px;
+  border-radius: 25px;
+  border: transparent;
+}
+
+.fs_ragular {
+  font-size: 16px !important;
+}
+
 @media (max-width:1598.98px) {
   .small_nav {
     width: 601px;
@@ -387,6 +449,15 @@ body {
   .misscall_icon {
     width: 18px;
     height: 18px;
+  }
+
+  .communitiy_btn {
+    padding: 13px 28px 13px 28px;
+  }
+
+  .communityimg {
+    width: 350px;
+    height: 180px;
   }
 }
 
