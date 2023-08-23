@@ -254,6 +254,14 @@ body {
     width: 473px;
   }
 
+  .msg_bg_custom_miss {
+    padding: 8px 16px;
+  }
+
+  .msg_bg_custom {
+    padding: 8px 42px 8px 18px;
+  }
+
   .footer_space {
     padding: 16px 24px 16px 16px;
   }
