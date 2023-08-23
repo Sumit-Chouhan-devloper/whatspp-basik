@@ -380,6 +380,6 @@ body {
 @media (max-width:576px) {
   .small_nav {
     width: 100%;
-    padding: 16px 16px 12px 12px;
+    padding: 8px 16px 8px 12px;
   }
 }
