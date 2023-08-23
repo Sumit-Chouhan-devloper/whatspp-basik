@@ -20,7 +20,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*---------- Recive Msg ---------- */}
-                    <div className="ms-lxl-5 ps-xl-4 mt-1 ">
+                    <div className="ms-xl-5 ps-xl-4 mt-1 ">
                         <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Baba how fa na?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
@@ -64,7 +64,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*---------- Recive Msg ---------- */}
-                    <div className="ms-lxl-5 ps-xl-4 mt-1 ">
+                    <div className="ms-xl-5 ps-xl-4 mt-1 ">
                         <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Na just 150k wey we agree on
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
@@ -113,7 +113,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*----------- Recived Msg ----------- */}
-                    <div className="ms-lxl-5 ps-xl-4 mt-1 ">
+                    <div className="ms-xl-5 ps-xl-4 mt-1 ">
                         <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Oboy dash me 2k na
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
@@ -127,7 +127,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*---------- Recive Msg ---------- */}
-                    <div className="ms-lxl-5 ps-xl-4 mt-1 ">
+                    <div className="ms-xl-5 ps-xl-4 mt-1 ">
                         <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Baba how fa na?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
@@ -155,7 +155,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*---------- Recive Msg ---------- */}
-                    <div className="ms-lxl-5 ps-xl-4 mt-1 ">
+                    <div className="ms-xl-5 ps-xl-4 mt-1 ">
                         <p className="ms-2 msg_bg_custom white_corner_bg d-inline-block mb-0 mt-4 font-sm fw-normal color_lite_black position-relative">
                             Na just 150k wey we agree on
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm</span>
