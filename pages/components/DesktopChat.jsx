@@ -14,8 +14,8 @@ function DesktopChat() {
                 <div className="overflow-y-scroll index_1 h-100 chat_box _h px-2">
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center">
-                        <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-2">
-                            <Image src={Misscall} alt="misscall" />
+                        <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-2 ">
+                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
@@ -85,13 +85,13 @@ function DesktopChat() {
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center my-3">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-4">
-                            <Image src={Misscall} alt="misscall" />
+                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
                     <div className="text-center">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0">
-                            <Image src={Misscall} alt="misscall" />
+                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
@@ -122,7 +122,7 @@ function DesktopChat() {
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-2">
-                            <Image src={Misscall} alt="misscall" />
+                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
