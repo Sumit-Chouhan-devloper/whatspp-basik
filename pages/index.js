@@ -4,6 +4,7 @@ import Whatsapp from './components/Whatsapp'
 import CommunitiePopup from './components/popups/CommunitiePopup'
 import MenuPopup from './components/popups/MenuPopup'
 import SearchMassagePopup from './components/popups/SearchMassagePopup'
+import MenuTwoPopup from './components/popups/MenuTwoPopup'
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       {/* <Whatsapp /> */}
       {/* <CommunitiePopup/> */}
       {/* <MenuPopup/> */}
-      <SearchMassagePopup/>
+      <MenuTwoPopup/>
+      {/* <SearchMassagePopup/> */}
     </div>
   )
 }
