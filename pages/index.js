@@ -8,6 +8,7 @@ import MenuTwoPopup from './components/popups/MenuTwoPopup'
 import NewChatPopup from './components/popups/NewChatPopup'
 import FilterPopup from './components/popups/FilterPopup'
 import SpleshScreenPopup from './components/popups/SpleshScreenPopup'
+import ContactDetail from './components/popups/ContactDetail'
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       {/* <SearchMassagePopup/> */}
       {/* <NewChatPopup/> */}
       {/* <FilterPopup/> */}
-      <SpleshScreenPopup/>
+      {/* <SpleshScreenPopup/> */}
+      <ContactDetail/>
 
     </div>
   )
