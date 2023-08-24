@@ -187,34 +187,52 @@ body {
   z-index: 5;
 }
 
-.small_nav {
-  width: 594px;
-  padding: 12px 36px 12px 29px;
+.lh_25 {
+  line-height: 25px;
 }
 
-.big_nav {
-  width: 594px;
-  padding: 12px 36px 12px 29px;
+.border_radius_10 {
+  border-radius: 10px;
 }
 
 .bg_gray {
   background-color: #F0F2F5;
 }
 
-.smal_tab_box {
-  padding: 20px 29px 0 24px;
+.bg_green {
+  background-color: #D9FDD3;
 }
 
-.chats_box {
-  padding: 0 29px 0px 24px;
+.opacity_70 {
+  opacity: 70;
 }
 
 .pt_20 {
   padding-top: 20px;
 }
 
-.pb_20 {
+------------------- .pb_20 {
   padding-bottom: 20px;
+}
+
+/*-------------- Profiles Navbar Css -------------- */
+.small_nav {
+  width: 594px;
+  padding: 12px 36px 12px 29px;
+}
+
+.smal_tab_box {
+  padding: 20px 29px 0 24px;
+}
+
+/*-------------- Desktop Navbar Css -------------- */
+.big_nav {
+  width: 594px;
+  padding: 12px 36px 12px 29px;
+}
+
+.chats_box {
+  padding: 0 29px 0px 24px;
 }
 
 .searc_icon_one {
@@ -239,7 +257,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* MSG BOX css  */
+/* --------------------- MSG BOX Css ---------------------  */
 .msg_bg_custom {
   border-radius: 10px;
 }
@@ -270,12 +288,7 @@ body {
   background-image: url("./../public/assets/image/msg_bg_green.png");
 }
 
-.bg_green {
-  background-color: #D9FDD3;
-}
-
-/* Footer Css  */
-
+/* ------------------- Footer Css-------------------   */
 #overflowTest {
   height: calc(100vh - 74px);
   overflow-y: scroll;
@@ -295,8 +308,8 @@ body {
   outline: none !important;
 }
 
+/*------------------------------------ Popups Css ------------------------------------ */
 
-/*------------ Popups Css ------------ */
 /*---------- Community Popup Css ---------- */
 .communitie_parent {
   max-width: 631px;
@@ -336,10 +349,26 @@ body {
   padding: 10px 0;
 }
 
-.lh_25 {
-  line-height: 25px;
+/*---------- Search Message Popup Css ---------- */
+.search_massage_popup_parent {
+  padding: 27px 0 27px 24px;
 }
 
+.search_input_popup {
+  padding: 18px 28px 18px 24px;
+  box-shadow: 0px 2px 5px 0px #00000026;
+}
+
+#grand_massage_popup input {
+  padding: 13px 0px 13px 82px;
+}
+
+.left_green_errow {
+  left: 40px;
+  top: 28px;
+}
+
+/*----------------------------- All Meadia Quaries Set ------------------- ---------- */
 @media (max-width:1598.98px) {
   .small_nav {
     width: 601px;
@@ -477,6 +506,28 @@ body {
 
   .communitie_parent {
     padding-bottom: 50px;
+  }
+
+  .search_massage_popup_parent {
+    padding: 20px 0 20px 16px;
+  }
+
+  .search_input_popup {
+    padding: 16px 16px 16px 16px;
+  }
+
+  #grand_massage_popup input {
+    padding: 8px 0px 8px 50px;
+  }
+
+  .left_green_errow {
+    left: 23px;
+    top: 23px;
+  }
+
+  .green_left_popup_errow {
+    width: 25px;
+    height: 25px;
   }
 }
 
