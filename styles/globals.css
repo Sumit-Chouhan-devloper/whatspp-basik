@@ -4,6 +4,7 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* border: 1px solid red; */
 }
 
 html,
@@ -29,6 +30,7 @@ body {
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
   --color-dark-green: #008069;
+  --color-lite-green: #4BA586;
   --color-gray: #6B7C85;
   --color-Sky-blue: #027EB5;
   --color-lite-black: #111B21;
@@ -97,6 +99,10 @@ body {
 
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
 .color_dark_green {
+  color: var(--color-dark-green) !important;
+}
+
+.color_lite_green {
   color: var(--color-dark-green) !important;
 }
 
@@ -211,8 +217,16 @@ body {
   padding-top: 20px;
 }
 
-------------------- .pb_20 {
-  padding-bottom: 20px;
+.fs_ragular {
+  font-size: 16px !important;
+}
+
+.fs_mmd {
+  font-size: 20px !important;
+}
+
+.fs_llg {
+  font-size: 24px !important;
 }
 
 /*-------------- Profiles Navbar Css -------------- */
@@ -333,10 +347,6 @@ body {
   border: transparent;
 }
 
-.fs_ragular {
-  font-size: 16px !important;
-}
-
 /*---------- Menu Popup Css ---------- */
 .menu_popup_parent {
   padding: 2px 0 6px 24px;
@@ -366,6 +376,24 @@ body {
 .left_green_errow {
   left: 40px;
   top: 28px;
+}
+
+/*---------- New Chat Popup Css ---------- */
+.new_chat_input_popup {
+  padding: 18px 28px 18px 24px;
+}
+
+.new_chat_box {
+  padding: 0 0 0 24px;
+}
+
+#new_chat_parent input {
+  padding: 13px 0px 13px 82px;
+}
+
+/*---------- Splash Screen Popup Css ---------- */
+.max_w_888 {
+  max-width: 888px;
 }
 
 /*----------------------------- All Meadia Quaries Set ------------------- ---------- */
@@ -481,6 +509,11 @@ body {
 }
 
 @media (max-width:576px) {
+  .gray_splash_whatsapp_logo {
+    width: 80px;
+    height: 80px;
+  }
+
   .small_nav {
     width: 100%;
     padding: 8px 16px 8px 12px;

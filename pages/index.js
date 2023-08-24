@@ -5,6 +5,9 @@ import CommunitiePopup from './components/popups/CommunitiePopup'
 import MenuPopup from './components/popups/MenuPopup'
 import SearchMassagePopup from './components/popups/SearchMassagePopup'
 import MenuTwoPopup from './components/popups/MenuTwoPopup'
+import NewChatPopup from './components/popups/NewChatPopup'
+import FilterPopup from './components/popups/FilterPopup'
+import SpleshScreenPopup from './components/popups/SpleshScreenPopup'
 
 export default function Home() {
   return (
@@ -12,8 +15,12 @@ export default function Home() {
       {/* <Whatsapp /> */}
       {/* <CommunitiePopup/> */}
       {/* <MenuPopup/> */}
-      <MenuTwoPopup/>
+      {/* <MenuTwoPopup/> */}
       {/* <SearchMassagePopup/> */}
+      {/* <NewChatPopup/> */}
+      {/* <FilterPopup/> */}
+      <SpleshScreenPopup/>
+
     </div>
   )
 }

@@ -1,3 +1,24 @@
+export const Newchat = [
+    {
+        profiles: "/assets/svg/gideon.svg",
+        holdername: "Gideon Nic",
+    },
+    {
+        profiles: "/assets/svg/daniel_two.svg",
+        holdername: "Daniel Kalio",
+        textmsg: "Stay bold... life is full of ups & down",
+    },
+    {
+        profiles: "/assets/svg/goodgodTwo.svg",
+        holdername: "Goodgod UI/UX",
+        textmsg: " Hi",
+    },
+    {
+        profiles: "/assets/svg/alextwo.svg",
+        holdername: "Alex (Tech Sis)",
+    },
+
+];
 export const Whatsappblocks = [
     {
         profiles: "/assets/svg/Designers_Corner.svg",
