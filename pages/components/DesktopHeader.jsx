@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import NavLogo from "../../public/assets/svg/nav_boy_icon.svg";
-import ThreeDots from "../../public/assets/svg/three_dots_icon.svg";
-import Search_Icon from "../../public/assets/svg/search_icon.svg";
-import Carbon_Video from "../../public/assets/svg/carbon_video.svg";
-import Call_Icon from "../../public/assets/svg/call_icon.svg";
+import NavLogo from "../../public/assets/image/svg/nav_boy_icon.svg";
+import ThreeDots from "../../public/assets/image/svg/three_dots_icon.svg";
+import Search_Icon from "../../public/assets/image/svg/search_icon.svg";
+import Carbon_Video from "../../public/assets/image/svg/carbon_video.svg";
+import Call_Icon from "../../public/assets/image/svg/call_icon.svg";
 import Link from 'next/link';
 
 function DesktopHeader() {

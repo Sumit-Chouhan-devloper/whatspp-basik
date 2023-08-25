@@ -13,15 +13,15 @@ import ContactDetail from './components/popups/ContactDetail'
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* <Whatsapp /> */}
-      {/* <CommunitiePopup/> */}
-      {/* <MenuPopup/> */}
-      {/* <MenuTwoPopup/> */}
-      {/* <SearchMassagePopup/> */}
-      {/* <NewChatPopup/> */}
-      {/* <FilterPopup/> */}
-      {/* <SpleshScreenPopup/> */}
-      <ContactDetail/>
+      <Whatsapp />
+      {/* <CommunitiePopup/>
+      <MenuPopup/>
+      <MenuTwoPopup/>
+      <SearchMassagePopup/>
+      <NewChatPopup/>
+      <FilterPopup/>
+      <SpleshScreenPopup/>
+      <ContactDetail/> */}
 
     </div>
   )

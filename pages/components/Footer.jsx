@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Search_Icon from "../../public/assets/svg/emoji_icon.svg";
-import Pin from "../../public/assets/svg/pin_icon.svg";
-import Camera from "../../public/assets/svg/cemera_icon.svg";
-import Mick from "../../public/assets/svg/mick_icon.svg";
+import Search_Icon from "../../public/assets/image/svg/emoji_icon.svg";
+import Pin from "../../public/assets/image/svg/pin_icon.svg";
+import Camera from "../../public/assets/image/svg/cemera_icon.svg";
+import Mick from "../../public/assets/image/svg/mick_icon.svg";
 import Link from 'next/link';
 
 

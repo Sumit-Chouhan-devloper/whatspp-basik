@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image';
-import Cross from "../../../public/assets/svg/gray_cross_icon.svg";
-import Righticon from "../../../public/assets/svg/accordian_icon_right.svg";
-import Daniel from "../../../public/assets/image/DanielKalio.png";
+import Cross from "../../../public/assets/image/svg/gray_cross_icon.svg";
+import Righticon from "../../../public/assets/image/svg/accordian_icon_right.svg";
+import Daniel from "../../../public/assets/image/png/DanielKalio.png";
 import Link from 'next/link';
 
 

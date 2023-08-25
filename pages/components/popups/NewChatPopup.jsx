@@ -1,9 +1,9 @@
 import React from 'react'
-import Errow from "../../../public/assets/svg/white_left_errow.svg";
-import Lefterrow from "../../../public/assets/svg/left_gray_errow.svg";
-import Group from "../../../public/assets/svg/group_chat_icon.svg";
-import Rejoice from "../../../public/assets/svg/rejoice.svg";
-import Gideon from "../../../public/assets/svg/gideon.svg";
+import Errow from "../../../public/assets/image/svg/white_left_errow.svg";
+import Lefterrow from "../../../public/assets/image/svg/left_gray_errow.svg";
+import Group from "../../../public/assets/image/svg/group_chat_icon.svg";
+import Rejoice from "../../../public/assets/image/svg/rejoice.svg";
+import Gideon from "../../../public/assets/image/svg/gideon.svg";
 import Image from 'next/image';
 import Link from 'next/link';
 import { Newchat } from "../common/Helper";

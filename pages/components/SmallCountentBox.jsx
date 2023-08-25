@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import Image from 'next/image'
-import Search_Icon from "../../public/assets/svg/search_icon.svg";
-import Toggle from "../../public/assets/svg/toggle_icon.svg";
+import Search_Icon from "../../public/assets/image/svg/search_icon.svg";
+import Toggle from "../../public/assets/image/svg/toggle_icon.svg";
 import { Whatsappblocks } from "../components/common/Helper";
 import Link from 'next/link';
 

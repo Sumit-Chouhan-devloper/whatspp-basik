@@ -266,7 +266,7 @@ body {
 }
 
 .bg_chat_box {
-  background-image: url("./../public/assets/image/chat_box_bg.png") !important;
+  background-image: url("./../public/assets/image/png/chat_box_bg.png") !important;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -293,13 +293,13 @@ body {
 .white_corner_bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./../public/assets/image/msg_bg.png");
+  background-image: url("./../public/assets/image/png/msg_bg.png");
 }
 
 .green_corner_bg {
   block-size: cover;
   background-repeat: round;
-  background-image: url("./../public/assets/image/msg_bg_green.png");
+  background-image: url("./../public/assets/image/png/msg_bg_green.png");
 }
 
 /* ------------------- Footer Css-------------------   */
@@ -412,6 +412,10 @@ body {
   .small_nav {
     width: 601px;
     padding: 10px 0 10px 24px;
+  }
+
+  .big_nav {
+    padding: 10px 36px 10px 29px;
   }
 }
 

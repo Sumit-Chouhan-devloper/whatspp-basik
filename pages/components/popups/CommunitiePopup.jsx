@@ -1,6 +1,6 @@
 import React from 'react'
-import Errow from "../../../public/assets/svg/white_left_errow.svg";
-import Communityimg from "../../../public/assets/image/communitie_pop.png";
+import Errow from "../../../public/assets/image/svg/white_left_errow.svg";
+import Communityimg from "../../../public/assets/image/png/communitie_pop.png";
 import Image from 'next/image';
 import Link from 'next/link';
 

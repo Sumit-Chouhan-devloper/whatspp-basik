@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import Cross from "../../../public/assets/svg/gray_cross_icon.svg";
-import Lefterrow from "../../../public/assets/svg/left_gray_errow.svg";
+import Cross from "../../../public/assets/image/svg/gray_cross_icon.svg";
+import Lefterrow from "../../../public/assets/image/svg/left_gray_errow.svg";
 import Link from 'next/link';
 
 function SearchMassagePopup() {

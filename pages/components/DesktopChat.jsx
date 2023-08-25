@@ -1,8 +1,8 @@
 import React from 'react'
 import DesktopHeader from './DesktopHeader'
 import Footer from './Footer'
-import Misscall from "../../public/assets/svg/missed_call_icon.svg";
-import Bluetick from "../../public/assets/svg/double_tick_icon.svg";
+import Misscall from "../../public/assets/image/svg/missed_call_icon.svg";
+import Bluetick from "../../public/assets/image/svg/double_tick_icon.svg";
 
 import Image from 'next/image'
 

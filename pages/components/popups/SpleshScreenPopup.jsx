@@ -1,6 +1,6 @@
 import React from 'react'
-import Lock from "../../../public/assets/svg/gray_lock_icon.svg";
-import Logo from "../../../public/assets/svg/gray_splash_whatsapp_logo.svg";
+import Lock from "../../../public/assets/image/svg/gray_lock_icon.svg";
+import Logo from "../../../public/assets/image/svg/gray_splash_whatsapp_logo.svg";
 import Image from 'next/image';
 import Link from 'next/link'
 

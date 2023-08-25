@@ -1,10 +1,10 @@
 import React from "react";
 import Image from 'next/image'
-import NavLogo from "../../public/assets/svg/nav_girl_icon.svg";
-import ThreeDots from "../../public/assets/svg/three_dots_icon.svg";
-import Msg_Icon from "../../public/assets/svg/msg_icon.svg";
-import Status_Icon from "../../public/assets/svg/Status_Icon.svg";
-import Mdi_People_Group from "../../public/assets/svg/mdi_people_group.svg";
+import NavLogo from "../../public/assets/image/svg/nav_girl_icon.svg";
+import ThreeDots from "../../public/assets/image/svg/three_dots_icon.svg";
+import Msg_Icon from "../../public/assets/image/svg/msg_icon.svg";
+import Status_Icon from "../../public/assets/image/svg/Status_Icon.svg";
+import Mdi_People_Group from "../../public/assets/image/svg/mdi_people_group.svg";
 import Link from "next/link";
 const Header = () => {
 
