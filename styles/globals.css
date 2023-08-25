@@ -40,7 +40,9 @@ body {
   --font-base: 16px;
   --font-md: 20px;
   --font-lg: 24px;
+  --font-2lg: 28px;
   --font-xl: 32px;
+  --font-2xl: 40px;
 }
 
 /*----------------- FONT SIZE-SET --------------------  */
@@ -62,13 +64,13 @@ body {
   }
 }
 
-@media (min-width:1200px) {}
-
 @media (max-width:1199.98px) {
   :root {
     --font-sm: 12px;
     --font-base: 14px;
     --font-md: 18px;
+    --font-2xl: 30px;
+    --font-lg: 20px;
   }
 }
 
@@ -87,8 +89,10 @@ body {
     --font-sm: 11px;
     --font-base: 13px;
     --font-sm: 9px;
-    --font-lg: 22px;
+    --font-lg: 20px;
     --font-xl: 21px;
+    --font-2xl: 22px;
+    --font-2lg: 24px;
   }
 }
 
@@ -147,11 +151,23 @@ body {
   font-size: var(--font-lg) !important;
 }
 
+.font-2lg {
+  font-size: var(--font-2lg) !important;
+}
+
 .font-xl {
   font-size: var(--font-xl) !important;
 }
 
+.font-2xl {
+  font-size: var(--font-2xl) !important;
+}
+
 /*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
+.fw_light {
+  font-weight: 300 !important;
+}
+
 .fw_medium {
   font-weight: 500 !important;
 }
@@ -411,7 +427,85 @@ body {
   box-shadow: 0px 2px 5px 0px #00000026;
 }
 
+/*---------- Profile Popup Css ---------- */
+.profile_parent {
+  max-width: 631px;
+}
+
+.profile_contact {
+  box-shadow: 0px 1px 6px 0px #00000040;
+  padding: 16px 48px 16px 44px;
+}
+
+.profile_para {
+  padding: 39px 39px 39px 44px;
+}
+
+/*---------- Qr Code Screen Popup Css ---------- */
+.qr_bg_tutorial {
+  background-color: #f9f9fa;
+}
+
+.qr_bg_fade {
+  background-color: #d3d7d9;
+}
+
+.qr_container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.bg_light_green {
+  background-color: #4BA586;
+}
+
+.qr_scaner_box {
+  margin-top: -120px;
+}
+
 /*----------------------------- All Meadia Quaries Set ------------------- ---------- */
+@media (min-width:1700px) {
+  .qr_container {
+    max-width: 1620px !important;
+    margin: auto;
+  }
+}
+
+@media (min-width:1500px) {
+  .qr_container {
+    max-width: 1366px !important;
+    margin: auto;
+  }
+
+  .qr_scaner_box {
+    margin-top: -120px;
+  }
+
+  .mx-2xl-5 {
+    padding-top: 48px;
+  }
+
+  .pb-2xl-5 {
+    margin-bottom: 48px;
+  }
+
+  .mx-2xl-5 {
+    margin: 0 48px;
+  }
+
+  .pt-2xl-4 {
+    padding-top: 24px;
+  }
+
+  .ms-2xl-5 {
+    margin-left: 48px;
+  }
+
+  .ps-2xl-5 {
+    margin-left: 48px;
+  }
+}
+
 @media (max-width:1598.98px) {
   .small_nav {
     width: 601px;
@@ -477,9 +571,17 @@ body {
 }
 
 @media (max-width:991.98px) {
+  .qr_scaner_box {
+    margin-top: -72px;
+  }
+
   .daniel {
     height: 250px;
     width: 250px;
+  }
+
+  .communitie_parent {
+    padding-bottom: 100px;
   }
 
   .small_nav {
@@ -533,6 +635,27 @@ body {
 }
 
 @media (max-width:576px) {
+  .qr_logo {
+    width: 40px;
+  }
+
+  .profile_parent {
+    padding-bottom: 33px;
+  }
+
+  .profile_contact {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .profile_para {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .Profile_popup {
+    height: 250px;
+    width: 250px;
+  }
+
   .gray_splash_whatsapp_logo {
     width: 80px;
     height: 80px;
@@ -590,6 +713,14 @@ body {
   .green_left_popup_errow {
     width: 25px;
     height: 25px;
+  }
+
+  .fs_mmd {
+    font-size: 18px !important;
+  }
+
+  .fs_mmd_sm {
+    font-size: 16px !important;
   }
 }
 

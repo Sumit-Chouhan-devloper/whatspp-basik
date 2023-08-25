@@ -9,12 +9,15 @@ import NewChatPopup from './components/popups/NewChatPopup'
 import FilterPopup from './components/popups/FilterPopup'
 import SpleshScreenPopup from './components/popups/SpleshScreenPopup'
 import ContactDetail from './components/popups/ContactDetail'
+import ProfilePopup from './components/popups/ProfilePopup'
+import SearchBarMenu from './components/popups/SearchBarMenu'
+import QrCodeScan from './components/popups/QrCodeScan'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Whatsapp />
-      {/* <CommunitiePopup/>
+      {/* <Whatsapp />
+      <CommunitiePopup/>
       <MenuPopup/>
       <MenuTwoPopup/>
       <SearchMassagePopup/>
@@ -22,6 +25,9 @@ export default function Home() {
       <FilterPopup/>
       <SpleshScreenPopup/>
       <ContactDetail/> */}
+      {/* <ProfilePopup/> */}
+      {/* <SearchBarMenu/> */}
+      <QrCodeScan/>
 
     </div>
   )
