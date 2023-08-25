@@ -4,7 +4,7 @@ import DesktopChat from './DesktopChat'
 
 function Whatsapp() {
     return (
-        <div className='custom_container m-auto'>
+        <div className='custom_container m-auto overflow-hidden'>
             <div className="d-flex position-relative">
                 <div>
                     <SmallCountentBox />
