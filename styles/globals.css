@@ -217,6 +217,10 @@ body {
   padding-top: 20px;
 }
 
+.pb_20 {
+  padding-bottom: 20px;
+}
+
 .fs_ragular {
   font-size: 16px !important;
 }
