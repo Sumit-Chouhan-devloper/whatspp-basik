@@ -473,12 +473,20 @@ body {
 
 @media (min-width:1500px) {
   .qr_container {
-    max-width: 1366px !important;
+    max-width: 1366px;
     margin: auto;
+  }
+
+  .mx_scaner_xxl_space {
+    padding: 50px 184px 0 100px;
   }
 
   .qr_scaner_box {
     margin-top: -120px;
+  }
+
+  .mt-2xl-2 {
+    margin-top: 8px !important;
   }
 
   .mx-2xl-5 {
@@ -491,6 +499,10 @@ body {
 
   .pt-2xl-4 {
     padding-top: 24px;
+  }
+
+  .pt-2xl-5 {
+    padding-top: 48px;
   }
 
   .ms-2xl-5 {
@@ -717,6 +729,10 @@ body {
 
   .fs_mmd_sm {
     font-size: 16px !important;
+  }
+
+  .scan_img {
+    width: 300px;
   }
 }
 
