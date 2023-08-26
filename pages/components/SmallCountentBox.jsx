@@ -3,7 +3,7 @@ import Header from './Header'
 import Image from 'next/image'
 import Search_Icon from "../../public/assets/image/svg/search_icon.svg";
 import Toggle from "../../public/assets/image/svg/toggle_icon.svg";
-import { Whatsappblocks } from "../components/common/Helper";
+import { Whatsappblocks } from "./common/Helper";
 import Link from 'next/link';
 
 function SmallCountentBox() {
