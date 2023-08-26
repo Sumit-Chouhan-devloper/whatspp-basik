@@ -10,14 +10,14 @@ function ContactDetail() {
     return (
         <>
             <div id='grand_massage_popup' className='ff_inter bg_gray'>
-                <div className="search_massage_popup_parent bg_gray">
-                    <Link href="/" className="text-decoration-none d-flex align-items-center gap-3">
+                <div className="search_massage_popup_parent bg_gray d-flex align-items-center gap-3">
+                    <Link href="#" className="text-decoration-none">
                         <Image src={Cross}
                             height={26}
                             width={26}
                             alt="cross" />
-                        <p className='mb-0 ps-1 fs_ragular opacity_70 fw-normal lh_25 color_dark_black '>Contact info</p>
                     </Link>
+                    <p className='mb-0 ps-1 fs_ragular opacity_70 fw-normal lh_25 color_dark_black '>Contact info</p>
                 </div>
 
                 <div className="contact_parent bg-white text-center pt-4 pb-5 py-md-5">

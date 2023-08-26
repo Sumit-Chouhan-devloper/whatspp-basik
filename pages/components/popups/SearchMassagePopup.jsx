@@ -8,11 +8,14 @@ function SearchMassagePopup() {
     return (
         <>
             <div id='grand_massage_popup' className='ff_inter'>
-                <div className="search_massage_popup_parent bg_gray">
-                    <Link href="/" className="text-decoration-none d-flex align-items-center gap-3">
-                        <Image src={Cross} alt="Errow" />
-                        <p className='mb-0 ps-1 fs_ragular opacity_70 fw-normal lh_25 color_dark_black '>Search Messages</p>
+                <div className="search_massage_popup_parent bg_gray d-flex align-items-center gap-3">
+                    <Link href="#" className="text-decoration-none">
+                        <Image src={Cross}
+                            height={26}
+                            width={26}
+                            alt="cross" />
                     </Link>
+                    <p className='mb-0 ps-1 fs_ragular opacity_70 fw-normal lh_25 color_dark_black '>Search Messages</p>
                 </div>
                 <div className="search_input_popup position-relative">
                     <input type="text" className='bg_gray border-0 w-100 border_radius_10 ' />
