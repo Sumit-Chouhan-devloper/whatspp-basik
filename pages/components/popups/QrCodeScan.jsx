@@ -25,11 +25,11 @@ function QrCodeScan() {
                 <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
                     <div className="row px-3 justify-content-between px-lg-5  mx_scaner_xxl_space ">
                         <div className="col-lg-6 col-xl-7 px-3 px-lg-0 m-auto mx-lg-0">
-                            <h1 className='font-2xl fw_light color_dark_black mb-xl-5 pb-4' >Use whatsApp on your Computer</h1>
-                            <p className='font-lg fw-normal color_dark_black mt-2 mb-0' >1. Open whatsApp on your phone</p>
-                            <p className='font-lg fw-normal color_dark_black py-4 mb-0' >2. Tap Menu <Image src={Menu} alt="menu" /> or Setting <Image src={Setting} alt="setting" /> and select Linked Decives</p>
+                            <h1 className='font-2xl fw_light color_dark_black mb-xl-5 pb-4 mb-0 mb-md-2' >Use whatsApp on your Computer</h1>
+                            <p className='font-lg fw-normal color_dark_black mt-md-2 mb-0' >1. Open whatsApp on your phone</p>
+                            <p className='font-lg fw-normal color_dark_black py-2 py-md-4 mb-0' >2. Tap Menu <Image src={Menu} alt="menu" className='menu_size_scan' /> or Setting <Image src={Setting} alt="setting" className='menu_size_scan' /> and select Linked Decives</p>
                             <p className='font-lg fw-normal color_dark_black mb-0' >3. Tap on Link a Device</p>
-                            <p className='font-lg fw-normal color_dark_black mb-0 pt-4' >4. Point your phone to this screen to capture the code</p>
+                            <p className='font-lg fw-normal color_dark_black mb-0 pt-2 pt-md-4' >4. Point your phone to this screen to capture the code</p>
                         </div>
                         <div className="col-lg-auto mt-md-5 mt-lg-0 text-center">
                             <Image src={Scan}
