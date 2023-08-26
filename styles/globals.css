@@ -478,7 +478,7 @@ body {
   }
 
   .mx_scaner_xxl_space {
-    padding: 50px 184px 0 100px;
+    margin: 50px 136px 0px 52px !important;
   }
 
   .qr_scaner_box {
@@ -487,10 +487,6 @@ body {
 
   .mt-2xl-2 {
     margin-top: 8px !important;
-  }
-
-  .mx-2xl-5 {
-    margin: 0 48px;
   }
 
   .pb-2xl-5 {
