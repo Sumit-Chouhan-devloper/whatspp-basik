@@ -21,13 +21,13 @@ export default function Home() {
       {/* <MenuPopup/> */}
       {/* <MenuTwoPopup/> */}
       {/* <SearchMassagePopup/> */}
-      {/* <NewChatPopup/> */}
+      {/* <NewChatPopup/>  */}
       {/* <FilterPopup/> */}
       {/* <SpleshScreenPopup/> */}
-      {/* <ContactDetail/> */}
+      <ContactDetail/>
       {/* <ProfilePopup/> */}
       {/* <SearchBarMenu/> */}
-      <QrCodeScan/>
+      {/* <QrCodeScan/> */}
 
     </div>
   )

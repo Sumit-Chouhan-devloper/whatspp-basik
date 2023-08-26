@@ -347,7 +347,7 @@ body {
 /*---------- Community Popup Css ---------- */
 .communitie_parent {
   max-width: 631px;
-  padding-bottom: 237px;
+  padding-bottom: 234px;
 }
 
 .community_para {
@@ -400,7 +400,7 @@ body {
 
 /*---------- New Chat Popup Css ---------- */
 .new_chat_input_popup {
-  padding: 18px 28px 18px 24px;
+  padding: 18px 28px 18px 28px;
 }
 
 .new_chat_box {

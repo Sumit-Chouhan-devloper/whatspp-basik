@@ -20,16 +20,16 @@ function ContactDetail() {
                     </Link>
                 </div>
 
-                <div className="contact_parent bg-white text-center py-5">
+                <div className="contact_parent bg-white text-center pt-4 pb-5 py-md-5">
                     <div className="py-md-5 mb-lg-2 mt-lg-4">
                         <Image src={Daniel} alt="Daniel" height={368} width={368} className='daniel' />
                     </div>
-                    <h4 className='fw_semibold text_dark_black fs_mmd mt-5 mt-md-0 pt-lg-4 pt-lg-1 mb-2'>Daniel Kalio</h4>
-                    <Link href="/" className="text-decoration-none opacity-50 fw-normal color_dark_black fs_ragular mb-lg-2 d-block pb-lg-1">
+                    <h4 className='fw_semibold text_dark_black fs_mmd mt-4 mt-md-0 pt-lg-4 pt-lg-1 mb-2'>Daniel Kalio</h4>
+                    <Link href="/" className="text-decoration-none opacity_70 fw-normal color_dark_black fs_ragular mb-lg-2 d-block pb-lg-1">
                         +91 74849 75499
                     </Link>
                 </div>
-                <div className="bg-white contactpopup_space text-center text-lg-start">
+                <div className="bg-white contactpopup_space">
                     <Link href="/" className="text-decoration-none fs_mmd opacity-50 fw-normal color_dark_black fs_ragular mb-md-2 d-block pb-1">
                         About
                     </Link>
