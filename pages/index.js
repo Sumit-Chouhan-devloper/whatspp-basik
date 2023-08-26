@@ -21,7 +21,7 @@ export default function Home() {
       {/* <MenuPopup/> */}
       {/* <MenuTwoPopup/> */}
       {/* <SearchMassagePopup/> */}
-      {/* <NewChatPopup/>  */}
+      <NewChatPopup/> 
       {/* <FilterPopup/> */}
       {/* <SpleshScreenPopup/> */}
       {/* <ContactDetail/> */}

@@ -108,7 +108,7 @@ body {
 }
 
 .color_lite_green {
-  color: var(--color-dark-green) !important;
+  color: var(--color-lite-green) !important;
 }
 
 .color_sky_blue {
@@ -410,6 +410,10 @@ body {
 
 #new_chat_parent input {
   padding: 13px 0px 13px 82px;
+}
+
+.min_h_31 {
+  min-height: 53px;
 }
 
 /*---------- Splash Screen Popup Css ---------- */

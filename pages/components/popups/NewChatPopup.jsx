@@ -14,30 +14,41 @@ function NewChatPopup() {
             <div className="communitie_parent mx-auto ff_inter  text-center ff_inter" id='new_chat_parent'>
                 <div className="bg_dark_green ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
                     <h2 className='font-lg text-white fw_medium pb-4 mt-md-5 pt-3'>
-                        <span className='pe-3 pe-md-4 me-md-2'>
+                        <Link href="#" className='me-3 me-md-4 pe-md-2'>
                             <Image src={Errow} alt="Errow" />
-                        </span>
+                        </Link>
                         New chat
                     </h2>
                 </div>
-                <div className="">
+                <div>
                     <div className="new_chat_input_popup position-relative border-bottom">
                         <input type="text" className='bg_gray border-0 w-100 border_radius_10 ' />
-                        <Link href="/" className="text-decoration-none position-absolute left_green_errow">
+                        <Link href="#" className="text-decoration-none position-absolute left_green_errow">
                             <Image src={Lefterrow} alt="Errow" className='green_left_popup_errow' />
                         </Link>
                     </div>
                     <span className='mb-2 d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Group}
                                     width={53}
                                     height={53}
                                     alt="NavLogo" />
                             </div>
-                            <div className="text-start">
-                                <p className="fs_mmd color_dark_black fw-normal mb-0">New group</p>
+                            <div className="text-start border-bottom w-100 ">
+                                <p className="d-flex align-items-center fs_mmd color_dark_black fw-normal mb-0 min_h_31">New group</p>
+                            </div>
+                        </div>
+                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                            <div>
+                                <Image src={Group}
+                                    width={53}
+                                    height={53}
+                                    alt="NavLogo" />
+                            </div>
+                            <div className="text-start border-bottom w-100 ">
+                                <p className="d-flex align-items-center fs_mmd color_dark_black fw-normal mb-0 min_h_31">New group</p>
                             </div>
                         </div>
                     </div>

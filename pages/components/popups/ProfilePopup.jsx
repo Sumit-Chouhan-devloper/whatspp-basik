@@ -11,9 +11,9 @@ function ProfilePopup() {
             <div className="profile_parent pb-sm-5 mx-auto ff_inter text-center bg_gray">
                 <div className="bg_dark_green ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
                     <h2 className='font-lg text-white fw_medium pb-4 mt-md-5 pt-3'>
-                        <span className='pe-3 pe-md-4 me-md-2'>
+                        <Link href="#" className='me-3 me-md-4 pe-md-2'>
                             <Image src={Errow} alt="Errow" />
-                        </span>
+                        </Link>
                         Profile
                     </h2>
                 </div>
