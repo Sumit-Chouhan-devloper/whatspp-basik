@@ -27,7 +27,7 @@ export default function Home() {
       {/* <ContactDetail/> */}
       {/* <ProfilePopup/> */}
       {/* <SearchBarMenu/> */}
-      <QrCodeScan/>
+      {/* <QrCodeScan/> */}
 
     </div>
   )

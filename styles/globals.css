@@ -93,7 +93,7 @@ body {
     --font-xl: 21px;
     --font-2xl: 21px;
     --font-2lg: 24px;
-    --font-lg: 18px;
+    --font-lg: 21px;
   }
 }
 
@@ -394,7 +394,8 @@ body {
   padding: 13px 0px 13px 82px;
 }
 
-.left_green_errow {
+.left_green_errow,
+.left_green_errow_new_chat {
   left: 40px;
   top: 28px;
 }
@@ -413,7 +414,17 @@ body {
 }
 
 .min_h_31 {
-  min-height: 53px;
+  height: 53px;
+}
+
+.bottom_border_w {
+  max-width: 89%;
+  margin: 20px 0;
+}
+
+.bottom_border_w_two {
+  max-width: 86%;
+  margin: 20px 0;
 }
 
 /*---------- Splash Screen Popup Css ---------- */
@@ -644,6 +655,32 @@ body {
 }
 
 @media (max-width:576px) {
+
+  .bottom_border_w,
+  .bottom_border_w_two {
+    margin: 10px 0;
+  }
+
+  .new_chat_box {
+    padding: 0px 0 0 16px;
+  }
+
+  .left_green_errow_new_chat {
+    top: 18px !important;
+  }
+
+  #new_chat_parent input {
+    padding: 10px 0px 10px 44px;
+  }
+
+  .new_chat_input_popup {
+    padding: 10px 16px 10px 16px;
+  }
+
+  .common_logo {
+    width: 45px;
+  }
+
   .qr_logo {
     width: 40px;
   }

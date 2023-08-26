@@ -2,12 +2,14 @@ import React from 'react'
 import Errow from "../../../public/assets/image/svg/white_left_errow.svg";
 import Lefterrow from "../../../public/assets/image/svg/left_gray_errow.svg";
 import Group from "../../../public/assets/image/svg/group_chat_icon.svg";
+import Comunnity from "../../../public/assets/image/svg/new_comunity.svg";
 import Rejoice from "../../../public/assets/image/svg/rejoice.svg";
 import Gideon from "../../../public/assets/image/svg/gideon.svg";
+import Goodgod from "../../../public/assets/image/svg/goodgod_dp.svg";
+import Danial from "../../../public/assets/image/svg/danialel_kalio_dp.svg";
+import Alex from "../../../public/assets/image/svg/alex_dp.svg";
 import Image from 'next/image';
 import Link from 'next/link';
-import { Newchat } from "../common/Helper";
-
 function NewChatPopup() {
     return (
         <>
@@ -15,7 +17,7 @@ function NewChatPopup() {
                 <div className="bg_dark_green ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
                     <h2 className='font-lg text-white fw_medium pb-4 mt-md-5 pt-3'>
                         <Link href="#" className='me-3 me-md-4 pe-md-2'>
-                            <Image src={Errow} alt="Errow" />
+                            <Image src={Errow} alt="Errow" className='p-1 p-md-0' />
                         </Link>
                         New chat
                     </h2>
@@ -34,67 +36,111 @@ function NewChatPopup() {
                                 <Image src={Group}
                                     width={53}
                                     height={53}
-                                    alt="NavLogo" />
+                                    alt="Group"
+                                    className='common_logo' />
                             </div>
-                            <div className="text-start border-bottom w-100 ">
-                                <p className="d-flex align-items-center fs_mmd color_dark_black fw-normal mb-0 min_h_31">New group</p>
+                            <div className="text-start w-100" >
+                                <p className="fs_mmd color_dark_black fw-normal mb-0 ">New group</p>
                             </div>
                         </div>
+                        <span className='border-bottom ms-auto bottom_border_w d-block'></span>
+                    </div>
+                    <div className="new_chat_box pb-1">
                         <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Group}
+                                <Image src={Comunnity}
                                     width={53}
                                     height={53}
-                                    alt="NavLogo" />
+                                    alt="Comunnity"
+                                    className='common_logo' />
                             </div>
-                            <div className="text-start border-bottom w-100 ">
-                                <p className="d-flex align-items-center fs_mmd color_dark_black fw-normal mb-0 min_h_31">New group</p>
+                            <div className="text-start w-100" >
+                                <p className="fs_mmd color_dark_black fw-normal mb-0 ">New community</p>
                             </div>
                         </div>
                     </div>
+                    <h3 className='text-start color_lite_green fw-normal mb-0 fs_mmd ps-5 py-4'>CONTACTS ON WHATSAPP</h3>
+                    <span className='border-bottom ms-auto bottom_border_w_two d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 pt_20 align-items-center" >
-                            <div>
-                                <Image src={Group}
-                                    width={53}
-                                    height={53}
-                                    alt="NavLogo" />
-                            </div>
-                            <div className=" text-start">
-                                <p className="fs_mmd color_dark_black  fw-normal mb-0">New community</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h3 className='text-start color_lite_green fw-normal fs_mmd ps-5 py-4'>CONTACTS ON WHATSAPP</h3>
-                    <div className="new_chat_box">
-                        <div className="d-flex gap-2 pt_20 " >
+                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Rejoice}
                                     width={53}
                                     height={53}
-                                    alt="NavLogo" />
+                                    alt="Rejoice"
+                                    className='common_logo' />
                             </div>
-                            <div className=" text-start border-bottom w-100">
-                                <p className="fs_mmd color_dark_black fw-normal mb-0">Rejoice Benson(You)</p>
-                                <p className='opacity-50 fw_medium fs_ragular lh_25 color_dark_black mt-1 mb-3'>Message yourself</p>
+                            <div className="text-start w-100" >
+                                <p className="fs_mmd color_dark_black fw-normal mb-0 ">Rejoice Benson(You)</p>
+                                <p className="fs_ragular color_dark_black fw-normal mb-0 opacity-50 mt-1">Message yourself</p>
                             </div>
                         </div>
+                        <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
-                    <h3 className='text-start color_lite_green fw-normal fs_mmd ps-5 py-4'>#</h3>
+                    <h3 className='text-start color_lite_green fw-normal fs_mmd ps-5'>#</h3>
+                    <span className='border-bottom ms-auto bottom_border_w_two d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 pt_20 align-items-center">
+                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Gideon}
                                     width={53}
                                     height={53}
-                                    alt="NavLogo" />
+                                    alt="Gideon"
+                                    className='common_logo' />
                             </div>
-                            <div className=" text-start w-100 border-bottom">
-                                <h3 className="font-md color_dark_black fw-normal mb-0">Gideon Nic</h3>
+                            <div className="text-start w-100" >
+                                <p className="fs_mmd color_dark_black fw-normal mb-0 ">Gideon Nic</p>
                             </div>
                         </div>
+                        <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
-
+                    <div className="new_chat_box">
+                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                            <div>
+                                <Image src={Danial}
+                                    width={53}
+                                    height={53}
+                                    alt="Danial"
+                                    className='common_logo' />
+                            </div>
+                            <div className="text-start w-100" >
+                                <p className="fs_mmd color_dark_black fw-normal mb-0 ">Daniel Kalio</p>
+                                <p className="fs_ragular color_dark_black fw-normal mb-0 opacity-50 mt-1">Stay bold... life is full of ups & down</p>
+                            </div>
+                        </div>
+                        <span className='border-bottom ms-auto bottom_border_w d-block'></span>
+                    </div>
+                    <div className="new_chat_box">
+                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                            <div>
+                                <Image src={Goodgod}
+                                    width={53}
+                                    height={53}
+                                    alt="goodgod"
+                                    className='common_logo' />
+                            </div>
+                            <div className="text-start w-100" >
+                                <p className="fs_mmd color_dark_black fw-normal mb-0 ">Goodgod UI/UX</p>
+                                <p className="fs_ragular color_dark_black fw-normal mb-0 opacity-50 mt-1">Hi</p>
+                            </div>
+                        </div>
+                        <span className='border-bottom ms-auto bottom_border_w d-block'></span>
+                    </div>
+                    <div className="new_chat_box">
+                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                            <div>
+                                <Image src={Alex}
+                                    width={53}
+                                    height={53}
+                                    alt="Alex"
+                                    className='common_logo' />
+                            </div>
+                            <div className="text-start w-100" >
+                                <p className="fs_mmd color_dark_black fw-normal mb-0 ">Alex (Tech Sis)</p>
+                            </div>
+                        </div>
+                        <span className='border-bottom ms-auto bottom_border_w d-block'></span>
+                    </div>
                 </div>
             </div >
         </>
