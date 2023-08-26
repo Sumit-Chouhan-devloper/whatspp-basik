@@ -482,15 +482,11 @@ body {
   }
 
   .mx-2xl-5 {
-    padding-top: 48px;
+    margin: 0 48px;
   }
 
   .pb-2xl-5 {
-    margin-bottom: 48px;
-  }
-
-  .mx-2xl-5 {
-    margin: 0 48px;
+    padding-bottom: 48px;
   }
 
   .pt-2xl-4 {
@@ -502,7 +498,7 @@ body {
   }
 
   .ps-2xl-5 {
-    margin-left: 48px;
+    padding-left: 48px;
   }
 }
 
