@@ -25,7 +25,7 @@ function CommunitiePopup() {
                 <p className='px-2 px-sm-0 fs_ragular fw-normal color_dark_black community_para mx-auto my-3'>
                     Communities bring members together in topic- based group, and make it easy to get admin announcements. Any community you’re added to will appear here. <Link href="/" className="text-decoration-none color_sky_blue">Learn more</Link>
                 </p>
-                <button className='communitiy_btn text-white fs_ragular fw_semibold'>
+                <button className='communitiy_btn mt-3 mt-sm-4 text-white fs_ragular fw_semibold'>
                     Start your community
                 </button>
             </div>
