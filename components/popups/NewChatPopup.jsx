@@ -1,13 +1,4 @@
 import React from 'react'
-import Errow from "../../../public/assets/image/svg/white_left_errow.svg";
-import Lefterrow from "../../../public/assets/image/svg/left_gray_errow.svg";
-import Group from "../../../public/assets/image/svg/group_chat_icon.svg";
-import Comunnity from "../../../public/assets/image/svg/new_comunity.svg";
-import Rejoice from "../../../public/assets/image/svg/rejoice.svg";
-import Gideon from "../../../public/assets/image/svg/gideon.svg";
-import Goodgod from "../../../public/assets/image/svg/goodgod_dp.svg";
-import Danial from "../../../public/assets/image/svg/danialel_kalio_dp.svg";
-import Alex from "../../../public/assets/image/svg/alex_dp.svg";
 import Image from 'next/image';
 import Link from 'next/link';
 function NewChatPopup() {
@@ -17,7 +8,7 @@ function NewChatPopup() {
                 <div className="bg_dark_green ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
                     <h2 className='font-lg text-white fw_medium pb-4 mt-md-5 pt-3'>
                         <Link href="#" className='me-3 me-md-4 pe-md-2'>
-                            <Image src={Errow} alt="Errow" className='p-1 p-md-0' />
+                            <Image src="/assets/image/svg/white_left_errow.svg" height={35} width={35} alt="Errow" className='p-1 p-md-0' />
                         </Link>
                         New chat
                     </h2>
@@ -26,14 +17,14 @@ function NewChatPopup() {
                     <div className="new_chat_input_popup position-relative border-bottom">
                         <input type="text" className='bg_gray border-0 w-100 border_radius_10 ' />
                         <Link href="#" className="text-decoration-none position-absolute left_green_errow">
-                            <Image src={Lefterrow} alt="Errow" className='green_left_popup_errow' />
+                            <Image src="/assets/image/svg/left_gray_errow.svg" height={30} width={30} alt="Errow" className='green_left_popup_errow' />
                         </Link>
                     </div>
                     <span className='mb-2 d-block'></span>
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Group}
+                                <Image src="/assets/image/svg/group_chat_icon.svg"
                                     width={53}
                                     height={53}
                                     alt="Group"
@@ -48,7 +39,7 @@ function NewChatPopup() {
                     <div className="new_chat_box pb-1">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Comunnity}
+                                <Image src="/assets/image/svg/new_comunity.svg"
                                     width={53}
                                     height={53}
                                     alt="Comunnity"
@@ -64,7 +55,7 @@ function NewChatPopup() {
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Rejoice}
+                                <Image src="/assets/image/svg/rejoice.svg"
                                     width={53}
                                     height={53}
                                     alt="Rejoice"
@@ -82,7 +73,7 @@ function NewChatPopup() {
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Gideon}
+                                <Image src="/assets/image/svg/gideon.svg"
                                     width={53}
                                     height={53}
                                     alt="Gideon"
@@ -97,7 +88,7 @@ function NewChatPopup() {
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Danial}
+                                <Image src="/assets/image/svg/danialel_kalio_dp.svg"
                                     width={53}
                                     height={53}
                                     alt="Danial"
@@ -113,7 +104,7 @@ function NewChatPopup() {
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Goodgod}
+                                <Image src="/assets/image/svg/goodgod_dp.svg"
                                     width={53}
                                     height={53}
                                     alt="goodgod"
@@ -129,7 +120,7 @@ function NewChatPopup() {
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
-                                <Image src={Alex}
+                                <Image src="/assets/image/svg/alex_dp.svg"
                                     width={53}
                                     height={53}
                                     alt="Alex"

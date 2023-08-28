@@ -1,9 +1,6 @@
 import React from 'react'
 import DesktopHeader from './DesktopHeader'
 import Footer from './Footer'
-import Misscall from "../../public/assets/image/svg/missed_call_icon.svg";
-import Bluetick from "../../public/assets/image/svg/double_tick_icon.svg";
-
 import Image from 'next/image'
 
 function DesktopChat() {
@@ -15,7 +12,7 @@ function DesktopChat() {
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-2 ">
-                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
+                            <Image src='/assets/image/svg/missed_call_icon.svg' width={24} height={24} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
@@ -43,7 +40,7 @@ function DesktopChat() {
                         <p className="msg_bg_custom_tick green_corner_bg d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
                             Oboy the thing goes well
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
-                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                                <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={16} alt="Bluetick" />
                             </span>
                         </p>
                     </div>
@@ -51,7 +48,7 @@ function DesktopChat() {
                         <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             but na wetin the client even talk? i hope say him go pay?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
-                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                                <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={16} alt="Bluetick" />
                             </span>
                         </p>
                     </div>
@@ -59,7 +56,7 @@ function DesktopChat() {
                         <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             na how much una been discuss for the project sef?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
-                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                                <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={16} alt="Bluetick" />
                             </span>
                         </p>
                     </div>
@@ -85,13 +82,13 @@ function DesktopChat() {
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center my-3">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-4">
-                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
+                            <Image src='/assets/image/svg/missed_call_icon.svg' width={24} height={24} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
                     <div className="text-center">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0">
-                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
+                            <Image src='/assets/image/svg/missed_call_icon.svg' width={24} height={24} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
@@ -100,7 +97,7 @@ function DesktopChat() {
                         <p className="msg_bg_custom_tick green_corner_bg d-inline-block mb-0 mt-3 font-sm fw-normal color_lite_black position-relative">
                             Why you dy call me na?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
-                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                                <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={16} alt="Bluetick" />
                             </span>
                         </p>
                     </div>
@@ -108,7 +105,7 @@ function DesktopChat() {
                         <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             I dy office like this oh. Any issue Bro?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
-                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                                <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={16} alt="Bluetick" />
                             </span>
                         </p>
                     </div>
@@ -122,7 +119,7 @@ function DesktopChat() {
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-2">
-                            <Image src={Misscall} alt="misscall" className='misscall_icon' />
+                            <Image src='/assets/image/svg/missed_call_icon.svg' width={24} height={24} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font-sm fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
                     </div>
@@ -150,7 +147,7 @@ function DesktopChat() {
                         <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font-sm fw-normal color_lite_black position-relative">
                             na how much una been discuss for the project sef?
                             <span className="position-absolute bottom-0 color_lite_black font-xs fw-normal">5:20pm
-                                <Image src={Bluetick} className='ps-1' alt="Bluetick" />
+                                <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={16} alt="Bluetick" />
                             </span>
                         </p>
                     </div>

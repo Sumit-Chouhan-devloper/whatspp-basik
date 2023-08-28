@@ -1,6 +1,6 @@
 import React from 'react'
-import SmallCountentBox from './SmallCountentBox'
-import DesktopChat from './DesktopChat'
+import SmallCountentBox from '../SmallCountentBox'
+import DesktopChat from '../DesktopChat'
 
 function Whatsapp() {
     return (

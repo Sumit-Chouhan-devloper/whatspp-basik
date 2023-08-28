@@ -1,8 +1,6 @@
 import React from 'react'
 import Header from './Header'
 import Image from 'next/image'
-import Search_Icon from "../../public/assets/image/svg/search_icon.svg";
-import Toggle from "../../public/assets/image/svg/toggle_icon.svg";
 import { Whatsappblocks } from "./common/Helper";
 import Link from 'next/link';
 
@@ -16,10 +14,10 @@ function SmallCountentBox() {
                     <div className="d-flex align-items-center pb-2">
                         <div className="position-relative w-100">
                             <input type="text" placeholder='Search or start new chat' className='border-0 bg_gray w-100' />
-                            <Image src={Search_Icon} alt="NavLogo" className="position-absolute searc_icon_one" />
+                            <Image src="/assets/image/svg/search_icon.svg" width={24} height={24} alt="NavLogo" className="position-absolute searc_icon_one" />
                         </div>
                         <Link href="/" className='ps-2 ps-xl-0'>
-                            <Image src={Toggle} alt="NavLogo" />
+                            <Image src="/assets/image/svg/toggle_icon.svg" width={24} height={24} alt="NavLogo" />
                         </Link>
                     </div>
                 </div>

@@ -1,10 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import NavLogo from "../../public/assets/image/svg/nav_boy_icon.svg";
-import ThreeDots from "../../public/assets/image/svg/three_dots_icon.svg";
-import Search_Icon from "../../public/assets/image/svg/search_icon.svg";
-import Carbon_Video from "../../public/assets/image/svg/carbon_video.svg";
-import Call_Icon from "../../public/assets/image/svg/call_icon.svg";
 import Link from 'next/link';
 
 function DesktopHeader() {
@@ -14,7 +9,7 @@ function DesktopHeader() {
                 <nav className="d-flex align-items-center justify-content-between big_nav w-100">
                     <div className="">
                         <Link href="/">
-                            <Image src={NavLogo} alt="/" className='profiles' />
+                            <Image src="/assets/image/svg/nav_boy_icon.svg" width={50} height={50} alt="/" className='profiles' />
                         </Link>
                     </div>
                     <div className="d-flex gap-3 gap-xl-4">
@@ -22,27 +17,27 @@ function DesktopHeader() {
                             href="/"
                             target="_blank"
                             className="">
-                            <Image src={Call_Icon} alt="/" className='common_icons_size' />
+                            <Image src="/assets/image/svg/call_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="px-2">
-                            <Image src={Carbon_Video} alt="/" className='common_icons_size' />
+                            <Image src="/assets/image/svg/carbon_video.svg" width={24} height={24} alt="/" className='common_icons_size' />
 
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="">
-                            <Image src={Search_Icon} alt="/" className='common_icons_size' />
+                            <Image src="/assets/image/svg/search_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
 
                         </Link>
                         <Link
                             href="/"
                             target="_blank"
                             className="ps-xl-2">
-                            <Image src={ThreeDots} alt="/" className='common_icons_size' />
+                            <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
                         </Link>
                     </div>
                 </nav>

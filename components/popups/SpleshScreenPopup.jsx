@@ -1,6 +1,4 @@
 import React from 'react'
-import Lock from "../../../public/assets/image/svg/gray_lock_icon.svg";
-import Logo from "../../../public/assets/image/svg/gray_splash_whatsapp_logo.svg";
 import Image from 'next/image';
 import Link from 'next/link'
 
@@ -11,7 +9,7 @@ function SpleshScreenPopup() {
             <div className="row mx-0 text-center d-flex align-items-center vh-100 justify-content-center">
                 <div className="col-11  col-md-8 m-auto ">
                     <Link href="/" className='text-decoration-none mb-2 d-block' >
-                        <Image src={Logo}
+                        <Image src="/assets/image/svg/gray_splash_whatsapp_logo.svg"
                             width={125}
                             height={125}
                             alt="logo"
@@ -22,7 +20,7 @@ function SpleshScreenPopup() {
                         WhatsApp
                     </h1>
                     <p className='mb-0 justify-content-center color_gray fw-normal fs_ragular mb-0 d-flex align-items-center'>
-                        <Image src={Lock}
+                        <Image src="/assets/image/svg/gray_lock_icon.svg"
                             width={13}
                             height={13}
                             alt="lock" />
