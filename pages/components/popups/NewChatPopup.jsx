@@ -31,7 +31,7 @@ function NewChatPopup() {
                     </div>
                     <span className='mb-2 d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Group}
                                     width={53}
@@ -46,7 +46,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box pb-1">
-                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Comunnity}
                                     width={53}
@@ -59,10 +59,10 @@ function NewChatPopup() {
                             </div>
                         </div>
                     </div>
-                    <h3 className='text-start color_lite_green fw-normal mb-0 fs_mmd ps-5 py-4'>CONTACTS ON WHATSAPP</h3>
+                    <h3 className='text-start color_lite_green fw-normal mb-0 fs_mmd ms-3 ps-4 ps-sm-5 py-3 py-sm-4'>CONTACTS ON WHATSAPP</h3>
                     <span className='border-bottom ms-auto bottom_border_w_two d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Rejoice}
                                     width={53}
@@ -77,10 +77,10 @@ function NewChatPopup() {
                         </div>
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
-                    <h3 className='text-start color_lite_green fw-normal fs_mmd ms-3 ps-4'>#</h3>
+                    <h3 className='text-start color_lite_green fw-normal fs_mmd ms-2 ms-sm-3 ps-4'>#</h3>
                     <span className='border-bottom ms-auto bottom_border_w_two d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Gideon}
                                     width={53}
@@ -95,7 +95,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Danial}
                                     width={53}
@@ -111,7 +111,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Goodgod}
                                     width={53}
@@ -127,7 +127,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
                                 <Image src={Alex}
                                     width={53}
