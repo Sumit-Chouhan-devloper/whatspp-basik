@@ -418,7 +418,7 @@ body {
 }
 
 .bottom_border_w {
-  max-width: 89%;
+  max-width: 88%;
   margin: 20px 0;
 }
 
@@ -655,6 +655,7 @@ body {
   .bottom_border_w,
   .bottom_border_w_two {
     margin: 10px 0;
+    max-width: 82%;
   }
 
   .new_chat_box {
@@ -750,7 +751,7 @@ body {
 
   .left_green_errow {
     left: 23px;
-    top: 23px;
+    top: 20px;
   }
 
   .green_left_popup_errow {

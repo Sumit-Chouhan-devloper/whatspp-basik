@@ -77,7 +77,7 @@ function NewChatPopup() {
                         </div>
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
-                    <h3 className='text-start color_lite_green fw-normal fs_mmd ps-5'>#</h3>
+                    <h3 className='text-start color_lite_green fw-normal fs_mmd ms-3 ps-4'>#</h3>
                     <span className='border-bottom ms-auto bottom_border_w_two d-block'></span>
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-3 pt_20 align-items-center" >

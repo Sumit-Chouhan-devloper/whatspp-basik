@@ -20,8 +20,8 @@ export default function Home() {
       {/* <CommunitiePopup/> */}
       {/* <MenuPopup/> */}
       {/* <MenuTwoPopup/> */}
-      <SearchMassagePopup/>
-      {/* <NewChatPopup/>  */}
+      {/* <SearchMassagePopup/> */}
+      <NewChatPopup/> 
       {/* <FilterPopup/> */}
       {/* <SpleshScreenPopup/> */}
       {/* <ContactDetail/> */}
