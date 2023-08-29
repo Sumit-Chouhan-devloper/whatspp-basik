@@ -542,6 +542,13 @@ body {
   }
 }
 
+@media (min-width: 1400px) {
+  :root {
+    --font-2xl: 40px;
+    --font-lg: 24px;
+  }
+}
+
 @media (max-width:1598.98px) {
   .small_nav {
     width: 601px;
@@ -709,10 +716,6 @@ body {
   .menu_size_scan {
     width: 24px;
     height: 24px;
-  }
-
-  .profile_parent {
-    padding-bottom: 33px;
   }
 
   .profile_contact {

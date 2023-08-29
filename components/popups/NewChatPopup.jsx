@@ -4,16 +4,19 @@ import Link from 'next/link';
 function NewChatPopup() {
     return (
         <>
-            <div className="communitie_parent mx-auto ff_inter  text-center ff_inter" id='new_chat_parent'>
-                <div className="bg_dark_green ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
-                    <h2 className='font-lg text-white fw_medium pb-4 mt-md-5 pt-3'>
-                        <Link href="#" className='me-3 me-md-4 pe-md-2'>
-                            <Image src="/assets/image/svg/white_left_errow.svg" height={35} width={35} alt="Errow" className='p-1 p-md-0' />
-                        </Link>
-                        New chat
-                    </h2>
+            <div className=" ff_inter  text-center ff_inter" id='new_chat_parent'>
+                <div className="bg_dark_green">
+                    <div className=" communitie_parent mx-auto ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
+                        <h2 className='font-lg text-white fw_medium pb-4 mt-md-5 pt-3'>
+                            <Link href="https://dummy-chat-app.vercel.app/" className='me-3 me-md-4 pe-md-2'>
+                                <Image src="/assets/image/svg/white_left_errow.svg" height={35} width={35} alt="Errow" className='p-1 p-md-0' />
+                            </Link>
+                            New chat
+                        </h2>
+                    </div>
                 </div>
-                <div>
+
+                <div className='communitie_parent mx-auto'>
                     <div className="new_chat_input_popup position-relative border-bottom">
                         <input type="text" className='bg_gray border-0 w-100 border_radius_10 ' />
                         <Link href="#" className="text-decoration-none position-absolute left_green_errow">

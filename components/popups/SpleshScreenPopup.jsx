@@ -16,10 +16,10 @@ function SpleshScreenPopup() {
                             className='mb-4 mb-md-5 gray_splash_whatsapp_logo' />
                     </Link>
                     <span className='border-top w-100 d-block max_w_888 m-auto'></span>
-                    <h1 className='fw_medium color_lite_black fs_llg mb-md-3 pt-3 pt-md-4' >
+                    <h1 className='fw_medium color_dark_black fs_llg mb-md-3 pt-3 pt-md-4 mt-xl-3' >
                         WhatsApp
                     </h1>
-                    <p className='mb-0 justify-content-center color_gray fw-normal fs_ragular mb-0 d-flex align-items-center'>
+                    <p className='mb-0 justify-content-center color_dark_black fw-normal fs_ragular mb-0 d-flex align-items-center'>
                         <Image src="/assets/image/svg/gray_lock_icon.svg"
                             width={13}
                             height={13}
