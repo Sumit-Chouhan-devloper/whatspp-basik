@@ -20,7 +20,7 @@ function QrCodeScan() {
 
                 <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
                     <div className="row mx-2 justify-content-between justify-content-xxl-evenly px-lg-5  mx_scaner_xxl_space ">
-                        <div className="col-lg-6 col-xl-7 px-lg-0 m-auto mx-lg-0">
+                        <div className="col-lg-6 col-xl-7 px-lg-0 m-auto my-xxl-0 mx-lg-0">
                             <h1 className='font-2xl fw_light color_dark_black mb-xxl-5 pb-4 mb-0 mb-md-2' >Use whatsApp on your Computer</h1>
                             <p className='font-lg fw-normal color_dark_black mt-md-2 mb-0' >1. Open whatsApp on your phone</p>
                             <p className='font-lg fw-normal color_dark_black py-2 py-md-4 mb-0' >2. Tap Menu <Image src="/assets/image/svg/three_Dots_menu.svg" height={34} width={34} alt="menu" className='menu_size_scan' /> or Setting <Image src="/assets/image/svg/setting_icon.svg" height={34} width={34} alt="setting" className='menu_size_scan' /> and select Linked Decives</p>
