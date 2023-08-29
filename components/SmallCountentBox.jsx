@@ -25,11 +25,7 @@ function SmallCountentBox() {
                     {Whatsappblocks.map((obj, i) => (
                         <div className="d-flex gap-2 pt_20" key={i} >
                             <div>
-                                <Image src={obj.profiles}
-                                    width={56}
-                                    height={56}
-                                    alt="NavLogo"
-                                    className='profiles' />
+                                <Image src={obj.profiles} width={56} height={56} alt="profiles" className='profiles' />
                             </div>
                             <div className="w-100 pb_20 border-bottom">
                                 <div className="d-flex justify-content-between align-items-center">
@@ -37,7 +33,12 @@ function SmallCountentBox() {
                                     <p className="font-sm fw_semibold color_gray mb-0" > {obj.time}</p>
                                 </div>
                                 <div className="d-flex justify-content-between align-items-center pt-1">
-                                    <h2 className="font-base color_gray fw_medium mb-0"> {obj.title} <span className="fw-normal"> {obj.textmsg} </span> </h2>
+                                    <h2 className="font-base color_gray fw_medium mb-0"> {obj.title}
+                                        {obj.titleicons ? (
+                                            <Image src={obj.titleicons} width={20} height={20} alt="icons" className='' />
+                                        ) : null}
+                                        <span className="fw-normal"> {obj.textmsg} </span>
+                                    </h2>
                                     {obj.unreadnotification ? (
                                         <p className="font-sm green_notification p-1 fw_semibold text-white mb-0">
                                             {obj.unreadnotification}

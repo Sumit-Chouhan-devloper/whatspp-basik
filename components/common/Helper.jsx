@@ -1,24 +1,3 @@
-export const Newchat = [
-    {
-        profiles: "/assets/image/svg/gideon.svg",
-        holdername: "Gideon Nic",
-    },
-    {
-        profiles: "/assets/image/svg/daniel_two.svg",
-        holdername: "Daniel Kalio",
-        textmsg: "Stay bold... life is full of ups & down",
-    },
-    {
-        profiles: "/assets/image/svg/goodgodTwo.svg",
-        holdername: "Goodgod UI/UX",
-        textmsg: " Hi",
-    },
-    {
-        profiles: "/assets/image/svg/alextwo.svg",
-        holdername: "Alex (Tech Sis)",
-    },
-
-];
 export const Whatsappblocks = [
     {
         profiles: "/assets/image/svg/Designers_Corner.svg",
@@ -51,12 +30,14 @@ export const Whatsappblocks = [
         profiles: "/assets/image/svg/nic.svg",
         holdername: "Gideon Nic",
         time: "1:3 pm",
+        titleicons: "/assets/image/svg/cemera_icon.svg",
         textmsg: " Photo",
     },
     {
         profiles: "/assets/image/svg/benson.svg",
         holdername: "Rejoice Benson",
         time: "12:47 pm",
+        titleicons: "/assets/image/svg/video_icon_gray.svg",
         textmsg: " Video",
     },
     {
@@ -69,11 +50,13 @@ export const Whatsappblocks = [
         profiles: "/assets/image/svg/goodgod.svg",
         holdername: "Goodgod UIUX",
         time: "12:1 pm",
+        titleicons: "/assets/image/svg/video_icon_gray.svg",
         textmsg: "Video",
     },
     {
         profiles: "/assets/image/svg/alex.svg",
         holdername: "Alex (Tech Sis)",
+        titleicons: "/assets/image/svg/video_icon_gray.svg",
         time: "11:10 am",
         textmsg: " Video",
     },
