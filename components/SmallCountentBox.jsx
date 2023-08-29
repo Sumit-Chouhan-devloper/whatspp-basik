@@ -33,9 +33,9 @@ function SmallCountentBox() {
                                     <p className="font-sm fw_semibold color_gray mb-0" > {obj.time}</p>
                                 </div>
                                 <div className="d-flex justify-content-between align-items-center pt-1">
-                                    <h2 className="font-base color_gray fw_medium mb-0"> {obj.title}
+                                    <h2 className="d-flex align-items-center gap-1 font-base color_gray fw_medium mb-0 "> {obj.title}
                                         {obj.titleicons ? (
-                                            <Image src={obj.titleicons} width={20} height={20} alt="icons" className='' />
+                                            <Image src={obj.titleicons} width={18} height={18} alt="icons" />
                                         ) : null}
                                         <span className="fw-normal"> {obj.textmsg} </span>
                                     </h2>
