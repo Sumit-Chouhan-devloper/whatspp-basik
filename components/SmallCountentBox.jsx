@@ -21,9 +21,9 @@ function SmallCountentBox() {
                         </Link>
                     </div>
                 </div>
-                <div className="chats_box">
+                <div>
                     {Whatsappblocks.map((obj, i) => (
-                        <div className="d-flex gap-2 pt_20" key={i} >
+                        <div className="transition chats_box d-flex gap-2 pt_20 cursor_pointer " key={i} >
                             <div>
                                 <Image src={obj.profiles} width={56} height={56} alt="profiles" className='profiles' />
                             </div>

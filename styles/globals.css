@@ -274,8 +274,12 @@ body {
   padding: 12px 36px 12px 29px;
 }
 
+.chats_box:hover {
+  background-color: #D9FDD3;
+}
+
 .chats_box {
-  padding: 0 29px 0px 24px;
+  padding: 20px 29px 0px 24px;
 }
 
 .searc_icon_one {
@@ -600,7 +604,7 @@ body {
     padding: 16px 29px 0 24px;
   }
 
-  .profiles { 
+  .profiles {
     width: 45px;
     height: 45px;
   }
