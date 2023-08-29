@@ -8,7 +8,7 @@ function DesktopChat() {
         <>
             <div className="vh-100 position-relative overflow-hidden">
                 <DesktopHeader />
-                <div className="overflow-y-scroll index_1 h-100 chat_box _h px-2">
+                <div className="overflow-y-scroll index_1 h_msg_box chat_box _h px-2">
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center">
                         <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-2 ">

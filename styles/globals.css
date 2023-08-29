@@ -331,6 +331,10 @@ body {
   background-image: url("/assets/image/png/msg_bg_green.png");
 }
 
+.h_msg_box {
+  height: calc(89% - 90px);
+}
+
 /* ------------------- Footer Css-------------------   */
 #overflowTest {
   height: calc(100vh - 74px);
@@ -546,6 +550,10 @@ body {
 }
 
 @media (max-width:1199.98px) {
+  .h_msg_box {
+    height: calc(91% - 90px);
+  }
+
   .small_nav {
     width: 473px;
     padding: 12px 30px 12px 24px;
@@ -599,6 +607,10 @@ body {
 }
 
 @media (max-width:991.98px) {
+  .h_msg_box {
+    height: calc(93% - 90px);
+  }
+
   .qr_scaner_box {
     margin-top: -72px;
   }
