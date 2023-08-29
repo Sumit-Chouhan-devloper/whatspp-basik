@@ -555,7 +555,7 @@ body {
 
 @media (max-width:1199.98px) {
   .h_msg_box {
-    height: calc(91% - 90px);
+    height: calc(90% - 90px);
   }
 
   .small_nav {
@@ -612,7 +612,7 @@ body {
 
 @media (max-width:991.98px) {
   .h_msg_box {
-    height: calc(93% - 90px);
+    height: calc(95.5% - 90px);
   }
 
   .qr_scaner_box {

@@ -7,10 +7,11 @@ function DesktopHeader() {
         <>
             <div className="bg_gray position-sticky top-0">
                 <nav className="d-flex align-items-center justify-content-between big_nav w-100">
-                    <div className="">
+                    <div className="d-flex align-items-center gap-2">
                         <Link href="/">
                             <Image src="/assets/image/svg/nav_boy_icon.svg" width={50} height={50} alt="/" className='profiles' />
                         </Link>
+                        <h1 className='font-md color_gray fw_medium mb-0 gap-2'>Daniel Kalio</h1>
                     </div>
                     <div className="d-flex gap-3 gap-xl-4">
                         <Link
