@@ -287,7 +287,7 @@ body {
 }
 
 .bg_chat_box {
-  background-image: url("./../public/assets/image/png/chat_box_bg.png") !important;
+  background-image: url("/assets/image/png/chat_box_bg.png") !important;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -314,13 +314,13 @@ body {
 .white_corner_bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./../public/assets/image/png/msg_bg.png");
+  background-image: url("/assets/image/png/msg_bg.png");
 }
 
 .green_corner_bg {
   block-size: cover;
   background-repeat: round;
-  background-image: url("./../public/assets/image/png/msg_bg_green.png");
+  background-image: url("/assets/image/png/msg_bg_green.png");
 }
 
 /* ------------------- Footer Css-------------------   */
