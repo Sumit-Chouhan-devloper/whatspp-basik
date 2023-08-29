@@ -64,12 +64,20 @@ body {
   }
 }
 
+@media (min-width:1200px) {
+  :root {
+    --font-2xl: 35px;
+    --font-lg: 22px;
+  }
+
+}
+
 @media (max-width:1199.98px) {
   :root {
     --font-sm: 12px;
     --font-base: 14px;
     --font-md: 18px;
-    --font-2xl: 30px;
+    --font-2xl: 27px;
     --font-lg: 20px;
   }
 }
