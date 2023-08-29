@@ -36,7 +36,7 @@ function QrCodeScan() {
                         </div>
                         <span className='d-block border-bottom pb-md-5 pt-2xl-4 mt-2xl-2 mb-4 mb-md-5 mt-2xl-2'></span>
                     </div>
-                    <p className=' px-md-3 ps-lg-5 ms-2 text-center text-lg-start fs_mmd color_lite_green fw-normal mx_scaner_xxl_space mb-2xl-5 pb-3'>Link with phone number</p>
+                    <p className=' pb-xl-3 px-md-3 ps-lg-5 ms-2 mt-xl-0 mt-xxl-3 mb-2xl-5 mb-4 mb-md-5 fs_mmd color_lite_green fw-normal mx_scaner_xxl_space'>Link with phone number</p>
                     <div className="text-center qr_bg_tutorial pt-2xl-5">
                         <h1 className='font-2xl fw_light color_dark_black mb-0 pt-4' >Tutorial</h1>
                         <p className=' px-xxl-5 mx-xxl-5 fs_mmd color_lite_green fw-normal py-3 mb-0'>Need help to get started?</p>
