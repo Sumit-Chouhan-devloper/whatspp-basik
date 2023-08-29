@@ -23,7 +23,7 @@ function NewChatPopup() {
                             <Image src="/assets/image/svg/left_gray_errow.svg" height={30} width={30} alt="Errow" className='green_left_popup_errow' />
                         </Link>
                     </div>
-                    <span className='mb-2 d-block'></span>
+                    <span className='mb-0 d-block'></span>
                     <div className="new_chat_box">
                         <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
                             <div>
@@ -40,7 +40,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box pb-1">
-                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 align-items-center" >
                             <div>
                                 <Image src="/assets/image/svg/new_comunity.svg"
                                     width={53}
@@ -56,7 +56,7 @@ function NewChatPopup() {
                     <h3 className='text-start color_lite_green fw-normal mb-0 fs_mmd ms-3 ps-4 ps-sm-5 py-3 py-sm-4'>CONTACTS ON WHATSAPP</h3>
                     <span className='border-bottom ms-auto bottom_border_w_two d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 align-items-center" >
                             <div>
                                 <Image src="/assets/image/svg/rejoice.svg"
                                     width={53}
@@ -74,7 +74,7 @@ function NewChatPopup() {
                     <h3 className='text-start color_lite_green fw-normal fs_mmd ms-2 ms-sm-3 ps-4'>#</h3>
                     <span className='border-bottom ms-auto bottom_border_w_two d-block'></span>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 align-items-center" >
                             <div>
                                 <Image src="/assets/image/svg/gideon.svg"
                                     width={53}
@@ -89,7 +89,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 align-items-center" >
                             <div>
                                 <Image src="/assets/image/svg/danialel_kalio_dp.svg"
                                     width={53}
@@ -105,7 +105,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 align-items-center" >
                             <div>
                                 <Image src="/assets/image/svg/goodgod_dp.svg"
                                     width={53}
@@ -121,7 +121,7 @@ function NewChatPopup() {
                         <span className='border-bottom ms-auto bottom_border_w d-block'></span>
                     </div>
                     <div className="new_chat_box">
-                        <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center" >
+                        <div className="d-flex gap-2 gap-sm-3 align-items-center" >
                             <div>
                                 <Image src="/assets/image/svg/alex_dp.svg"
                                     width={53}
