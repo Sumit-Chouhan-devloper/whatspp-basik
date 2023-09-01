@@ -509,8 +509,9 @@ body {
     margin: auto;
   }
 
-  .mx_scaner_xxl_space {
-    margin: 50px 136px 0px 52px !important;
+  .qr_right_space {
+    padding-right: 116px !important;
+    max-width: 500px;
   }
 
   .qr_scaner_box {
@@ -546,10 +547,6 @@ body {
   :root {
     --font-2xl: 40px;
     --font-lg: 24px;
-  }
-
-  .qr_right_space {
-    padding-right: 135px !important;
   }
 }
 

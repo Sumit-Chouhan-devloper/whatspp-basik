@@ -19,7 +19,7 @@ function QrCodeScan() {
                 </div>
 
                 <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
-                    <div className="row mx-2 justify-content-between px-lg-5 pe-xxl-auto mx_scaner_xxl_space qr_right_space">
+                    <div className="row mx-2 justify-content-between px-lg-5 pt-xxl-5">
                         <div className="col-lg-6 col-xl-7 px-lg-0 m-auto my-xxl-0 mx-lg-0">
                             <h1 className='font-2xl fw_light color_dark_black mb-xxl-5 pb-4 mb-0 mb-md-2' >Use whatsApp on your Computer</h1>
                             <p className='font-lg fw-normal color_dark_black mt-md-2 mb-0' >1. Open whatsApp on your phone</p>
@@ -28,11 +28,13 @@ function QrCodeScan() {
                             <p className='font-lg fw-normal color_dark_black mb-0 pt-2 pt-md-4' >4. Point your phone to this screen to capture the code</p>
                         </div>
                         <div className="col-lg-auto mt-md-5 mt-lg-0 text-center">
-                            <Image src="/assets/image/svg/scan_img.svg"
-                                alt="Scan"
-                                width={377}
-                                height={379}
-                                className='scan_img' />
+                            <div className="qr_right_space">
+                                <Image src="/assets/image/svg/scan_img.svg"
+                                    alt="Scan"
+                                    width={377}
+                                    height={379}
+                                    className='scan_img' />
+                            </div>
                         </div>
                         <span className='d-block border-bottom pb-md-5 pt-2xl-4 mt-2xl-2 mb-4 mb-md-5 mt-2xl-2'></span>
                     </div>
