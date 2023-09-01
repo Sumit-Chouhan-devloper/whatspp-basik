@@ -501,17 +501,17 @@ body {
     max-width: 1620px !important;
     margin: auto;
   }
+
+  .qr_right_space {
+    padding-right: 116px !important;
+    max-width: 500px;
+  }
 }
 
 @media (min-width:1500px) {
   .qr_container {
     max-width: 1366px;
     margin: auto;
-  }
-
-  .qr_right_space {
-    padding-right: 116px !important;
-    max-width: 500px;
   }
 
   .qr_scaner_box {
