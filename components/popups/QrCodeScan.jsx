@@ -19,7 +19,7 @@ function QrCodeScan() {
                 </div>
 
                 <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
-                    <div className="row mx-2 justify-content-between px-lg-5 mx_scaner_xxl_space ">
+                    <div className="row mx-2 justify-content-between px-lg-5 pe-xxl-auto mx_scaner_xxl_space qr_right_space">
                         <div className="col-lg-6 col-xl-7 px-lg-0 m-auto my-xxl-0 mx-lg-0">
                             <h1 className='font-2xl fw_light color_dark_black mb-xxl-5 pb-4 mb-0 mb-md-2' >Use whatsApp on your Computer</h1>
                             <p className='font-lg fw-normal color_dark_black mt-md-2 mb-0' >1. Open whatsApp on your phone</p>

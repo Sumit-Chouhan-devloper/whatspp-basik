@@ -16,27 +16,23 @@ function DesktopHeader() {
                     <div className="d-flex gap-3 gap-xl-4">
                         <Link
                             href="/"
-                            target="_blank"
                             className="">
                             <Image src="/assets/image/svg/call_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
                         </Link>
                         <Link
                             href="/"
-                            target="_blank"
                             className="px-2">
                             <Image src="/assets/image/svg/carbon_video.svg" width={24} height={24} alt="/" className='common_icons_size' />
 
                         </Link>
                         <Link
                             href="/"
-                            target="_blank"
                             className="">
                             <Image src="/assets/image/svg/search_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
 
                         </Link>
                         <Link
                             href="/"
-                            target="_blank"
                             className="ps-xl-2">
                             <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
                         </Link>

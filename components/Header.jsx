@@ -16,20 +16,17 @@ const Header = () => {
                     <div className="d-flex align-items-center gap-3 gap-xl-4">
                         <Link
                             href="/"
-                            target="_blank"
                         >
                             <Image src="/assets/image/svg/mdi_people_group.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
                         </Link>
                         <Link
                             href="/"
-                            target="_blank"
                             className="px-2">
                             <Image src="/assets/image/svg/Status_Icon.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
 
                         </Link>
                         <Link
-                            href="common_icons_size"
-                            target="_blank"
+                            href="/"
                         >
                             <Image src="/assets/image/svg/msg_icon.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
 

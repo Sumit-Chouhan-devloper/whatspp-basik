@@ -547,6 +547,10 @@ body {
     --font-2xl: 40px;
     --font-lg: 24px;
   }
+
+  .qr_right_space {
+    padding-right: 135px !important;
+  }
 }
 
 @media (max-width:1598.98px) {
