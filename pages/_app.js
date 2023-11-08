@@ -1,5 +1,6 @@
 import React from 'react';
 import "/styles/globals.css";
+import "/styles/helper.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
