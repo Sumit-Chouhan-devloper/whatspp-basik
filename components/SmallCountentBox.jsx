@@ -8,7 +8,7 @@ function SmallCountentBox() {
   return (
     <>
       <Header />
-      <div id="overflowTest">
+      <div className="bg-white" id="overflowTest">
         <div className="smal_tab_box border-bottom" id="new_chat">
           <div className="d-flex align-items-center pb-2">
             <div className="position-relative w-100">
@@ -44,8 +44,8 @@ function SmallCountentBox() {
               <div>
                 <Image
                   src={obj.profiles}
-                  width={56}
-                  height={56}
+                  width={49}
+                  height={49}
                   alt="profiles"
                   className="profiles"
                 />
