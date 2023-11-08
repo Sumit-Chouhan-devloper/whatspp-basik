@@ -35,6 +35,7 @@ body {
   --color-Sky-blue: #027EB5;
   --color-lite-black: #111B21;
   --color-dark-black: #0E0E0F;
+  --color-light-gray:#3b4a54;
   --font-xs: 9px;
   --font-sm: 14px;
   --font-base: 16px;
@@ -121,6 +122,9 @@ body {
 
 .color_sky_blue {
   color: var(--color-Sky-blue) !important;
+}
+.color_light_gray{
+  color: var(--color-light-gray);
 }
 
 .bg_dark_green {
