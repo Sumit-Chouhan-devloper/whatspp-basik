@@ -509,7 +509,7 @@ body {
 }
 
 .qr_container {
-  max-width: 1140px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -528,7 +528,7 @@ body {
 /*----------------------------- All Meadia Quaries Set ------------------- ---------- */
 @media (min-width: 1700px) {
   .qr_container {
-    max-width: 1620px !important;
+    max-width: 1000px !important;
     margin: auto;
   }
 
@@ -540,7 +540,7 @@ body {
 
 @media (min-width: 1500px) {
   .qr_container {
-    max-width: 1366px;
+    max-width: 1000px;
     margin: auto;
   }
 

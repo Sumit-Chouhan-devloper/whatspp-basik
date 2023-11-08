@@ -33,20 +33,20 @@ function QrCodeScan() {
                   Use whatsApp on your Computer
                 </h1>
                 <div className="d-flex">
-                  <p className="font-lg fw-normal color_light_gray mt-md-2 mb-0">
+                  <p className="font-base-03 fw-normal color_light_gray mt-md-2 mb-0">
                     1.
                   </p>
-                  <p className="font-lg fw-normal color_light_gray mt-md-2 ms-2 mb-0">
+                  <p className="font-base-03 fw-normal color_light_gray mt-md-2 ms-1 mb-0">
                     Open whatsApp on your phone
                   </p>
                 </div>
                 <div className="d-flex max_w_692">
-                  <p className="font-lg fw-normal color_light_gray py-2 py-md-4 mb-0">
+                  <p className="font-base-03 fw-normal color_light_gray py-2 py-md-3 mb-0">
                     2.
                   </p>
-                  <p className="font-lg fw-normal color_light_gray ms-2 py-2 py-md-4 mb-0">
+                  <p className="font-base-03 fw-normal color_light_gray ms-1 py-2 py-md-3 mb-0">
                     Go to settings by tapping on your profile photo,
-                    <span className="font-medium font-lg"> Menu </span>
+                    <strong className="font-medium font-base-03"> Menu </strong>
                     <Image
                       src="/assets/image/svg/three_Dots_menu.svg"
                       height={34}
@@ -54,7 +54,7 @@ function QrCodeScan() {
                       alt="menu"
                       className="menu_size_scan"
                     />
-                    , or Setting
+                    , or <strong>Setting</strong>
                     <Image
                       src="/assets/image/svg/setting_icon.svg"
                       height={34}
@@ -65,16 +65,19 @@ function QrCodeScan() {
                   </p>
                 </div>
                 <div className="d-flex">
-                  <p className="font-lg fw-normal color_light_gray mb-0">3.</p>
-                  <p className="font-lg fw-normal color_light_gray ms-2 mb-0">
-                    Tap on Link a Device
+                  <p className="font-base-03 fw-normal color_light_gray mb-0">
+                    3.
+                  </p>
+                  <p className="font-base-03 fw-normal color_light_gray ms-1 mb-0">
+                    Tap <strong> Linked devices </strong> and then
+                    <strong> Link a device</strong>
                   </p>
                 </div>
                 <div className="d-flex">
-                  <p className="font-lg fw-normal color_light_gray mb-0 pt-2 pt-md-4">
+                  <p className="font-base-03 fw-normal color_light_gray mb-0 pt-2 pt-md-3">
                     4.
                   </p>
-                  <p className="font-lg fw-normal color_light_gray ms-2 mb-0 pt-2 pt-md-4">
+                  <p className="font-base-03 fw-normal color_light_gray ms-1 mb-0 pt-2 pt-md-3">
                     Point your phone to this screen to capture the code
                   </p>
                 </div>
@@ -90,16 +93,16 @@ function QrCodeScan() {
                   />
                 </div>
               </div>
-              <span className="d-block border-bottom pb-md-5 pt-2xl-4 mb-4 mb-md-5 mt_16"></span>
+              <span className="d-block border-bottom pt-4 mt-3 mb-3 pb-1"></span>
             </div>
-            <p className=" pb-xl-3 px-md-3 ps-lg-5 ms-2 mt-xl-0 mt-xxl-3 mb-2xl-5 mb-4 mb-md-5 fs_mmd color_lite_green fw-normal mx_scaner_xxl_space">
+            <p className="mb-2 pb-5 pt-4 px-md-3 ps-lg-5 ms-2 font-base-03 color_dark_green fw-normal mx_scaner_xxl_space">
               Link with phone number
             </p>
             <div className="text-center qr_bg_tutorial pt-2xl-5">
               <h1 className="font-2xl fw_light color_dark_black mb-0 pt-4">
                 Tutorial
               </h1>
-              <p className=" px-xxl-5 mx-xxl-5 fs_mmd color_lite_green fw-normal py-3 mb-0">
+              <p className=" px-xxl-5 mx-xxl-5 font-base-03 color_lite_green fw-normal py-3 mb-0">
                 Need help to get started?
               </p>
             </div>
