@@ -39,6 +39,8 @@ body {
   --font-xs: 9px;
   --font-sm: 14px;
   --font-base: 16px;
+  --font-base02: 17px;
+  --font-base03: 18px;
   --font-md: 20px;
   --font-lg: 24px;
   --font-2lg: 28px;
@@ -52,7 +54,7 @@ body {
     --font-xs: 10px;
     --font-sm: 16px;
     --font-base: 17px;
-    --font-md: 24px;
+    --font-md: 20px;
   }
 
   .small_nav {
@@ -149,6 +151,14 @@ body {
 
 .font-base {
   font-size: var(--font-base) !important;
+}
+
+.font-base-02 {
+  font-size: var(--font-base02) !important;
+}
+
+.font-base-03 {
+  font-size: var(--font-base03) !important;
 }
 
 .font-sm {
@@ -496,6 +506,10 @@ body {
 
 .qr_scaner_box {
   margin-top: -120px;
+}
+
+.whatsapp-chat-list {
+  max-width: 30%;
 }
 
 /*----------------------------- All Meadia Quaries Set ------------------- ---------- */
