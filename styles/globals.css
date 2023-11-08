@@ -36,6 +36,7 @@ body {
   --color-lite-black: #111b21;
   --color-dark-black: #0e0e0f;
   --color-light-gray: #3b4a54;
+  --color-light-gray02: #41525d;
   --font-xs: 9px;
   --font-sm: 14px;
   --font-base: 16px;
@@ -126,6 +127,9 @@ body {
 }
 .color_light_gray {
   color: var(--color-light-gray);
+}
+.color_light_gray02 {
+  color: var(--color-light-gray02) !important;
 }
 
 .bg_dark_green {
