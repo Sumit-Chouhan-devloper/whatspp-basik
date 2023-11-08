@@ -39,13 +39,14 @@ body {
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
   --color-dark-green: #008069;
-  --color-lite-green: #4ba586;
+  --color-light-green: #4ba586;
   --color-gray: #6b7c85;
   --color-Sky-blue: #027eb5;
   --color-lite-black: #111b21;
   --color-dark-black: #0e0e0f;
   --color-light-gray: #3b4a54;
   --color-light-gray02: #41525d;
+  --app-background: #eae6df;
   --font-xs: 9px;
   --font-sm: 14px;
   --font-base: 16px;
@@ -127,8 +128,8 @@ body {
   color: var(--color-dark-green) !important;
 }
 
-.color_lite_green {
-  color: var(--color-lite-green) !important;
+.color_light_green {
+  color: var(--color-light-green) !important;
 }
 
 .color_sky_blue {
@@ -524,6 +525,20 @@ body {
 .whatsapp-chat-list {
   max-width: 30%;
 }
+.whatsapp_chatbox_001 {
+  max-width: 1600px;
+}
+
+.whatsapp_parent_012::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  /* background-color: var(--color-light-green); */
+  background-color: #00a880;
+  width: 100%;
+  height: 127px;
+}
 
 /*----------------------------- All Meadia Quaries Set ------------------- ---------- */
 @media (min-width: 1700px) {
@@ -582,7 +597,7 @@ body {
 
 @media (max-width: 1598.98px) {
   .small_nav {
-    width: 601px;
+    width: 387px;
     padding: 10px 0 10px 24px;
   }
 
