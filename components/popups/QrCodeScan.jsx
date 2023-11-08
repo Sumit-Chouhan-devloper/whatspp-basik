@@ -25,7 +25,6 @@ function QrCodeScan() {
               <span className="d-block mb-3"></span>
             </div>
           </div>
-
           <div className="qr_container container bg-white qr_scaner_box SegoeUI pt-5 px-0">
             <div className="row mx-2 justify-content-between px-lg-5 pt-xxl-5">
               <div className="col-lg-6 col-xl-7 px-lg-0 m-auto my-xxl-0 mx-lg-0">
@@ -78,17 +77,17 @@ function QrCodeScan() {
                     4.
                   </p>
                   <p className="font-base-03 fw-normal color_light_gray ms-1 mb-0 pt-2 pt-md-3">
-                    Point your phone to this screen to capture the code
+                    Point your phone to this screen to capture the QR code
                   </p>
                 </div>
               </div>
               <div className="col-lg-auto mt-md-5 mt-lg-0 text-center">
-                <div className="qr_right_space">
+                <div>
                   <Image
                     src="/assets/image/svg/scan_img.svg"
                     alt="Scan"
-                    width={377}
-                    height={379}
+                    width={264}
+                    height={264}
                     className="scan_img"
                   />
                 </div>
@@ -98,11 +97,11 @@ function QrCodeScan() {
             <p className="mb-2 pb-5 pt-4 px-md-3 ps-lg-5 ms-2 font-base-03 color_dark_green fw-normal mx_scaner_xxl_space">
               Link with phone number
             </p>
-            <div className="text-center qr_bg_tutorial pt-2xl-5">
-              <h1 className="font-2xl fw_light color_dark_black mb-0 pt-4">
+            <div className="text-center qr_bg_tutorial">
+              <h1 className="font-2xl fw_light color_light_gray02 mb-0 pt-4">
                 Tutorial
               </h1>
-              <p className=" px-xxl-5 mx-xxl-5 font-base-03 color_lite_green fw-normal py-3 mb-0">
+              <p className=" px-xxl-5 mx-xxl-5 font-sm color_dark_green fw-normal py-3 mb-0">
                 Need help to get started?
               </p>
             </div>
@@ -110,7 +109,7 @@ function QrCodeScan() {
           </div>
         </div>
 
-        <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
+        {/* <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
           <div className="row mx-2 justify-content-between px-lg-5 pt-xxl-5">
             <div className="col-lg-6 col-xl-7 px-lg-0 m-auto my-xxl-0 mx-lg-0">
               <h1 className="font-2xl fw_light color_dark_black mb-xxl-5 pb-4 mb-0 mb-md-2">
@@ -180,10 +179,9 @@ function QrCodeScan() {
               Need help to get started?
             </p>
           </div>
-        </div>
-     
-    </>
-  );
+        </div> */}
+      </>
+    );
 }
 
 export default QrCodeScan;
