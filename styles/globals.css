@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none !important;
-  font-family: 'Work Sans', sans-serif !important;
+  font-family: "Work Sans", sans-serif !important;
 }
 
 .overflow_hidden_x {
@@ -20,7 +20,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #C6C6C6;
+  background-color: #c6c6c6;
 }
 
 ::-webkit-scrollbar {
@@ -30,15 +30,18 @@ body {
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
   --color-dark-green: #008069;
-  --color-lite-green: #4BA586;
-  --color-gray: #6B7C85;
-  --color-Sky-blue: #027EB5;
-  --color-lite-black: #111B21;
-  --color-dark-black: #0E0E0F;
-  --color-light-gray:#3b4a54;
+  --color-lite-green: #4ba586;
+  --color-gray: #6b7c85;
+  --color-Sky-blue: #027eb5;
+  --color-lite-black: #111b21;
+  --color-dark-black: #0e0e0f;
+  --color-light-gray: #3b4a54;
+  --color-light-gray02: #41525d;
   --font-xs: 9px;
   --font-sm: 14px;
   --font-base: 16px;
+  --font-base02: 17px;
+  --font-base03: 18px;
   --font-md: 20px;
   --font-lg: 24px;
   --font-2lg: 28px;
@@ -47,12 +50,12 @@ body {
 }
 
 /*----------------- FONT SIZE-SET --------------------  */
-@media (min-width:1800px) {
+@media (min-width: 1800px) {
   :root {
     --font-xs: 10px;
     --font-sm: 16px;
     --font-base: 17px;
-    --font-md: 24px;
+    --font-md: 20px;
   }
 
   .small_nav {
@@ -65,15 +68,14 @@ body {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   :root {
     --font-2xl: 35px;
     --font-lg: 22px;
   }
-
 }
 
-@media (max-width:1199.98px) {
+@media (max-width: 1199.98px) {
   :root {
     --font-sm: 12px;
     --font-base: 14px;
@@ -83,7 +85,7 @@ body {
   }
 }
 
-@media (max-width:991.98px) {
+@media (max-width: 991.98px) {
   :root {
     --font-md: 13px;
     --font-sm: 12px;
@@ -92,7 +94,7 @@ body {
   }
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   :root {
     --font-md: 14px;
     --font-sm: 11px;
@@ -108,7 +110,7 @@ body {
 
 /*--------------------- DEFINE-ALL = Font-Family ------------------------------ */
 .ff_inter {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
@@ -123,8 +125,11 @@ body {
 .color_sky_blue {
   color: var(--color-Sky-blue) !important;
 }
-.color_light_gray{
+.color_light_gray {
   color: var(--color-light-gray);
+}
+.color_light_gray02 {
+  color: var(--color-light-gray02) !important;
 }
 
 .bg_dark_green {
@@ -150,6 +155,14 @@ body {
 
 .font-base {
   font-size: var(--font-base) !important;
+}
+
+.font-base-02 {
+  font-size: var(--font-base02) !important;
+}
+
+.font-base-03 {
+  font-size: var(--font-base03) !important;
 }
 
 .font-sm {
@@ -231,11 +244,11 @@ body {
 }
 
 .bg_gray {
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
 }
 
 .bg_green {
-  background-color: #D9FDD3;
+  background-color: #d9fdd3;
 }
 
 .opacity_70 {
@@ -279,7 +292,7 @@ body {
 }
 
 .chats_box:hover {
-  background-color: #D9FDD3;
+  background-color: #d9fdd3;
 }
 
 .chats_box {
@@ -292,7 +305,7 @@ body {
 }
 
 .green_notification {
-  background-color: #25D366;
+  background-color: #25d366;
   border-radius: 10px;
 }
 
@@ -376,13 +389,13 @@ body {
 }
 
 .communitiy_btn:hover {
-  color: #4BA586 !important;
+  color: #4ba586 !important;
   background-color: #fff;
   border: 1px solid #008069;
 }
 
 .communitiy_btn {
-  background-color: #4BA586;
+  background-color: #4ba586;
   padding: 13px 28px 13px 28px;
   border-radius: 25px;
   border: transparent;
@@ -492,15 +505,19 @@ body {
 }
 
 .bg_light_green {
-  background-color: #4BA586;
+  background-color: #4ba586;
 }
 
 .qr_scaner_box {
   margin-top: -120px;
 }
 
+.whatsapp-chat-list {
+  max-width: 30%;
+}
+
 /*----------------------------- All Meadia Quaries Set ------------------- ---------- */
-@media (min-width:1700px) {
+@media (min-width: 1700px) {
   .qr_container {
     max-width: 1620px !important;
     margin: auto;
@@ -512,7 +529,7 @@ body {
   }
 }
 
-@media (min-width:1500px) {
+@media (min-width: 1500px) {
   .qr_container {
     max-width: 1366px;
     margin: auto;
@@ -554,7 +571,7 @@ body {
   }
 }
 
-@media (max-width:1598.98px) {
+@media (max-width: 1598.98px) {
   .small_nav {
     width: 601px;
     padding: 10px 0 10px 24px;
@@ -565,7 +582,7 @@ body {
   }
 }
 
-@media (max-width:1199.98px) {
+@media (max-width: 1199.98px) {
   .h_msg_box {
     height: calc(90% - 90px);
   }
@@ -622,7 +639,7 @@ body {
   }
 }
 
-@media (max-width:991.98px) {
+@media (max-width: 991.98px) {
   .h_msg_box {
     height: calc(95.5% - 90px);
   }
@@ -686,8 +703,7 @@ body {
   }
 }
 
-@media (max-width:576px) {
-
+@media (max-width: 576px) {
   .bottom_border_w,
   .bottom_border_w_two {
     margin: 10px 0;
@@ -804,7 +820,7 @@ body {
   }
 }
 
-@media (max-width:425px) {
+@media (max-width: 425px) {
   .display_show {
     display: none;
   }
