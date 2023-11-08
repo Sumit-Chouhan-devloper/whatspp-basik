@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"); */
 
 * {
   box-sizing: border-box;
@@ -12,9 +12,17 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none !important;
-  font-family: "Work Sans", sans-serif !important;
+    font-family: SegoeUI !important;
+  /* font-family: "Work Sans", sans-serif !important; */
 }
-
+@font-face {
+  font-family: SegoeUI !important;
+  src: url("../public/assets/fonts/SegoeUI.ttf") !important;
+}
+@font-face {
+  font-family: SegoeBold;
+  src: url("../public/assets/fonts/SegoeUIBold.ttf");
+}
 .overflow_hidden_x {
   overflow-x: hidden !important;
 }
@@ -109,9 +117,9 @@ body {
 }
 
 /*--------------------- DEFINE-ALL = Font-Family ------------------------------ */
-.ff_inter {
+/* .ff_inter {
   font-family: "Inter", sans-serif !important;
-}
+} */
 
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
 .color_dark_green {

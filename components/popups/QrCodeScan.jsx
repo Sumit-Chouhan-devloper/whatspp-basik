@@ -26,10 +26,10 @@ function QrCodeScan() {
             </div>
           </div>
 
-          <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
+          <div className="qr_container container bg-white qr_scaner_box SegoeUI pt-5 px-0">
             <div className="row mx-2 justify-content-between px-lg-5 pt-xxl-5">
               <div className="col-lg-6 col-xl-7 px-lg-0 m-auto my-xxl-0 mx-lg-0">
-                <h1 className="font-2xl fw_light color_dark_black mb-xxl-4 pb-4 mb-0 mb-md-2">
+                <h1 className="font-2xl fw_light SegoeUI color_light_gray02 mb-xxl-4 pb-4 mb-0 mb-md-2">
                   Use whatsApp on your Computer
                 </h1>
                 <div className="d-flex">
@@ -62,7 +62,6 @@ function QrCodeScan() {
                       alt="setting"
                       className="menu_size_scan"
                     />
-                  
                   </p>
                 </div>
                 <div className="d-flex">
@@ -71,7 +70,7 @@ function QrCodeScan() {
                     Tap on Link a Device
                   </p>
                 </div>
-                <div className='d-flex'>
+                <div className="d-flex">
                   <p className="font-lg fw-normal color_light_gray mb-0 pt-2 pt-md-4">
                     4.
                   </p>
@@ -91,7 +90,7 @@ function QrCodeScan() {
                   />
                 </div>
               </div>
-              <span className="d-block border-bottom pb-md-5 pt-2xl-4 mt-2xl-2 mb-4 mb-md-5 mt-2xl-2"></span>
+              <span className="d-block border-bottom pb-md-5 pt-2xl-4 mb-4 mb-md-5 mt_16"></span>
             </div>
             <p className=" pb-xl-3 px-md-3 ps-lg-5 ms-2 mt-xl-0 mt-xxl-3 mb-2xl-5 mb-4 mb-md-5 fs_mmd color_lite_green fw-normal mx_scaner_xxl_space">
               Link with phone number
