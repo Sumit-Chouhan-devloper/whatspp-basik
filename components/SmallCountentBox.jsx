@@ -11,7 +11,7 @@ function SmallCountentBox() {
       <div className="bg-white" id="overflowTest">
         <div className="smal_tab_box border-bottom" id="new_chat">
           <div className="d-flex align-items-center pb-2">
-            <div className="position-relative w-100">
+            <div className=" position-relative w-100">
               <input
                 type="text"
                 placeholder="Search or start new chat"
@@ -25,11 +25,11 @@ function SmallCountentBox() {
                 className="position-absolute searc_icon_one"
               />
             </div>
-            <Link href="/" className="ps-2 ps-xl-0">
+            <Link href="/" className="ps-2">
               <Image
                 src="/assets/image/svg/toggle_icon.svg"
-                width={24}
-                height={24}
+                width={20}
+                height={20}
                 alt="NavLogo"
               />
             </Link>

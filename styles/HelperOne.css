@@ -1,7 +1,36 @@
-.footer_space{
+.footer_space {
     padding: 10px 16px 10px 16px !important;
 }
-.small_nav{
+
+.small_nav {
     width: 100% !important;
-    padding: 12px 20px !important; 
+    padding: 12px 20px !important;
 }
+
+.profiles {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+/* .carbon_video{
+     border-radius: 100px;
+     border: 1px solid #d1d7db;
+} */
+.smal_tab_box{
+    padding: 8px 8px 0 12px;
+}
+
+#new_chat input {
+    max-width: 490px !important;
+    padding: 5.5px 22px 5.5px 69px !important;
+    border-radius: 10px;
+}
+.searc_icon_one {
+    top: 7px;
+    left: 20px;
+}
+@media (max-width: 1598.98px) {
+    .big_nav {
+      padding: 12px 36px 12px 29px !important;
+    }
+  }
