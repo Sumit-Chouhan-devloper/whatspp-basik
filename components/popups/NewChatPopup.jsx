@@ -29,6 +29,7 @@ function NewChatPopup() {
           <div className="new_chat_input_popup position-relative border-bottom">
             <input
               type="text"
+              placeholder="search name or number"
               className="bg_gray border-0 w-100 border_radius_10 "
             />
             <Link

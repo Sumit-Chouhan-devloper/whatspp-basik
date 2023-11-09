@@ -1,7 +1,9 @@
 .footer_space {
     padding: 10px 16px 10px 16px !important;
 }
-
+body {
+    background-color:#eae6df !important ;
+}
 .small_nav {
     width: 100% !important;
     padding: 12px 20px !important;
@@ -32,6 +34,9 @@
 
 .bottom_17px{
     bottom: 17px;
+}
+.chats_box:hover{
+    background-color: #F0F2F5 !important;
 }
 @media (max-width:1200px) {
     .bottom_15px{
