@@ -525,6 +525,7 @@ body {
 
 .whatsapp-chat-list {
   max-width: 30%;
+  min-width: 320px;
 }
 .whatsapp_chatbox_001 {
   max-width: 1600px;
@@ -643,10 +644,6 @@ body {
   }
 
   #new_chat input {
-    padding: 9px 0px 9px 44px !important;
-  }
-
-  #footer input {
     padding: 9px 0px 9px 44px !important;
   }
 
@@ -847,7 +844,7 @@ body {
 }
 
 @media (max-width: 425px) {
-  .display_show {
+  /* .display_show {
     display: none;
-  }
+  } */
 }

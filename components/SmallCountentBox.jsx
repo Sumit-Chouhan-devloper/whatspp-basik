@@ -60,8 +60,8 @@ function SmallCountentBox() {
                     {obj.time}
                   </p>
                 </div>
-                <div className="d-flex justify-content-between align-items-center pt-1">
-                  <h2 className="d-flex align-items-center gap-1 flex-wrap font-sm color_gray fw_medium mb-0 ">
+                <div className="d-flex justify-content-between align-items-center  pt-1">
+                  <h2 className="d-flex align-items-center gap-1 font-sm color_gray fw_medium mb-0 ">
                     {" "}
                     {obj.title}
                     {obj.titleicons ? (
@@ -72,7 +72,7 @@ function SmallCountentBox() {
                         alt="icons"
                       />
                     ) : null}
-                    <span className="fw-normal"> {obj.textmsg} </span>
+                    <span className="fw-normal ellipsis-text"> {obj.textmsg} </span>
                   </h2>
                   {obj.unreadnotification ? (
                     <p className="font-sm green_notification p-1 fw_semibold text-white mb-0">

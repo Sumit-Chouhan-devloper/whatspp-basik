@@ -4,7 +4,7 @@ export const Whatsappblocks = [
         holdername: "Designers Corner",
         time: "3:11 pm",
         title: "+2348128225157:",
-        textmsg: "That’s a great news! Congratulations...",
+        textmsg: "That’s a great news! Congratulations",
         unreadnotification: 197,
     },
     {
