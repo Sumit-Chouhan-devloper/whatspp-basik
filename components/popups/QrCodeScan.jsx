@@ -1,14 +1,27 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useState, useRef } from "react";
 
 function QrCodeScan() {
+  const [svgHidden, setSvgHidden] = useState(false);
+
+  const hideSvgAndStartVideo = () => {
+    // Hide the SVG element
+    setSvgHidden(true);
+
+    // Get the video element and play it
+    const video = document.getElementById("myVideo");
+    video.play();
+    
+  };
+  
   return (
     <>
       <div className="qr_bg_fade bg_light_black min-vh-100">
         <div className="bg_light_green px-md-4 pb-4 ff_inter">
           <div className="bg_light_green container qr_container pt_27 pb_66 px-0 ">
-            <div className="px-lg-0 mx-1 mx-md-0 d-flex align-items-center mb-4 mb-md-5 pb-lg-5">
+            <div className="px-lg-0 mx-1 mx-md-0 d-flex align-items-center mb-4 mb-md-5 pb-2xl-5 pb-lg-2">
               <Link href="/" className="text-decoration-none">
                 <Image
                   src="/assets/image/svg/logos_whatsapp_icon.svg"
@@ -28,7 +41,7 @@ function QrCodeScan() {
         <div className="px-md-4 pb_92 ">
           <div className="qr_container container bg-white qr_scaner_box SegoeUI pt-5 px-0">
             <div className="get_app_div_border br_6 get_app_box_spacing">
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center justify-content-between">
                 {/* SVG  */}
                 <div>
                   <span data-icon="wa-desktop" class="">
@@ -77,11 +90,11 @@ function QrCodeScan() {
                   </span>
                 </div>
                 <div className="d-flex flex-md-row flex-column align-items-center">
-                  <div className="px-4">
+                  <div className="px-lg-4 ps-2">
                     <p className="color_lite_black font-base-02 mb-0 fw-normal">
                       Download WhatsApp for Windows
                     </p>
-                    <p className="mb-0 mw_494 fs_13 d-md-block d-none">
+                    <p className="mb-0 mw _494 fs_13 d-md-block d-none">
                       Get calling, screen sharing and a faster experience with
                       the new Windows app.
                     </p>
@@ -93,7 +106,7 @@ function QrCodeScan() {
               </div>
             </div>
             <div className="row mx-2 justify-content-between px-md-5 px-3 pt-xxl-5 pt-4 mt-xxl-0 mt-2">
-              <div className="col-md-6 col-xl-8 px-lg-0 m-auto my-xxl-0 mx-lg-0">
+              <div className="col-lg-6 col-xl-8 px-lg-0 m-auto my-xxl-0 mx-lg-0">
                 <h1 className="font-2xl fw_light SegoeUI color_light_gray02 mb-xxl-4 pb-4 mb-0 mb-md-2">
                   Use whatsApp on your Computer
                 </h1>
@@ -149,7 +162,7 @@ function QrCodeScan() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-auto mt-md-5 mt-4 pt-md-0 pt-2 mt-lg-0 text-center">
+              <div className="col-lg-auto mt-md-5 mt-4 pt-md-0 pt-2 mt-lg-0 text-center">
                 <div>
                   <Image
                     src="/assets/image/svg/scan_img.svg"
@@ -167,7 +180,7 @@ function QrCodeScan() {
             </p>
             <div className="qr_bg_tutorial">
               <div className="text-center">
-                <h1 className="font-2xl fw_light color_light_gray02 mb-0 pt-4">
+                <h1 className="font-2lg fw_light color_light_gray02 mb-0 pt_40">
                   Tutorial
                 </h1>
                 <p className=" px-xxl-5 mx-xxl-5 font-sm color_dark_green fw-normal pt-3 mb-0">
@@ -179,8 +192,28 @@ function QrCodeScan() {
                   controls
                   className="video_height_width"
                   src="/assets/video/whatsapp_qrscan_video.mp4"
+                  id="myVideo"
                 ></video>
-                <div className="position-absolute cursor_pointer bg_overlay">
+                <div
+                  className={`position-absolute z-1 cursor_pointer ${
+                    svgHidden ? "hidden" : ""
+                  }`}
+                  onClick={hideSvgAndStartVideo}
+                >
+                  <Image
+                    src="/assets/image/png/qr_scan_video_thumbnail.png"
+                    height={314}
+                    width={560}
+                    alt="video thumbnail"
+                    className=""
+                  />
+                </div>
+                <div
+                  className={`position-absolute z-2 cursor_pointer bg_overlay ${
+                    svgHidden ? "hidden" : ""
+                  }`}
+                  onClick={hideSvgAndStartVideo}
+                >
                   <svg
                     className="ms-1 opacity-100"
                     xmlns="http://www.w3.org/2000/svg"
