@@ -14,11 +14,11 @@ function DesktopHeader() {
                         <h1 className='font-md color_gray fw_medium mb-0 gap-2'>Daniel Kalio</h1>
                     </div>
                     <div className="d-flex gap-3 gap-xl-4">
-                        <Link
+                        {/* <Link
                             href="/"
                             className="">
                             <Image src="/assets/image/svg/call_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
-                        </Link>
+                        </Link> */}
                         <Link
                             href="/"
                             className="px-2">
