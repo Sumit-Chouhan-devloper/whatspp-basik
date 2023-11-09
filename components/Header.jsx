@@ -15,7 +15,7 @@ const Header = () => {
                     </div>
                     <div className="d-flex align-items-center ">
                         <Link className="px-2"
-                            href="https://dummy-chat-app.vercel.app/community"
+                            href="/community"
                         >
                             <Image src="/assets/image/svg/mdi_people_group.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size p/" />
                         </Link>
@@ -33,7 +33,7 @@ const Header = () => {
                         </Link>
                         
                         <Link
-                            href="https://dummy-chat-app.vercel.app/newchat"
+                            href="/newchat"
                             className="px-2 mx-2">
                             <Image src="/assets/image/svg/msg_icon.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
 

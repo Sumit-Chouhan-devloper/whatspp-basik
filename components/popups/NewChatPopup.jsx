@@ -9,7 +9,7 @@ function NewChatPopup() {
           <div className=" communitie_parent mx-auto ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
             <h2 className="font-lg text-white fw_medium pb-4 mt-md-5 pt-3">
               <Link
-                href="https://dummy-chat-app.vercel.app/"
+                href="/"
                 className="me-3 me-md-4 pe-md-2"
               >
                 <Image
