@@ -42,7 +42,7 @@ body {
   --color-light-green: #4ba586;
   --color-gray: #6b7c85;
   --color-Sky-blue: #027eb5;
-  --color-lite-black: #111b21;
+  --color-light-black: #111b21;
   --color-dark-black: #0e0e0f;
   --color-light-gray: #3b4a54;
   --color-light-gray02: #41525d;
@@ -515,7 +515,7 @@ body {
 }
 
 .bg_light_green {
-  background-color: #4BA586;
+  background-color: #4ba586;
 }
 
 .qr_scaner_box {
@@ -527,6 +527,7 @@ body {
 }
 .whatsapp_chatbox_001 {
   max-width: 1600px;
+  z-index: 10;
 }
 
 .whatsapp_parent_012::after {
