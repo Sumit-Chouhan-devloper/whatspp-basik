@@ -5,32 +5,30 @@ import Image from "next/image";
 function QrCodeScan() {
   return (
     <>
-      <div className="qr_bg_fade min-vh-100">
-        <div className="">
-          <div className="bg_light_green px-md-4 pb-4 ff_inter">
-            <div className="bg_light_green container qr_container pt_27 pb_66 px-0 ">
-              <div className="px -3 px-lg-0 mx-1 mx-md-0 d-flex align-items-center mb-4 mb-md-5 pb-lg-5">
-                <Link href="/" className="text-decoration-none">
-                  <Image
-                    src="/assets/image/svg/logos_whatsapp_icon.svg"
-                    height={39}
-                    width={39}
-                    alt="Logo"
-                    className="qr_logo"
-                  />
-                </Link>
-                <p className=" color_dark_black text-white font-sm fw_semibold mb-0 ps-3">
-                  WHATSAPP WEB
-                </p>
-              </div>
-              <span className="d-block mb-3"></span>
+      <div className="qr_bg_fade bg_light_black min-vh-100">
+        <div className="bg_light_green px-md-4 pb-4 ff_inter">
+          <div className="bg_light_green container qr_container pt_27 pb_66 px-0 ">
+            <div className="px-lg-0 mx-1 mx-md-0 d-flex align-items-center mb-4 mb-md-5 pb-lg-5">
+              <Link href="/" className="text-decoration-none">
+                <Image
+                  src="/assets/image/svg/logos_whatsapp_icon.svg"
+                  height={39}
+                  width={39}
+                  alt="Logo"
+                  className="qr_logo"
+                />
+              </Link>
+              <p className=" color_dark_black text-white font-sm fw_semibold mb-0 ps-3">
+                WHATSAPP WEB
+              </p>
             </div>
+            <span className="d-block mb-3"></span>
           </div>
         </div>
-        <div className="px-md-4">
+        <div className="px-md-4 pb_92 ">
           <div className="qr_container container bg-white qr_scaner_box SegoeUI pt-5 px-0">
             <div className="get_app_div_border br_6 get_app_box_spacing">
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 {/* SVG  */}
                 <div>
                   <span data-icon="wa-desktop" class="">
@@ -78,22 +76,24 @@ function QrCodeScan() {
                     </svg>
                   </span>
                 </div>
-                <div className="px-4">
-                  <p className="color_lite_black font-base-02 mb-0 fw-normal">
-                    Download WhatsApp for Windows
-                  </p>
-                  <p>
-                    Get calling, screen sharing and a faster experience with the
-                    new Windows app.
-                  </p>
+                <div className="d-flex flex-md-row flex-column align-items-center">
+                  <div className="px-4">
+                    <p className="color_lite_black font-base-02 mb-0 fw-normal">
+                      Download WhatsApp for Windows
+                    </p>
+                    <p className="mb-0 mw_494 fs_13 d-md-block d-none">
+                      Get calling, screen sharing and a faster experience with
+                      the new Windows app.
+                    </p>
+                  </div>
+                  <button className="get_the_app_button font-sm mt-md-0 mt-1 text-white fw-medium bg_dark_green border-0 d-flex justify-content-center align-items-center p-0">
+                    Get the app
+                  </button>
                 </div>
-                <button className="get_the_app_button border-0 d-flex justify-content-center align-items-center p-0">
-                  Get the app
-                </button>
               </div>
             </div>
-            <div className="row mx-2 justify-content-between px-lg-5 pt-xxl-5">
-              <div className="col-lg-6 col-xl-8 px-lg-0 m-auto my-xxl-0 mx-lg-0">
+            <div className="row mx-2 justify-content-between px-md-5 px-3 pt-xxl-5 pt-4 mt-xxl-0 mt-2">
+              <div className="col-md-6 col-xl-8 px-lg-0 m-auto my-xxl-0 mx-lg-0">
                 <h1 className="font-2xl fw_light SegoeUI color_light_gray02 mb-xxl-4 pb-4 mb-0 mb-md-2">
                   Use whatsApp on your Computer
                 </h1>
@@ -149,7 +149,7 @@ function QrCodeScan() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-auto mt-md-5 mt-4 pt-md-0 pt-2 mt-lg-0 text-center">
+              <div className="col-md-auto mt-md-5 mt-4 pt-md-0 pt-2 mt-lg-0 text-center">
                 <div>
                   <Image
                     src="/assets/image/svg/scan_img.svg"
@@ -165,90 +165,41 @@ function QrCodeScan() {
             <p className="mb-2 pb-5 pt-4 px-md-3 ps-lg-5 ms-2 font-base-03 color_dark_green fw-normal mx_scaner_xxl_space">
               Link with phone number
             </p>
-            <div className="text-center qr_bg_tutorial">
-              <h1 className="font-2xl fw_light color_light_gray02 mb-0 pt-4">
-                Tutorial
-              </h1>
-              <p className=" px-xxl-5 mx-xxl-5 font-sm color_dark_green fw-normal py-3 mb-0">
-                Need help to get started?
-              </p>
+            <div className="qr_bg_tutorial">
+              <div className="text-center">
+                <h1 className="font-2xl fw_light color_light_gray02 mb-0 pt-4">
+                  Tutorial
+                </h1>
+                <p className=" px-xxl-5 mx-xxl-5 font-sm color_dark_green fw-normal pt-3 mb-0">
+                  Need help to get started?
+                </p>
+              </div>
+              <div className="d-flex justify-content-center position-relative my-3 align-items-center py-4">
+                <video
+                  controls
+                  className="video_height_width"
+                  src="/assets/video/whatsapp_qrscan_video.mp4"
+                ></video>
+                <div className="position-absolute cursor_pointer bg_overlay">
+                  <svg
+                    className="ms-1 opacity-100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="34"
+                    viewBox="0 0 28 34"
+                  >
+                    <path
+                      fill="#FFF"
+                      d="M1 4.983v24.034a2.982 2.982 0 0 0 4.564 2.53L24.792 19.53a2.981 2.981 0 0 0 0-5.058L5.563 2.454A2.983 2.983 0 0 0 1 4.983z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
             </div>
             <span className="d-block mb-3"></span>
           </div>
         </div>
       </div>
-
-      {/* <div className="qr_container container bg-white qr_scaner_box ff_inter pt-5 px-0">
-          <div className="row mx-2 justify-content-between px-lg-5 pt-xxl-5">
-            <div className="col-lg-6 col-xl-7 px-lg-0 m-auto my-xxl-0 mx-lg-0">
-              <h1 className="font-2xl fw_light color_dark_black mb-xxl-5 pb-4 mb-0 mb-md-2">
-                Use whatsApp on your Computer
-              </h1>
-              <div className="d-flex">
-                <p className="font-lg fw-normal color_dark_black mt-md-2 mb-0">
-                  1.
-                </p>
-                <p className="font-lg fw-normal color_light_gray mt-md-2 ms-2 mb-0">
-                  Open whatsApp on your phone
-                </p>
-              </div>
-              <div className="d-flex">
-                <p className="font-lg fw-normal color_light_gray py-2 py-md-4 mb-0">
-                  2.
-                </p>
-                <p className="font-lg fw-normal color_light_gray ms-2 py-2 py-md-4 mb-0">
-                  Go to settings by tapping on your profile photo,
-                  <span className="font-medium font-lg"> Menu </span>
-                  <Image
-                    src="/assets/image/svg/three_Dots_menu.svg"
-                    height={34}
-                    width={34}
-                    alt="menu"
-                    className="menu_size_scan"
-                  />
-                  , or Setting
-                  <Image
-                    src="/assets/image/svg/setting_icon.svg"
-                    height={34}
-                    width={34}
-                    alt="setting"
-                    className="menu_size_scan"
-                  />
-                  and select Linked Decives
-                </p>
-              </div>
-              <p className="font-lg fw-normal color_dark_black mb-0">
-                3. Tap on Link a Device
-              </p>
-              <p className="font-lg fw-normal color_dark_black mb-0 pt-2 pt-md-4">
-                4. Point your phone to this screen to capture the code
-              </p>
-            </div>
-            <div className="col-lg-auto mt-md-5 mt-lg-0 text-center">
-              <div className="qr_right_space">
-                <Image
-                  src="/assets/image/svg/scan_img.svg"
-                  alt="Scan"
-                  width={377}
-                  height={379}
-                  className="scan_img"
-                />
-              </div>
-            </div>
-            <span className="d-block border-bottom pb-md-5 pt-2xl-4 mt-2xl-2 mb-4 mb-md-5 mt-2xl-2"></span>
-          </div>
-          <p className=" pb-xl-3 px-md-3 ps-lg-5 ms-2 mt-xl-0 mt-xxl-3 mb-2xl-5 mb-4 mb-md-5 fs_mmd color_light_green fw-normal mx_scaner_xxl_space">
-            Link with phone number
-          </p>
-          <div className="text-center qr_bg_tutorial pt-2xl-5">
-            <h1 className="font-2xl fw_light color_dark_black mb-0 pt-4">
-              Tutorial
-            </h1>
-            <p className=" px-xxl-5 mx-xxl-5 fs_mmd color_light_green fw-normal py-3 mb-0">
-              Need help to get started?
-            </p>
-          </div>
-        </div> */}
     </>
   );
 }

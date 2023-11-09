@@ -39,7 +39,9 @@ body {
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
   --color-dark-green: #008069;
+  --color-extra-green:#00a884;
   --color-light-green: #4ba586;
+
   --color-gray: #6b7c85;
   --color-Sky-blue: #027eb5;
   --color-light-black: #111b21;
@@ -63,7 +65,7 @@ body {
 @media (min-width: 1800px) {
   :root {
     --font-xs: 10px;
-    --font-sm: 16px;
+    --font-sm: 14px;
     --font-base: 17px;
     --font-md: 20px;
   }
@@ -145,7 +147,9 @@ body {
 .bg_dark_green {
   background-color: var(--color-dark-green);
 }
-
+.bg_extra_green{
+  background-color: var(--color-extra-green);
+}
 .color_gray {
   color: var(--color-gray) !important;
 }
@@ -153,7 +157,9 @@ body {
 .color_lite_black {
   color: var(--color-light-black) !important;
 }
-
+.bg_light_black{
+  background-color: var(--color-light-black) !important;
+}
 .color_dark_black {
   color: var(--color-dark-black) !important;
 }
@@ -504,11 +510,6 @@ body {
 .qr_bg_tutorial {
   background-color: #f9f9fa;
 }
-
-.qr_bg_fade {
-  background-color: #d3d7d9;
-}
-
 .qr_container {
   max-width: 1000px !important;
   margin: auto;
