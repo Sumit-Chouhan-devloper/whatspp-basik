@@ -4,6 +4,9 @@
 .pb_66{
     padding-bottom: 66px;
 }
+.pt_40{
+    padding-top: 40px;
+}
 .get_app_div_border{
     border: 1px solid #d1d7db;
 }
@@ -33,7 +36,7 @@
     height: 314px;
 }
 .bg_overlay{
-    background-color: rgba(11,20,26);
+    background-color: rgba(11,20,26, .45);
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -43,3 +46,13 @@
     color: #e9edef;
     overflow: hidden;
 }
+.hidden{
+    display: none !important;
+}
+
+
+
+
+
+
+        
