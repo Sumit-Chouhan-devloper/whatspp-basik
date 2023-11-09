@@ -29,6 +29,15 @@
     top: 7px;
     left: 20px;
 }
+
+.bottom_17px{
+    bottom: 17px;
+}
+@media (max-width:1200px) {
+    .bottom_15px{
+        bottom: 0;
+    }
+}
 @media (max-width: 1598.98px) {
     .big_nav {
       padding: 12px 36px 12px 29px !important;
