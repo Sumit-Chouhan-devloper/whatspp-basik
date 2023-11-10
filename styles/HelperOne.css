@@ -4,27 +4,34 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.menu_popup_parent{
+
+.menu_popup_parent {
     border-radius: 3px !important;
 }
-.menu_links:hover{
+
+.menu_links:hover {
     background-color: #F0F2F5;
 }
-.border_line{
+
+.border_line {
     width: 100%;
-    height: 0.7px ;
+    height: 0.7px;
     background-color: #f1f1f7;
 }
-.color_dark_black{
+
+.color_dark_black {
     color: #79797f !important;
 }
+
 body {
     background-color: #eae6df !important;
 }
-.z_50{
+
+.z_50 {
     z-index: 50 !important;
 }
-.border_radius_10_popup{
+
+.border_radius_10_popup {
     border-radius: 15px !important;
 }
 
@@ -69,8 +76,15 @@ body {
 .big_nav {
     padding: 8px 16px 8px 10px !important;
 }
-.example_communities{
-color:#00A884 !important;
+
+.example_communities {
+    color: #00A884 !important;
+}
+.menu_links{
+    padding: 8px 0;
+}
+.menu_popup_parent{
+    width: 220px !important;
 }
 @media (max-width:1200px) {
     .whatsapp-chat-list {
@@ -133,6 +147,7 @@ color:#00A884 !important;
     .min_width_mobile {
         min-width: 360px !important;
     }
+
     .whatsapp-chat-list {
         min-width: 360px !important;
     }
@@ -154,8 +169,21 @@ color:#00A884 !important;
     }
 }
 
+
 @media (min-width:768px) {
     .w_100 {
         width: 100% !important;
+    }
+
+    .menu_links {
+        padding: 10px 0;
+    }
+    .menu_popup_parent{
+        width: 230px !important;
+    }
+}
+@media (min-width:1200px) {
+    .menu_popup_parent{
+        width: 254px !important;
     }
 }

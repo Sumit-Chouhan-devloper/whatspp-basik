@@ -41,32 +41,32 @@ function DesktopHeader() {
                             className="ps-xl-2 position-relative click_popup" onClick={togglePopup}>
                             <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
                             <div className={`mt-2 menu_popup_parent ff_inter bg-white mx-auto position-absolute ${isPopupVisible ? 'd-block' : 'd-none'}  end-0`}>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Contact info</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Contact info</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Business details</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Business details</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Select messages</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Select messages</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Close chat</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Close chat</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Mute notifications</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Mute notifications</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Clear massages</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Clear massages</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Delete chat</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Delete chat</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Report</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Report</Link>
                                 </div>
-                                <div className="my-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Block</Link>
+                                <div className="my-xl-1 menu_links">
+                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Block</Link>
                                 </div>
                             </div>
                         </Link>

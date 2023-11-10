@@ -20,23 +20,23 @@ function Footer() {
                     <Link href="/" className='m-sm-2 m-md-3 mx-auto position-relative click_popup' onClick={togglePopup} >
                         <Image src="/assets/image/svg/Search_bar_menu.svg" width={24} height={24} alt="/" className='common_icons_size ' />
                         <div className={`mb-5 menu_popup_parent border_radius_10_popup ff_inter bg-white mx-auto position-absolute ${isPopupVisible ? 'd-block' : 'd-none'} click_popup_block start-0  bottom-0`}>
-                                                       <div className="my-1 menu_links d-flex align-items-center">
-                                <Link href="/" className='text-decoration-none color_dark_black fw_medium fs_ragular lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/document_icon.svg" alt="Document" /> Document </Link>
+                                                       <div className="my-xl-1 menu_links d-flex align-items-center">
+                                <Link href="/" className='text-decoration-none color_dark_black fw_medium font-base  lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/document_icon.svg" alt="Document" /> Document </Link>
                             </div>
-                            <div className="my-1 menu_links d-flex align-items-center">
-                                <Link href="/" className='text-decoration-none color_dark_black fw_medium fs_ragular lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/photo_icon.svg" alt="Pencil" /> Photos & Videos</Link>
+                            <div className="my-xl-1 menu_links d-flex align-items-center">
+                                <Link href="/" className='text-decoration-none color_dark_black fw_medium font-base  lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/photo_icon.svg" alt="Pencil" /> Photos & Videos</Link>
                             </div>
-                            <div className="my-1 menu_links d-flex align-items-center">
-                                <Link href="/" className='text-decoration-none color_dark_black fw_medium fs_ragular lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/pink_camera_icon.svg" alt="Camera" /> Camera </Link>
+                            <div className="my-xl-1 menu_links d-flex align-items-center">
+                                <Link href="/" className='text-decoration-none color_dark_black fw_medium font-base  lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/pink_camera_icon.svg" alt="Camera" /> Camera </Link>
                             </div>
-                            <div className="my-1 menu_links d-flex align-items-center">
-                                <Link href="/" className='text-decoration-none color_dark_black fw_medium fs_ragular lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/blue_contacts_icon.svg" alt="Contact" /> Contact </Link>
+                            <div className="my-xl-1 menu_links d-flex align-items-center">
+                                <Link href="/" className='text-decoration-none color_dark_black fw_medium font-base  lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/blue_contacts_icon.svg" alt="Contact" /> Contact </Link>
                             </div>
-                            <div className="my-1 menu_links d-flex align-items-center">
-                                <Link href="/" className='text-decoration-none color_dark_black fw_medium fs_ragular lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/poll_icon.svg" alt="poll" /> Poll  </Link>
+                            <div className="my-xl-1 menu_links d-flex align-items-center">
+                                <Link href="/" className='text-decoration-none color_dark_black fw_medium font-base  lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/poll_icon.svg" alt="poll" /> Poll  </Link>
                             </div>
-                            <div className="my-1 menu_links d-flex align-items-center">
-                                <Link href="/" className='text-decoration-none color_dark_black fw_medium fs_ragular lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/new_sticker_icon.svg" alt="Sticker" /> New Sticker </Link>
+                            <div className="my-xl-1 menu_links d-flex align-items-center">
+                                <Link href="/" className='text-decoration-none color_dark_black fw_medium font-base  lh_25 ps-4'> <Image className='me-2' height={24} width={24} src="/assets/image/svg/new_sticker_icon.svg" alt="Sticker" /> New Sticker </Link>
                             </div>
                         </div>
                     </Link>

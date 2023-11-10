@@ -90,7 +90,7 @@ body {
 @media (max-width: 1199.98px) {
   :root {
     --font-sm: 12px;
-    --font-base: 14px;
+    --font-base: 15px;
     --font-md: 18px;
     --font-2xl: 27px;
     --font-lg: 20px;
@@ -101,7 +101,7 @@ body {
   :root {
     --font-md: 13px;
     --font-sm: 12px;
-    --font-base: 12px;
+    --font-base: 14px;
     --font-sm: 10px;
   }
 }
@@ -110,7 +110,7 @@ body {
   :root {
     --font-md: 14px;
     --font-sm: 11px;
-    --font-base: 13px;
+    --font-base: 14px;
     --font-sm: 9px;
     --font-lg: 20px;
     --font-xl: 21px;
@@ -425,9 +425,6 @@ body {
   box-shadow: 0px 0px 10px 0px #00000040;
 }
 
-.menu_links {
-  padding: 10px 0;
-}
 
 /*---------- Search Message Popup Css ---------- */
 .search_massage_popup_parent {
