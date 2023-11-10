@@ -80,16 +80,20 @@ body {
 .example_communities {
     color: #00A884 !important;
 }
-.menu_links{
+
+.menu_links {
     padding: 8px 0;
 }
-.menu_popup_parent{
+
+.menu_popup_parent {
     width: 220px !important;
 }
-.ms_10{
+
+.ms_10 {
     margin-left: 10px;
 }
-.small_nav_side_line{
+
+.small_nav_side_line {
     position: absolute;
     top: 0;
     right: 0;
@@ -97,66 +101,87 @@ body {
     width: 1px;
     background-color: #e1e7ef;
 }
-.profiles_small_nav{
+
+.profiles_small_nav {
     width: 40px;
     height: 40px;
 }
-.me_6px{
+
+.me_6px {
     margin-right: 6px;
 }
-.mt_2px{
+
+.mt_2px {
     padding-top: 2px;
 }
-.mt_12px{
+
+.mt_12px {
     margin-top: 12px;
 }
-.pt_12px{
+
+.pt_12px {
     padding-top: 12px;
 }
-.pb_10{
+
+.pb_10 {
     padding-bottom: 10px;
 }
-.chats_box{
+
+.chats_box {
     height: 73px;
     padding: 0px 15px 0px 15px !important;
 }
-.me_13px{
+
+.me_13px {
     margin-right: 13px;
 }
-.font_12{
+
+.font_12 {
     font-size: 12px !important;
 }
-.font_11{
+
+.font_13 {
+    font-size: 13px !important;
+}
+
+.font_11 {
     font-size: 11px !important;
 }
-.green_notification{
+
+.green_notification {
     height: 21px !important;
     padding: 2px 4px 6px 4px !important;
 }
-.right_12{
+
+.right_12 {
     right: 12px;
 }
-.bottom_5{
+
+.bottom_5 {
     bottom: 2px;
 }
-.msg_bg_custom_tick{
-    padding: 10px 75px 10px 19px !important; 
+
+.msg_bg_custom_tick {
+    padding: 10px 75px 10px 19px !important;
 }
-.desktop_messege_arrow{
+
+.desktop_messege_arrow {
     top: 0px;
     left: -8px;
 }
-.desktop_messege_arrow_send{
+
+.desktop_messege_arrow_send {
     top: 0px;
     right: -8px;
 }
-.msg_bg_custom{
-border-radius: 0 10px 10px 10px;
-}
-.msg_bg_custom_send{
-border-radius: 10px 0 10px 10px;
+
+.msg_bg_custom {
+    border-radius: 0 10px 10px 10px;
 }
 
+.msg_bg_custom_send {
+    border-radius: 10px 0 10px 10px;
+}
 
 
 
@@ -164,6 +189,11 @@ border-radius: 10px 0 10px 10px;
 
 
 
+.RECENT{
+    color: #008069;
+    font-weight: 300;
+    font-size: 16px !important;
+}
 
 
 
@@ -171,78 +201,91 @@ border-radius: 10px 0 10px 10px;
     width: 500px;
     height: 100vh;
     overflow-y: scroll !important;
-  }
-  .status_line {
+}
+
+.status_line {
     width: 383px;
     height: 1px;
-    background-color: rgba(0, 0, 0,0.1);
-  }
-  .status_circle{
-      width: 60.36px;
-      height: 60.36px;
-  border: 2px solid #4BA586;
-  border-radius: 100%;
-  }
-  .viewed_status_circle{
-      border: 2px solid rgba(0, 0, 0,0.3);
-      border-radius: 100%; 
-      width: 60.36px;
-      height: 60.36px;
-  }
-  .status_hover:hover{
-  background-color: rgba(0, 0, 0,0.1) !important;
-  cursor: pointer;
-  }
-  
-  .status_modal{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.status_circle {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #4BA586;
+    border-radius: 100%;
+}
+
+.viewed_status_circle {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.status_hover:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    cursor: pointer;
+}
+
+.status_modal {
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
     background-color: black;
     width: 100%;
-  }
-  
-  .modal_header{
+}
+
+.modal_header {
     width: 786px !important;
-  border-radius: 0 !important;
-  background-color: black !important;
-  }
-  .btn-close{
+    border-radius: 0 !important;
+    background-color: black !important;
+}
+
+.btn-close {
     color: white !important;
     opacity: 1 !important;
     background-color: white !important;
-  }
-  .modal-body{
+}
+
+.modal-body {
     background-color: black !important;
-  } 
-  .video_full{
+}
+
+.video_full {
     max-width: 100vw !important;
     max-height: 70vh !important;
     width: 500px !important;
     height: 400px !important;
     margin: 0 auto !important;
     padding: 0 !important;
-  }
-  .width_600{
+}
+
+.width_600 {
     width: 600px !important;
-  }
-  .video-stream{
+}
+
+.video-stream {
     width: 500px !important;
     height: 300px !important;
-  }
+}
+
 @media (max-width:1400px) {
     .bottom_17px {
         bottom: 0 !important;
     }
 }
+
 @media (max-width:1200px) {
     .whatsapp-chat-list {
         min-width: 480px !important;
     }
+
     .ellipsis-text {
-        width: 180px;}
-    
+        width: 180px;
+    }
+
 }
 
 @media (max-width:992px) {
@@ -327,12 +370,14 @@ border-radius: 10px 0 10px 10px;
     .menu_links {
         padding: 10px 0;
     }
-    .menu_popup_parent{
+
+    .menu_popup_parent {
         width: 230px !important;
     }
 }
+
 @media (min-width:1200px) {
-    .menu_popup_parent{
+    .menu_popup_parent {
         width: 254px !important;
     }
 }
