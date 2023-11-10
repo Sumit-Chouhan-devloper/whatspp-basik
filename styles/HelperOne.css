@@ -86,6 +86,17 @@ body {
 .menu_popup_parent{
     width: 220px !important;
 }
+.ms_10{
+    margin-left: 10px;
+}
+.small_nav_side_line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 69px;
+    width: 1px;
+    background-color: #e1e7ef;
+}
 @media (max-width:1200px) {
     .whatsapp-chat-list {
         min-width: 440px !important;
@@ -128,7 +139,7 @@ body {
 
 @media (min-width: 576px) {
     .big_nav {
-        padding: 12px 36px 12px 29px !important;
+        padding: 10px 36px 10px 29px !important;
     }
 }
 
@@ -157,7 +168,7 @@ body {
 
     .small_nav {
         width: 100% !important;
-        padding: 12px 20px !important;
+        padding: 10px 16px !important;
     }
 
     .footer_space {
