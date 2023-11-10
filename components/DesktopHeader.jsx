@@ -36,10 +36,13 @@ function DesktopHeader() {
                             <Image src="/assets/image/svg/search_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
 
                         </Link>
-                        <Link
-                            href="/"
-                            className="ps-xl-2 position-relative click_popup" onClick={togglePopup}>
-                            <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
+                        <div className='position-relative click_popup' onClick={togglePopup}>
+                            <Link
+                                href="/"
+                                className="ps-xl-2 " >
+                                <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
+
+                            </Link>
                             <div className={`mt-2 menu_popup_parent ff_inter bg-white mx-auto position-absolute ${isPopupVisible ? 'd-block' : 'd-none'}  end-0`}>
                                 <div className="my-xl-1 menu_links">
                                     <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Contact info</Link>
@@ -69,7 +72,7 @@ function DesktopHeader() {
                                     <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4'>Block</Link>
                                 </div>
                             </div>
-                        </Link>
+                        </div>
                     </div>
                 </nav>
             </div>
