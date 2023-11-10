@@ -32,7 +32,7 @@ function DesktopHeader() {
 
                         </Link>
                         <Link
-                            href="/"
+                            href="/menupopup"
                             className="ps-xl-2">
                             <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
                         </Link>

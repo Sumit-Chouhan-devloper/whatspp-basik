@@ -11,7 +11,7 @@ function Footer() {
                     <Link href="/" className='' >
                         <Image src="/assets/image//svg/smile_emoji_icon.svg" width={24} height={24} alt="/" className="d-none d-sm-block searc_icon_one common_icons_size" />
                     </Link>
-                    <Link href="/" className='p-sm-2 p-md-3 mx-auto' >
+                    <Link href="/searchbarmenu" className='p-sm-2 p-md-3 mx-auto' >
                         <Image src="/assets/image/svg/Search_bar_menu.svg" width={24} height={24} alt="/" className='common_icons_size ' />
                     </Link>
                 </div>

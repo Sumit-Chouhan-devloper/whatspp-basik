@@ -11,7 +11,7 @@ function Whatsapp() {
             <div className="whatsapp-chat-list">
               <SmallCountentBox />
             </div>
-            <div className="w-100 display_show bg_chat_box">
+            <div className="w_100 min_width_mobile display_show bg_chat_box">
               <DesktopChat />
             </div>
           </div>

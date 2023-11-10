@@ -39,7 +39,7 @@ const Header = () => {
 
                         </Link>
                         <Link
-                            href="https://dummy-chat-app.vercel.app/menus"
+                            href="/menutwopopup"
                             className="ps-xl-2">
                             <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
                         </Link>

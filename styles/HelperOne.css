@@ -57,6 +57,7 @@ body {
     .whatsapp-chat-list {
         min-width: 440px !important;
     }
+
     .bottom_17px {
         bottom: 0 !important;
     }
@@ -76,11 +77,19 @@ body {
 
 @media (max-width:768px) {
     .whatsapp-chat-list {
-        min-width: 358px !important;
+        min-width: 375px !important;
     }
 
     .ellipsis-text {
         width: 80px;
+    }
+
+    .overflow_scroll_sm {
+        overflow-x: scroll;
+    }
+
+    .min_width_mobile {
+        min-width: 408px !important;
     }
 }
 
@@ -91,12 +100,23 @@ body {
 }
 
 @media (max-width:576px) {
-    .overflow_scroll_sm {
-        overflow-x: scroll;
-    }
+
     #footer input {
         padding: 5px 5px !important;
-      }
+    }
+
+    .min_width_mobile {
+        min-width: 375px !important;
+    }
+}
+
+@media (max-width:374px) {
+    .min_width_mobile {
+        min-width: 360px !important;
+    }
+    .whatsapp-chat-list {
+        min-width: 360px !important;
+    }
 }
 
 @media (min-width:576px) {
@@ -105,10 +125,18 @@ body {
         width: 100% !important;
         padding: 12px 20px !important;
     }
+
     .footer_space {
         padding: 10px 16px 10px 16px !important;
     }
+
     #footer input {
         padding: 9px 0px 9px 10px !important;
+    }
+}
+
+@media (min-width:768px) {
+    .w_100 {
+        width: 100% !important;
     }
 }
