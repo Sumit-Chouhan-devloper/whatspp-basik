@@ -323,8 +323,13 @@ body {
     left: 35px !important;
     top: 23px !important;
 }
-
-
+.profile_para {
+    padding: 14px 20px 28px 30px !important;
+}
+.profile_contact {
+    box-shadow: 0px 1px 6px 0px #00000040;
+    padding: 14px 30px 10px 30px;
+}
 
 
 
