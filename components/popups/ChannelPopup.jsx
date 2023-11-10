@@ -112,8 +112,8 @@ const ChannelPopup = () => {
                                 </svg>
                             </span>
                             New: Passkeys for Android Unlock your account using your face,
-                            fingerprint or pin with Passkeys. They make getting back to your
-                            chats super easy
+                            fingerprint or pin with Passkeys. They make getting back to ...
+                    
                         </p>
                         <Image src="/assets/image/svg/nav_boy_icon.svg" height={80} width={80} />
                     </div>
@@ -136,7 +136,7 @@ const ChannelPopup = () => {
                             </a>
                         </h4>
                     </div>
-                    {/* <Slider    {...settings} className="mt-3">
+                    <Slider {...settings} className="mt-3">
                         <div className="channel-card">
                             <div className="d-flex position-relative justify-content-center">
                                 <Image src="/assets/channel-1.svg" height={80} width={80} />
@@ -357,7 +357,7 @@ const ChannelPopup = () => {
                                 </a>
                             </div>
                         </div>
-                    </Slider> */}
+                    </Slider>
                 </div>
             </div>
         </>

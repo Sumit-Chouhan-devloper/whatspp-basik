@@ -251,8 +251,17 @@ body {
     font-weight: 300;
     font-size: 16px !important;
 }
-
-
+.channel_pera_one{
+    color: #111b21;
+    
+}
+.channel_pera_two{
+    color: #667781;
+    
+}
+.channel_pera{
+    padding: 24px 32px 20px 32px;
+}
 
 .status_size {
     width: 500px;
