@@ -9,7 +9,7 @@ function SmallCountentBox() {
     <>
       <Header />
       <div className="bg-white" id="overflowTest">
-        <div className="smal_tab_box border-bottom" id="new_chat">
+        <div className="smal_tab_box " id="new_chat">
           <div className="d-flex align-items-center pb-2">
             <div className=" position-relative w-100">
               <input
@@ -38,7 +38,7 @@ function SmallCountentBox() {
         <div>
           {Whatsappblocks.map((obj, i) => (
             <div
-              className="transition chats_box d-flex gap-2 pt_12px  cursor_pointer "
+              className="transition chats_box d-flex d-flex justify-content-center align-items-center border-bottom cursor_pointer "
               key={i}
             >
               <div>
@@ -47,15 +47,15 @@ function SmallCountentBox() {
                   width={49}
                   height={49}
                   alt="profiles"
-                  className="profiles"
+                  className="profiles me_13px"
                 />
               </div>
-              <div className="w-100 pb_10 border-bottom">
+              <div className="w-100  ">
                 <div className="d-flex justify-content-between align-items-center">
                   <h1 className="font-base-02 color_gray fw_semibold mb-0 ellipsis-text">
                     {obj.holdername}
                   </h1>
-                  <p className="font-sm fw_semibold color_gray mb-0 font_12">
+                  <p className="font-sm fw_semibold color_gray mb-0 font_11">
                     {" "}
                     {obj.time}
                   </p>
@@ -72,10 +72,10 @@ function SmallCountentBox() {
                         alt="icons"
                       />
                     ) : null}
-                    <span className="fw-normal ellipsis-text"> {obj.textmsg} </span>
+                    <span className="fw-normal ellipsis-text pt-1"> {obj.textmsg} </span>
                   </h2>
                   {obj.unreadnotification ? (
-                    <p className="font-sm green_notification p-1 fw_semibold text-white mb-0 font_12" >
+                    <p className="font-sm green_notification fw_semibold text-white mb-0 font_12" >
                       {obj.unreadnotification}
                     </p>
                   ) : null}

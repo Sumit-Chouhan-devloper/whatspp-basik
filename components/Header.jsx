@@ -26,7 +26,7 @@ const Header = () => {
                             <Image src="/assets/image/svg/mdi_people_group.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size p/" />
                         </Link>
                         <Link
-                            href="/"
+                            href="/statuspopup"
                             className="px-2 ms_10">
                             <Image src="/assets/image/svg/Status_Icon.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
 

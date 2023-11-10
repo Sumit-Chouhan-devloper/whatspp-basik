@@ -118,6 +118,10 @@ body {
 }
 .chats_box{
     height: 73px;
+    padding: 0px 15px 0px 15px !important;
+}
+.me_13px{
+    margin-right: 13px;
 }
 .font_12{
     font-size: 12px !important;
@@ -125,6 +129,108 @@ body {
 .font_11{
     font-size: 11px !important;
 }
+.green_notification{
+    height: 21px !important;
+    padding: 2px 4px 6px 4px !important;
+}
+.right_12{
+    right: 12px;
+}
+.bottom_5{
+    bottom: 2px;
+}
+.msg_bg_custom_tick{
+    padding: 10px 75px 10px 19px !important; 
+}
+.desktop_messege_arrow{
+    top: 0px;
+    left: -8px;
+}
+.desktop_messege_arrow_send{
+    top: 0px;
+    right: -8px;
+}
+.msg_bg_custom{
+border-radius: 0 10px 10px 10px;
+}
+.msg_bg_custom_send{
+border-radius: 10px 0 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.status_size {
+    width: 500px;
+    height: 100vh;
+    overflow-y: scroll !important;
+  }
+  .status_line {
+    width: 383px;
+    height: 1px;
+    background-color: rgba(0, 0, 0,0.1);
+  }
+  .status_circle{
+      width: 60.36px;
+      height: 60.36px;
+  border: 2px solid #4BA586;
+  border-radius: 100%;
+  }
+  .viewed_status_circle{
+      border: 2px solid rgba(0, 0, 0,0.3);
+      border-radius: 100%; 
+      width: 60.36px;
+      height: 60.36px;
+  }
+  .status_hover:hover{
+  background-color: rgba(0, 0, 0,0.1) !important;
+  cursor: pointer;
+  }
+  
+  .status_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .modal_header{
+    width: 786px !important;
+  border-radius: 0 !important;
+  background-color: black !important;
+  }
+  .btn-close{
+    color: white !important;
+    opacity: 1 !important;
+    background-color: white !important;
+  }
+  .modal-body{
+    background-color: black !important;
+  } 
+  .video_full{
+    max-width: 100vw !important;
+    max-height: 70vh !important;
+    width: 500px !important;
+    height: 400px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+  .width_600{
+    width: 600px !important;
+  }
+  .video-stream{
+    width: 500px !important;
+    height: 300px !important;
+  }
 @media (max-width:1400px) {
     .bottom_17px {
         bottom: 0 !important;
