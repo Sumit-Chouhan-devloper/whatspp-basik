@@ -276,7 +276,7 @@ body {
 }
 
 .pb_20 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .fs_ragular {
@@ -374,7 +374,7 @@ body {
 
 /* ------------------- Footer Css-------------------   */
 #overflowTest {
-  height: calc(100vh - 74px);
+  height: calc(100vh - 60px);
   overflow-y: scroll;
 }
 

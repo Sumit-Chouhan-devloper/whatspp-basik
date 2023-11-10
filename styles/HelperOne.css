@@ -110,15 +110,33 @@ body {
 .mt_12px{
     margin-top: 12px;
 }
+.pt_12px{
+    padding-top: 12px;
+}
+.pb_10{
+    padding-bottom: 10px;
+}
+.chats_box{
+    height: 73px;
+}
+.font_12{
+    font-size: 12px !important;
+}
+.font_11{
+    font-size: 11px !important;
+}
+@media (max-width:1400px) {
+    .bottom_17px {
+        bottom: 0 !important;
+    }
+}
 @media (max-width:1200px) {
     .whatsapp-chat-list {
         min-width: 480px !important;
     }
     .ellipsis-text {
         width: 180px;}
-    .bottom_17px {
-        bottom: 0 !important;
-    }
+    
 }
 
 @media (max-width:992px) {
