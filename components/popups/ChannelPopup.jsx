@@ -46,7 +46,7 @@ const ChannelPopup = () => {
                         </div>
                         <div className="channel-card">
                             <div className="d-flex position-relative justify-content-center">
-                                <Image src="/assets/image/png/profilepopup.png" height={64} width={64} />
+                                <Image src="/assets/image/svg/Gideon.svg" height={64} width={64} />
                                 <Image
                                     className=" position-absolute border-3 border-white ok-img"
                                     src="/assets/image/svg/green_true.svg"
@@ -68,7 +68,7 @@ const ChannelPopup = () => {
                         </div>
                         <div className="channel-card">
                             <div className="d-flex position-relative justify-content-center">
-                                <Image src="/assets/image/png/profilepopup.png" height={64} width={64} />
+                                <Image src="/assets/image/svg/danialel_kalio_dp.svg" height={64} width={64} />
                                 <Image
                                     className=" position-absolute border-3 border-white ok-img"
                                     src="/assets/image/svg/green_true.svg"
@@ -90,7 +90,7 @@ const ChannelPopup = () => {
                         </div>
                         <div className="channel-card">
                             <div className="d-flex position-relative justify-content-center">
-                                <Image src="/assets/image/png/profilepopup.png" height={64} width={64} />
+                                <Image src="/assets/image/svg/goodgod.svg" height={64} width={64} />
                                 <Image
                                     className=" position-absolute border-3 border-white ok-img"
                                     src="/assets/image/svg/green_true.svg"
@@ -112,7 +112,7 @@ const ChannelPopup = () => {
                         </div>
                         <div className="channel-card">
                             <div className="d-flex position-relative justify-content-center">
-                                <Image src="/assets/image/png/profilepopup.png" height={64} width={64} />
+                                <Image src="/assets/image/svg/alextwo.svg" height={64} width={64} />
                                 <Image
                                     className=" position-absolute border-3 border-white ok-img"
                                     src="/assets/image/svg/green_true.svg"
