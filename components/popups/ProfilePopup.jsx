@@ -5,11 +5,11 @@ import Link from "next/link";
 function ProfilePopup() {
   return (
     <>
-      <div className=" pb-sm-5 mx-auto ff_inter text-center bg_gray">
-        <div className="bg_dark_green">
+      <div className=" pb-sm-5 me-auto ff_inter text-center bg_gray">
+        <div className="bg_dark_green communitie_parent">
           <div className="profile_parent mx-auto  pb-1 pt-4 pt-md-5 text-start">
             <h2 className="font-lg text-white fw_medium ps-3 ps-sm-0 pb-4 mt-md-5 pt-3 d-flex align-items-center">
-              <Link href="#" className="me-3 me-md-4 pe-md-2">
+              <Link href="/" className="me-3 me-md-4 pe-md-2 ms-5">
                 <Image
                   src="/assets/image/svg/white_left_errow.svg"
                   height={35}
@@ -21,7 +21,7 @@ function ProfilePopup() {
             </h2>
           </div>
         </div>
-        <div className="">
+        <div className="communitie_parent ">
           <div className="py-5 my-md-2">
             <Image
               width={368}
