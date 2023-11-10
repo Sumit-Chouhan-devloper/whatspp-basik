@@ -139,7 +139,15 @@ body {
 .font_12 {
     font-size: 12px !important;
 }
-
+.font_14 {
+    font-size: 14px !important;
+}
+.font_24 {
+    font-size: 24px !important;
+}
+.font_19{
+    font-size: 19px !important;
+}
 .font_13 {
     font-size: 13px !important;
 }
@@ -147,7 +155,10 @@ body {
 .font_11 {
     font-size: 11px !important;
 }
-
+.button_height{
+    width: 100% !important;
+    height: 72px !important;
+}
 .green_notification {
     height: 21px !important;
     padding: 2px 4px 6px 4px !important;
@@ -186,7 +197,10 @@ body {
 .communitie_parent{
     width: 500px;
 }
-
+.Communities_box{
+    width: 500px;
+    height: 108px !important;
+}
 
 .channel-card {
     border: 1px solid #e8e7e8;
@@ -212,7 +226,8 @@ body {
     background-color: #485448;
   }
   .channel {
-    max-width: 432px;
+    max-width: 500px;
+    background-color: white;
   }
 
 
@@ -231,7 +246,7 @@ body {
 }
 
 .status_line {
-    width: 383px;
+    width: 405px;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -297,11 +312,37 @@ body {
     width: 500px !important;
     height: 300px !important;
 }
+.bg_white{
+    background-color: white;
+}
+.new_chat_input_popup {
+    padding: 10px 12px 10px 12px;
+}
+
+.left_green_errow, .left_green_errow_new_chat {
+    left: 35px !important;
+    top: 23px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:1400px) {
     .bottom_17px {
         bottom: 0 !important;
     }
+    
 }
 
 @media (max-width:1200px) {
