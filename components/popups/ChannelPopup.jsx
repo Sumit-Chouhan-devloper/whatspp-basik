@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 
@@ -79,7 +80,7 @@ const ChannelPopup = () => {
                 <div className="bg_dark_green  pt-5 pb-3 px-3">
                     <div className="d-flex align-items-center justify-content-between">
                         <div className="d-flex align-items-center">
-                            <Image src="/assets/image/svg/white_left_errow.svg" height={20} width={50} />
+                            <Link href="/"> <Image src="/assets/image/svg/white_left_errow.svg" height={20} width={50} /></Link>
                             <h4 className="mb-0 fw-medium font-md text-white ms-3">
                                 Channels
                             </h4>
