@@ -204,6 +204,10 @@ body {
 .msg_bg_custom {
     border-radius: 0 10px 10px 10px;
 }
+.msg_bg_custom_two {
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 60px 10px 19px;
+}
 
 .msg_bg_custom_send {
     border-radius: 10px 0 10px 10px;

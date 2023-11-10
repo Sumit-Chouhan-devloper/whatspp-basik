@@ -25,13 +25,13 @@ function DesktopChat() {
                         </p>
                     </div>
                     <div className=" ps-xl-4 mt_2px">
-                        <p className="ms-3 msg_bg_custom d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-3 msg_bg_custom_two d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
                             U don check that thing wey i been send you yesterday?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm</span>
                         </p>
                     </div>
                     <div className=" ps-xl-4 mt_2px">
-                        <p className="ms-3 msg_bg_custom d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-3 msg_bg_custom_two d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
                             How u see am na?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm</span>
                         </p>
@@ -71,13 +71,13 @@ function DesktopChat() {
                         </p>
                     </div>
                     <div className=" ps-xl-4 mt_2px">
-                        <p className="ms-3 msg_bg_custom d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-3 msg_bg_custom_two d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
                             but no be the reason i dy buzz u now. I need bar Baba
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm</span>
                         </p>
                     </div>
                     <div className=" ps-xl-4 mt_2px">
-                        <p className="ms-3 msg_bg_custom d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-3 msg_bg_custom_two d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
                             come press me the least na
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm</span>
                         </p>
@@ -137,7 +137,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     <div className=" ps-xl-4 mt_2px">
-                        <p className="ms-3 msg_bg_custom d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
+                        <p className="ms-3 msg_bg_custom_two d-inline-block bg-white mb-0 font-sm fw-normal color_lite_black position-relative">
                             How u see am na?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm</span>
                         </p>

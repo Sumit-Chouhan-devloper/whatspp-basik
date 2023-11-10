@@ -332,9 +332,9 @@ body {
 }
 
 .bg_chat_box {
-  background-image: url("/assets/image/png/chat_box_bg.png") !important;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-image: url("../public/assets/image/png/bg_img_whatsapp.png") !important;
+  background-color: rgb(241, 238, 238);
+  background-position: center;
 }
 
 /* --------------------- MSG BOX Css ---------------------  */
