@@ -15,7 +15,7 @@ const StatusPopup = () => {
           <Link href="/">
             <Image src="/assets/image/svg/white_left_errow.svg" height={25} width={25} />
           </Link>
-          <h2 className=" font-base text-white">Status</h2>
+          <h2 className=" font-lg text-white">Status</h2>
         </div>
       </div>
       <div className="bg-white">

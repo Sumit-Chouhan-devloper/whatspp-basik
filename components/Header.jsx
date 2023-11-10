@@ -32,7 +32,7 @@ const Header = () => {
 
                         </Link>
                         <Link
-                            href="/"
+                            href="/channelpopup"
                             className="px-2 ms_10">
                             <Image src="/assets/image/svg/channels_icon.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
 

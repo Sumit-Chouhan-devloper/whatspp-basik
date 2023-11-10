@@ -188,7 +188,32 @@ body {
 }
 
 
-
+.channel-card {
+    border: 1px solid #e8e7e8;
+    width: 150px !important;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 12px;
+    margin: 0px 20px;
+  }
+  
+  .ok-img {
+    bottom: 8%;
+    right: 23%;
+  }
+  
+  div::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: #485448;
+  }
+  .channel {
+    max-width: 432px;
+  }
 
 
 .RECENT{
