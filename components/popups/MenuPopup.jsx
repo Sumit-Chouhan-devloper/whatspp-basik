@@ -6,31 +6,31 @@ function MenuPopup() {
         <>
             <div className="menu_popup_parent ff_inter bg-white mx-auto my-5">
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Contact info</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Contact info</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Business details</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Business details</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Select messages</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Select messages</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Close chat</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Close chat</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Mute notifications</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Mute notifications</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Clear massages</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Clear massages</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Delete chat</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Delete chat</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Report</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Report</Link>
                 </div>
                 <div className="my-2 menu_links">
-                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25'>Block</Link>
+                    <Link href="/" className='text-decoration-none color_dark_black fw-normal fs_ragular lh_25 ps-4'>Block</Link>
                 </div>
             </div>
         </>
