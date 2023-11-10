@@ -5,8 +5,8 @@ function NewChatPopup() {
   return (
     <>
       <div className=" ff_inter  text-center ff_inter" id="new_chat_parent">
-        <div className="bg_dark_green">
-          <div className=" communitie_parent mx-auto ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
+        <div className="">
+          <div className=" communitie_parent bg_dark_green me-auto ps-4 ps-md-5 pb-1 pt-4 pt-md-5 text-start">
             <h2 className="font-lg text-white fw_medium pb-4 mt-md-5 pt-3">
               <Link
                 href="/"
@@ -25,7 +25,7 @@ function NewChatPopup() {
           </div>
         </div>
 
-        <div className="communitie_parent mx-auto">
+        <div className="communitie_parent me-auto">
           <div className="new_chat_input_popup position-relative border-bottom">
             <input
               type="text"
