@@ -46,7 +46,7 @@ const ChannelPopup = () => {
                         </div>
                         <div className="channel-card">
                             <div className="d-flex position-relative justify-content-center">
-                                <Image src="/assets/image/svg/Gideon.svg" height={64} width={64} />
+                                <Image src="/assets/image/svg/gideon.svg" height={64} width={64} />
                                 <Image
                                     className=" position-absolute border-3 border-white ok-img"
                                     src="/assets/image/svg/green_true.svg"
@@ -55,7 +55,7 @@ const ChannelPopup = () => {
                                 />
                             </div>
                             <h4 className="fw-normal font_14 text-center mt-3 mb-0">
-                                Rahul Kumar
+                            Gideon
                             </h4>
                             <div className="text-center">
                                 <a
@@ -77,7 +77,7 @@ const ChannelPopup = () => {
                                 />
                             </div>
                             <h4 className="fw-normal font_14 text-center mt-3 mb-0">
-                                Rahul Kumar
+                            Danialel Kalio
                             </h4>
                             <div className="text-center">
                                 <a
@@ -99,7 +99,7 @@ const ChannelPopup = () => {
                                 />
                             </div>
                             <h4 className="fw-normal font_14 text-center mt-3 mb-0">
-                                Rahul Kumar
+                                Anil Kumar
                             </h4>
                             <div className="text-center">
                                 <a
@@ -121,7 +121,7 @@ const ChannelPopup = () => {
                                 />
                             </div>
                             <h4 className="fw-normal font_14 text-center mt-3 mb-0">
-                                Rahul Kumar
+                                Sachin Kumar
                             </h4>
                             <div className="text-center">
                                 <a
@@ -143,7 +143,7 @@ const ChannelPopup = () => {
                                 />
                             </div>
                             <h4 className="fw-normal font_14 text-center mt-3 mb-0">
-                                Rahul Kumar
+                                Alex Kumar
                             </h4>
                             <div className="text-center">
                                 <a
