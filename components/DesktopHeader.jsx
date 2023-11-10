@@ -12,9 +12,9 @@ function DesktopHeader() {
         <>
             <div className="bg_gray position-sticky z-3 top-0">
                 <nav className="d-flex align-items-center justify-content-between big_nav w-100">
-                    <div className="d-flex align-items-center gap-2">
+                    <div className="d-flex align-items-center gap-3">
                         <Link href="/">
-                            <Image src="/assets/image/svg/nav_boy_icon.svg" width={50} height={50} alt="/" className='profiles' />
+                            <Image src="/assets/image/svg/nav_boy_icon.svg" width={50} height={50} alt="/" className='profiles_small_nav' />
                         </Link>
                         <h1 className='font-base color_gray fw_medium mb-0 gap-2'>Daniel Kalio</h1>
                     </div>
@@ -27,8 +27,8 @@ function DesktopHeader() {
                         <Link
                             href="/"
                             className="px-2 carbon_video">
-                            <Image src="/assets/image/svg/carbon_video.svg" width={24} height={24} alt="/" className='common_icons_size' />
-
+                            <Image src="/assets/image/svg/carbon_video.svg" width={24} height={24} alt="/" className='common_icons_size me_6px' />
+                            <Image src="/assets/image/svg/arrow_down.svg" width={13} height={10} alt="/" className='common_icons_size' />
                         </Link>
                         <Link
                             href="/"
@@ -39,7 +39,7 @@ function DesktopHeader() {
                         <div className='position-relative click_popup' onClick={togglePopup}>
                             <Link
                                 href="/"
-                                className="ps-xl-2 " >
+                                className=" p p-2" >
                                 <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="/" className='common_icons_size' />
 
                             </Link>

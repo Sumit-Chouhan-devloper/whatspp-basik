@@ -16,7 +16,7 @@ const Header = () => {
                     <div className="small_nav_side_line"></div>
                     <div >
                         <Link href="/">
-                            <Image src="/assets/image/svg/nav_girl_icon.svg" width={50} height={50} alt="common_icons_size" className="profiles" />
+                            <Image src="/assets/image/svg/nav_girl_icon.svg" width={50} height={50} alt="common_icons_size" className="profiles_small_nav" />
                         </Link>
                     </div>
                     <div className="d-flex align-items-center ">
