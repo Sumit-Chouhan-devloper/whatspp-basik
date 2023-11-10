@@ -451,9 +451,7 @@ body {
   padding: 18px 28px 18px 28px;
 }
 
-.new_chat_box {
-  padding: 0 0 0 24px;
-}
+
 
 #new_chat_parent input {
   padding: 13px 0px 13px 82px;
@@ -464,13 +462,11 @@ body {
 }
 
 .bottom_border_w {
-  max-width: 88%;
-  margin: 20px 0;
+  max-width: 83%;
 }
 
 .bottom_border_w_two {
-  max-width: 86%;
-  margin: 20px 0;
+  max-width: 83%;
 }
 
 /*---------- Splash Screen Popup Css ---------- */
@@ -721,10 +717,6 @@ body {
   .bottom_border_w_two {
     margin: 10px 0;
     max-width: 83%;
-  }
-
-  .new_chat_box {
-    padding: 0px 0 0 16px;
   }
 
   .left_green_errow_new_chat {

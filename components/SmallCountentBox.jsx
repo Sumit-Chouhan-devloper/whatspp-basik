@@ -61,18 +61,19 @@ function SmallCountentBox() {
                   </p>
                 </div>
                 <div className="d-flex justify-content-between align-items-center  ">
-                  <h2 className="d-flex align-items-center gap-1 font-sm color_gray fw_medium mb-0 ">
+                  <h2 className="d-flex align-items-center gap-1 font_14 color_gray fw_medium mb-0 ">
                     {" "}
                     {obj.title}
                     {obj.titleicons ? (
                       <Image
                         src={obj.titleicons}
+                        className="font_14"
                         width={18}
                         height={18}
                         alt="icons"
                       />
                     ) : null}
-                    <span className="fw-normal ellipsis-text pt-1"> {obj.textmsg} </span>
+                    <span className="fw-normal font_14 ellipsis-text pt-1"> {obj.textmsg} </span>
                   </h2>
                   {obj.unreadnotification ? (
                     <p className="font-sm green_notification fw_semibold text-white mb-0 font_12" >

@@ -33,9 +33,8 @@ function NewChatPopup() {
               />
             </Link>
           </div>
-          <span className="mb-0 d-block"></span>
-          <div className="new_chat_box">
-            <div className="d-flex gap-2 gap-sm-3 pt_20 align-items-center">
+          <div className="new_chat_box ">
+            <div className="d-flex gap-2 gap-sm-3 py_12 align-items-center">
               <div>
                 <Image
                   src="/assets/image/svg/group_chat_icon.svg"
@@ -46,37 +45,38 @@ function NewChatPopup() {
                 />
               </div>
               <div className="text-start w-100">
-                <p className="fs_mmd color_dark_black fw-normal mb-0 ">
+                <p className="font_17 color_dark_black fw-normal mb-0 ">
                   New group
                 </p>
               </div>
             </div>
-            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           </div>
-          <div className="new_chat_box pb-1">
-            <div className="d-flex gap-2 gap-sm-3 align-items-center">
+          <span className="border-bottom ms-auto bottom_border_w d-block"></span>
+          <div className="new_chat_box ">
+            <div className="d-flex gap-2 gap-sm-3 py_12 align-items-center">
               <div>
                 <Image
-                  src="/assets/image/svg/new_comunity.svg"
+                  src="/assets/image/svg/group_chat_icon.svg"
                   width={48}
                   height={48}
-                  alt="Comunnity"
+                  alt="Group"
                   className="common_logo"
                 />
               </div>
               <div className="text-start w-100">
-                <p className="fs_mmd color_dark_black fw-normal mb-0 ">
-                  New community
+                <p className="font_17 color_dark_black fw-normal mb-0 ">
+                  New group
                 </p>
               </div>
             </div>
+         
           </div>
-          <h3 className="text-start color_light_green fw-normal mb-0 font-base ms-5 pt-5">
+          <h3 className="text-start color_light_green fw-normal mb-0 font-base ms-5 pt-4 mt-2 mb-3">
             CONTACTS ON WHATSAPP
           </h3>
           <span className="border-bottom ms-auto bottom_border_w_two d-block"></span>
           <div className="new_chat_box">
-            <div className="d-flex gap-2 gap-sm-3 align-items-center">
+            <div className="d-flex gap-2 gap-sm-3 align-items-center py_12">
               <div>
                 <Image
                   src="/assets/image/svg/rejoice.svg"
@@ -87,7 +87,7 @@ function NewChatPopup() {
                 />
               </div>
               <div className="text-start w-100">
-                <p className="fs_mmd color_dark_black fw-normal mb-0 ">
+                <p className="font_17 color_dark_black fw-normal mb-0 ">
                   Rejoice Benson(You)
                 </p>
                 <p className="fs_ragular color_dark_black fw-normal mb-0 opacity-50 mt-1">
@@ -95,14 +95,13 @@ function NewChatPopup() {
                 </p>
               </div>
             </div>
-            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           </div>
-          <h3 className="text-start color_light_green fw-normal fs_mmd ms-2 ms-sm-3 ps-4">
+          <h3 className="text-start color_light_green fw-normal font_17 padding_number mb-0">
             #
           </h3>
           <span className="border-bottom ms-auto bottom_border_w_two d-block"></span>
           <div className="new_chat_box">
-            <div className="d-flex gap-2 gap-sm-3 align-items-center">
+            <div className="d-flex gap-2 gap-sm-3 align-items-center py_12">
               <div>
                 <Image
                   src="/assets/image/svg/gideon.svg"
@@ -113,15 +112,15 @@ function NewChatPopup() {
                 />
               </div>
               <div className="text-start w-100">
-                <p className="fs_mmd color_dark_black fw-normal mb-0 ">
+                <p className="font_17 color_dark_black fw-normal mb-0 ">
                   Gideon Nic
                 </p>
               </div>
             </div>
-            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           </div>
+            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           <div className="new_chat_box">
-            <div className="d-flex gap-2 gap-sm-3 align-items-center">
+            <div className="d-flex gap-2 gap-sm-3 align-items-center py_12">
               <div>
                 <Image
                   src="/assets/image/svg/danialel_kalio_dp.svg"
@@ -132,7 +131,7 @@ function NewChatPopup() {
                 />
               </div>
               <div className="text-start w-100">
-                <p className="fs_mmd color_dark_black fw-normal mb-0 ">
+                <p className="font_17 color_dark_black fw-normal mb-0 ">
                   Daniel Kalio
                 </p>
                 <p className="fs_ragular color_dark_black fw-normal mb-0 opacity-50 mt-1">
@@ -140,10 +139,10 @@ function NewChatPopup() {
                 </p>
               </div>
             </div>
-            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           </div>
+            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           <div className="new_chat_box">
-            <div className="d-flex gap-2 gap-sm-3 align-items-center">
+            <div className="d-flex gap-2 gap-sm-3 align-items-center py_12">
               <div>
                 <Image
                   src="/assets/image/svg/goodgod_dp.svg"
@@ -154,7 +153,7 @@ function NewChatPopup() {
                 />
               </div>
               <div className="text-start w-100">
-                <p className="fs_mmd color_dark_black fw-normal mb-0 ">
+                <p className="font_17 color_dark_black fw-normal mb-0 ">
                   Goodgod UI/UX
                 </p>
                 <p className="fs_ragular color_dark_black fw-normal mb-0 opacity-50 mt-1">
@@ -162,10 +161,10 @@ function NewChatPopup() {
                 </p>
               </div>
             </div>
-            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           </div>
+            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           <div className="new_chat_box">
-            <div className="d-flex gap-2 gap-sm-3 align-items-center">
+            <div className="d-flex gap-2 gap-sm-3 align-items-center py_12">
               <div>
                 <Image
                   src="/assets/image/svg/alex_dp.svg"
@@ -176,13 +175,13 @@ function NewChatPopup() {
                 />
               </div>
               <div className="text-start w-100">
-                <p className="fs_mmd color_dark_black fw-normal mb-0 ">
+                <p className="font_17 color_dark_black fw-normal mb-0 ">
                   Alex (Tech Sis)
                 </p>
               </div>
             </div>
-            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
           </div>
+            <span className="border-bottom ms-auto bottom_border_w d-block"></span>
         </div>
       </div>
     </>
