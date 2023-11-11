@@ -9,7 +9,7 @@ function SmallCountentBox() {
     <>
       <Header />
       <div className="bg-white" id="overflowTest">
-        <div className="smal_tab_box " id="new_chat">
+        <div className="smal_tab_box bottom_border_full border-bottom " id="new_chat">
           <div className="d-flex align-items-center pb-2">
             <div className=" position-relative w-100">
               <input
@@ -35,12 +35,12 @@ function SmallCountentBox() {
             </Link>
           </div>
         </div>
+        <span className="border-bottom ms-auto bottom_border_full d-block"></span>
         <div>
           {Whatsappblocks.map((obj, i) => (
             <div
-              className="transition chats_box d-flex d-flex justify-content-center align-items-center border-bottom cursor_pointer "
-              key={i}
-            >
+              className="transition chats_box  d-flex d-flex justify-content-center align-items-center  cursor_pointer "
+              key={i}>
               <div>
                 <Image
                   src={obj.profiles}
@@ -50,9 +50,9 @@ function SmallCountentBox() {
                   className="profiles me_13px"
                 />
               </div>
-              <div className="w-100  ">
+              <div className="w-100  position-relative chats_box_line">
                 <div className="d-flex justify-content-between align-items-center">
-                  <h1 className="font-base-02 color_gray fw_semibold mb-0 ellipsis-text">
+                  <h1 className="font-base-02 color_lite_black fw_semibold mb_2 ellipsis-text">
                     {obj.holdername}
                   </h1>
                   <p className="font-sm fw_semibold color_gray mb-0 font_11">
@@ -61,7 +61,7 @@ function SmallCountentBox() {
                   </p>
                 </div>
                 <div className="d-flex justify-content-between align-items-center  ">
-                  <h2 className="d-flex align-items-center gap-1 font_14 color_gray fw_medium mb-0 ">
+                  <h2 className="d-flex align-items-center gap-1 font_14 channel_pera_two fw_medium mb-0 ">
                     {" "}
                     {obj.title}
                     {obj.titleicons ? (
@@ -73,7 +73,7 @@ function SmallCountentBox() {
                         alt="icons"
                       />
                     ) : null}
-                    <span className="fw-normal font_14 ellipsis-text pt-1"> {obj.textmsg} </span>
+                    <span className="fw-normal font_14 ellipsis_text_one pt-1"> {obj.textmsg} </span>
                   </h2>
                   {obj.unreadnotification ? (
                     <p className="font-sm green_notification fw_semibold text-white mb-0 font_12" >

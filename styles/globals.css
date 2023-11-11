@@ -343,7 +343,7 @@ body {
 }
 
 .msg_bg_custom_miss {
-  padding: 10px 24px;
+  padding: 4px 20px;
   border-radius: 10px;
 }
 
@@ -369,7 +369,7 @@ body {
 }
 
 .h_msg_box {
-  height: calc(90% - 90px);
+  height: calc(92% - 60px);
 }
 
 /* ------------------- Footer Css-------------------   */
@@ -621,7 +621,7 @@ body {
   }
 
   .msg_bg_custom_miss {
-    padding: 8px 16px;
+    padding: 4px 16px;
   }
 
   .msg_bg_custom {
