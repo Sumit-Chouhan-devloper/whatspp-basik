@@ -38,7 +38,7 @@ function DesktopChat() {
                     </div>
                     {/*----------- Send Msg ----------- */}
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick msg_bg_custom_send bg_green d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick msg_bg_custom_send text-start bg_green d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative">
                         <Image className='position-absolute desktop_messege_arrow_send' src="/assets/image/svg/send_svg_desktop.svg" width={8} height={13}  />
                             Oboy the thing goes well
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm
@@ -47,7 +47,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 text-start font_14 fw-normal color_lite_black position-relative">
                             but na wetin the client even talk? i hope say him go pay?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm
                                 <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={11} alt="Bluetick" />
@@ -55,7 +55,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block text-start bg_green mb-0 font_14 fw-normal color_lite_black position-relative">
                             na how much una been discuss for the project sef?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm
                                 <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={11} alt="Bluetick" />
@@ -97,7 +97,7 @@ function DesktopChat() {
                     </div>
                     {/*----------- Send Msg ----------- */}
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick bg_green d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative msg_bg_custom_send">
+                        <p className="msg_bg_custom_tick bg_green text-start d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative msg_bg_custom_send">
                         <Image className='position-absolute desktop_messege_arrow_send' src="/assets/image/svg/send_svg_desktop.svg" width={8} height={13}  />
                             Why you dy call me na?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm
@@ -106,7 +106,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block text-start bg_green mb-0 font_14 fw-normal color_lite_black position-relative">
                             I dy office like this oh. Any issue Bro?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm
                                 <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={11} alt="Bluetick" />
@@ -144,7 +144,7 @@ function DesktopChat() {
                     </div>
                     {/*----------- Send Msg ----------- */}
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick msg_bg_custom_send bg_green d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick msg_bg_custom_send text-start bg_green d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative">
                         <Image className='position-absolute desktop_messege_arrow_send' src="/assets/image/svg/send_svg_desktop.svg" width={8} height={13}  />
                             Oboy the thing goes well
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm
@@ -152,7 +152,7 @@ function DesktopChat() {
                         </p>
                     </div>
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick d-inline-block bg_green mb-0 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick d-inline-block text-start bg_green mb-0 font_14 fw-normal color_lite_black position-relative">
                             na how much una been discuss for the project sef?
                             <span className="position-absolute bottom_5 right_12 color_lite_black font_11 fw-normal">5:20pm
                                 <Image src='/assets/image/svg/double_tick_icon.svg' className='ps-1' width={16} height={11} alt="Bluetick" />

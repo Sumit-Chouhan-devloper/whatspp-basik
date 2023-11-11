@@ -13,12 +13,12 @@ function Footer() {
     return (
         <>
             <div className="footer_space d-flex align-items-center bg_gray pb_20 pt_20" id='footer'>
-                <div className='d-flex align-items-center justify-content-center ps-sm-2 pe-2 '>
+                <div className='d-flex align-items-center justify-content-center ps-2 pe-2 pe-md-1 me-1 me-md-0 gap-2 gap-md-0'>
                     <Link href="/" className='' >
-                        <Image src="/assets/image//svg/smile_emoji_icon.svg" width={24} height={24} alt="/" className="d-none d-sm-block searc_icon_one common_icons_size" />
+                        <Image src="/assets/image//svg/smile_emoji_icon.svg" width={24} height={24} alt="/" className=" searc_icon_one common_icons_size" />
                     </Link>
                     <div className='position-relative click_popup' onClick={togglePopup}>
-                        <Link href="/" className='m-sm-2 m-md-3 mx-auto ' onClick={togglePopup} >
+                        <Link href="/" className='m-2 m-md-3 mx-auto ' onClick={togglePopup} >
                             <Image src="/assets/image/svg/Search_bar_menu.svg" width={24} height={24} alt="/" className='common_icons_size ' />
                         </Link>
                         <div className={`mb-5 menu_popup_parent border_radius_10_popup ff_inter bg-white mx-auto position-absolute ${isPopupVisible ? 'd-block' : 'd-none'} click_popup_block start-0  bottom-0`}>

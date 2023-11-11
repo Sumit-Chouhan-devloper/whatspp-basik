@@ -54,7 +54,7 @@ body {
 .carbon_video {
     border-radius: 100px;
     border: 1px solid #d1d7db;
-    padding: 2px 3px;
+    padding: 0 2px 1px 2px;
 }
 
 .smal_tab_box {
@@ -200,6 +200,7 @@ body {
 .font_17 {
     font-size: 17px !important;
 }
+
 .font_16 {
     font-size: 16px !important;
 }
@@ -231,11 +232,11 @@ body {
 }
 
 .msg_bg_custom_tick {
-    padding: 6px 75px 6px 19px !important;
+    padding: 6px 75px 8px 9px !important;
 }
 
 .msg_bg_custom {
-    padding: 6px 60px 6px 19px !important;
+    padding: 6px 60px 8px 9px !important;
 }
 
 .desktop_messege_arrow {
@@ -254,7 +255,7 @@ body {
 
 .msg_bg_custom_two {
     border-radius: 10px 10px 10px 10px;
-    padding: 6px 60px 6px 19px;
+    padding: 6px 60px 8px 9px;
 }
 
 .msg_bg_custom_send {
@@ -292,6 +293,12 @@ body {
 
 div::-webkit-scrollbar {
     display: none;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(206, 201, 201);
+    /* color of the scrollbar thumb */
 }
 
 .line {
@@ -500,7 +507,8 @@ div::-webkit-scrollbar {
 @media (max-width:576px) {
 
     #footer input {
-        padding: 5px 5px !important;
+        padding: 5px 10px !important;
+        border-radius: 5px;
     }
 
     .min_width_mobile {
@@ -529,8 +537,9 @@ div::-webkit-scrollbar {
     }
 
     #footer input {
-        padding: 9px 0px 9px 10px !important;
+        padding: 9px 0px 9px 16px !important;
     }
+
     .ellipsis_text_one {
         width: 110px;
     }
@@ -555,19 +564,23 @@ div::-webkit-scrollbar {
     .h_msg_box {
         height: calc(94% - 60px) !important;
     }
+
     .chats_box_line::after {
         content: "";
         background-color: #e1e7ef;
-        width: 104%;}
-        .ellipsis_text_one {
-            width: 156px;
-        }
+        width: 104%;
+    }
+
+    .ellipsis_text_one {
+        width: 156px;
+    }
 }
 
 @media (min-width:1200px) {
     .menu_popup_parent {
         width: 254px !important;
     }
+
     .ellipsis_text_one {
         width: 190px;
     }

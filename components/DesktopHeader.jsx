@@ -16,7 +16,7 @@ function DesktopHeader() {
                         <Link href="/">
                             <Image src="/assets/image/svg/nav_boy_icon.svg" width={50} height={50} alt="/" className='profiles_small_nav' />
                         </Link>
-                        <h1 className='font_16 color_gray fw_medium mb-0 gap-2'>Daniel Kalio</h1>
+                        <h1 className='font_16 color_lite_black fw-normal mb-0 gap-2'>Daniel Kalio</h1>
                     </div>
                     <div className="d-flex gap-3 gap-xl-4">
                         {/* <Link
@@ -28,7 +28,7 @@ function DesktopHeader() {
                             href="/"
                             className="px-2 carbon_video">
                             <Image src="/assets/image/svg/carbon_video.svg" width={24} height={24} alt="/" className='common_icons_size me_6px' />
-                            <Image src="/assets/image/svg/arrow_down.svg" width={13} height={10} alt="/" className='common_icons_size' />
+                            <Image src="/assets/image/svg/arrow_down.svg" width={13} height={10} alt="/" className='' />
                         </Link>
                         <Link
                             href="/"
