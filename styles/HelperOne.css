@@ -96,7 +96,7 @@ body {
 
 .whatsapp-chat-list {
     max-width: 30% !important;
-    min-width: 420px !important;
+    min-width: 460px !important;
 }
 
 .big_nav {
@@ -445,7 +445,7 @@ div::-webkit-scrollbar {
 
 @media (max-width:1200px) {
     .whatsapp-chat-list {
-        min-width: 480px !important;
+        min-width: 420px !important;
     }
 
     .ellipsis-text {
@@ -528,6 +528,9 @@ div::-webkit-scrollbar {
     #footer input {
         padding: 9px 0px 9px 10px !important;
     }
+    .ellipsis_text_one {
+        width: 110px;
+    }
 }
 
 
@@ -553,11 +556,17 @@ div::-webkit-scrollbar {
         content: "";
         background-color: #e1e7ef;
         width: 104%;}
+        .ellipsis_text_one {
+            width: 156px;
+        }
 }
 
 @media (min-width:1200px) {
     .menu_popup_parent {
         width: 254px !important;
+    }
+    .ellipsis_text_one {
+        width: 190px;
     }
 
 }
