@@ -16,7 +16,7 @@ function DesktopHeader() {
                         <Link href="/">
                             <Image src="/assets/image/svg/nav_boy_icon.svg" width={50} height={50} alt="/" className='profiles_small_nav' />
                         </Link>
-                        <h1 className='font-base color_gray fw_medium mb-0 gap-2'>Daniel Kalio</h1>
+                        <h1 className='font_16 color_gray fw_medium mb-0 gap-2'>Daniel Kalio</h1>
                     </div>
                     <div className="d-flex gap-3 gap-xl-4">
                         {/* <Link

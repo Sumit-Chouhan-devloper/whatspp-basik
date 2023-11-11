@@ -35,7 +35,6 @@ function SmallCountentBox() {
             </Link>
           </div>
         </div>
-        <span className="border-bottom ms-auto bottom_border_full d-block"></span>
         <div>
           {Whatsappblocks.map((obj, i) => (
             <div
@@ -52,16 +51,16 @@ function SmallCountentBox() {
               </div>
               <div className="w-100  position-relative chats_box_line">
                 <div className="d-flex justify-content-between align-items-center">
-                  <h1 className="font-base-02 color_lite_black fw_semibold mb_2 ellipsis-text">
+                  <h1 className="font-base-02 color_lite_black fw-medium mb_2 ellipsis-text">
                     {obj.holdername}
                   </h1>
-                  <p className="font-sm fw_semibold color_gray mb-0 font_11">
+                  <p className="font-sm fw-medium color_gray mb-0 font_11">
                     {" "}
                     {obj.time}
                   </p>
                 </div>
                 <div className="d-flex justify-content-between align-items-center  ">
-                  <h2 className="d-flex align-items-center gap-1 font_14 channel_pera_two fw_medium mb-0 ">
+                  <h2 className="d-flex align-items-center gap-1 font_14 channel_pera_two fw-normal mb-0 ">
                     {" "}
                     {obj.title}
                     {obj.titleicons ? (
