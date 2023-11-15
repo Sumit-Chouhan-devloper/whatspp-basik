@@ -9,10 +9,11 @@ const StatusPopup = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="status_size">
-      <div className="Communities_box bg_dark_green me-auto ps-4 ps-md-5 pb-1 pt-5 text-start">
+    <div className="whatsapp_chatbox_001 mx-auto">
+    <div className="status_size ">
+      <div className="Communities_box bg_dark_green me-auto ps-4 pb-1 pt-5 text-start">
         <h2 className='font_19 text-white fw_medium mb-0 mt-3'>
-          <Link href="/" className='me-3 pt-4 me-md-4 pe-md-2 '>
+          <Link href="/" className='me-3 pt-4 me-md-4 pe-md-2'>
             <Image src="/assets/image/svg/white_left_errow.svg" height={24} width={24} alt="Errow" />
           </Link>
           Status
@@ -225,7 +226,7 @@ const StatusPopup = () => {
             <Modal.Header closeButton className="text-white width_500">
               <Modal.Title>
                 <div className="d-flex align-items-center gap-3">
-                  <div className="status_circle d-flex justify-content-center align-items-center">
+                  <div className="viewed_status_circle d-flex justify-content-center align-items-center">
                     <Image src="/assets/image/svg/nav_boy_icon.svg" height={40} width={40} />
                   </div>
                   <div className="text-start">
@@ -255,6 +256,7 @@ const StatusPopup = () => {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 };
