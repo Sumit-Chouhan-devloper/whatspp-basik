@@ -13,14 +13,13 @@ function QrCodeScan() {
     // Get the video element and play it
     const video = document.getElementById("myVideo");
     video.play();
-    
   };
-  
+
   return (
     <>
       <div className="qr_bg_fade bg_light_black min-vh-100">
         <div className="bg_light_green px-md-4 pb-4 ff_inter">
-          <div className="bg_light_green container qr_container pt_27 pb_66 px-0 ">
+          <div className="bg_light_green container  pt_27 pb_66 px-0 ">
             <div className="px-lg-0 mx-1 mx-md-0 d-flex align-items-center mb-4 mb-md-5 pb-2xl-5 pb-lg-2">
               <Link href="/" className="text-decoration-none">
                 <Image
@@ -31,7 +30,7 @@ function QrCodeScan() {
                   className="qr_logo"
                 />
               </Link>
-              <p className=" color_dark_black text-white font-sm fw_semibold mb-0 ps-3">
+              <p className="  text-white font-sm fw_semibold mb-0 ps-3">
                 WHATSAPP WEB
               </p>
             </div>
@@ -39,7 +38,7 @@ function QrCodeScan() {
           </div>
         </div>
         <div className="px-md-4 pb_92 ">
-          <div className="qr_container container bg-white qr_scaner_box SegoeUI pt-5 px-0">
+          <div className=" container bg-white qr_scaner_box SegoeUI pt-5 px-0">
             <div className="get_app_div_border br_6 get_app_box_spacing">
               <div className="d-flex align-items-center justify-content-between">
                 {/* SVG  */}
@@ -111,22 +110,20 @@ function QrCodeScan() {
                   Use whatsApp on your Computer
                 </h1>
                 <div className="d-flex">
-                  <p className="font-base-03 fw-normal color_light_gray mt-md-2 mb-0">
+                  <p className="font-lg fw-normal color_light_gray mt-md-2 mb-0">
                     1.
                   </p>
-                  <p className="font-base-03 fw-normal color_light_gray mt-md-2 ms-1 mb-0">
+                  <p className="font-lg fw-normal color_light_gray mt-md-2 ms-1 mb-0">
                     Open whatsApp on your phone
                   </p>
                 </div>
                 <div className="d-flex max_w_692">
-                  <p className="font-base-03 fw-normal color_light_gray py-2 py-md-3 mb-0">
+                  <p className="font-lg fw-normal color_light_gray py-2 py-md-3 mb-0">
                     2.
                   </p>
-                  <p className="font-base-03 fw-normal color_light_gray ms-1 py-2 py-md-3 mb-0">
+                  <p className="font-lg fw-normal color_light_gray ms-1 py-2 py-md-3 mb-0">
                     Go to settings by tapping on your profile photo,
-                    <strong className="font-medium font-base-03 mx-1">
-                      Menu
-                    </strong>
+                    <strong className=" font-lg mx-1">Menu</strong>
                     <Image
                       src="/assets/image/svg/three_Dots_menu.svg"
                       height={34}
@@ -145,19 +142,17 @@ function QrCodeScan() {
                   </p>
                 </div>
                 <div className="d-flex">
-                  <p className="font-base-03 fw-normal color_light_gray mb-0">
-                    3.
-                  </p>
-                  <p className="font-base-03 fw-normal color_light_gray ms-1 mb-0">
+                  <p className="font-lg fw-normal color_light_gray mb-0">3.</p>
+                  <p className="font-lg fw-normal color_light_gray ms-1 mb-0">
                     Tap <strong> Linked devices </strong> and then
                     <strong> Link a device</strong>
                   </p>
                 </div>
                 <div className="d-flex">
-                  <p className="font-base-03 fw-normal color_light_gray mb-0 pt-2 pt-md-3">
+                  <p className="font-lg fw-normal color_light_gray mb-0 pt-2 pt-md-3">
                     4.
                   </p>
-                  <p className="font-base-03 fw-normal color_light_gray ms-1 mb-0 pt-2 pt-md-3">
+                  <p className="font-lg fw-normal color_light_gray ms-1 mb-0 pt-2 pt-md-3">
                     Point your phone to this screen to capture the QR code
                   </p>
                 </div>
@@ -190,7 +185,7 @@ function QrCodeScan() {
               <div className="d-flex justify-content-center position-relative my-3 align-items-center py-4">
                 <video
                   controls
-                  className="video_height_width"
+                  className="video_height_width w-100"
                   src="/assets/video/whatsapp_qrscan_video.mp4"
                   id="myVideo"
                 ></video>
@@ -205,7 +200,7 @@ function QrCodeScan() {
                     height={314}
                     width={560}
                     alt="video thumbnail"
-                    className=""
+                    className="video_height_width w-100"
                   />
                 </div>
                 <div
