@@ -222,11 +222,15 @@ body {
     height: 21px !important;
     padding: 2px 4px 6px 4px !important;
 }
-
+.unread_text_color{
+    color: #1FA855;
+}
 .right_12 {
     right: 12px;
 }
-
+.right_7{
+    right: 7px;
+}
 .bottom_5 {
     bottom: 2px;
 }

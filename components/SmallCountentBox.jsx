@@ -54,7 +54,7 @@ function SmallCountentBox() {
                   <h1 className="font-base-02 color_lite_black fw-medium mb_2 ellipsis-text">
                     {obj.holdername}
                   </h1>
-                  <p className="font-sm fw-medium color_gray mb-0 font_12">
+                  <p className="font-sm color_gray mb-0 font_12">
                     {" "}
                     {obj.time}
                   </p>

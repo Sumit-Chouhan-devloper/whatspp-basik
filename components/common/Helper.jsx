@@ -29,7 +29,7 @@ export const Whatsappblocks = [
     {
         profiles: "/assets/image/svg/nic.svg",
         holdername: "Gideon Nic",
-        time: "1:3 pm",
+        time: "1:30 pm",
         titleicons: "/assets/image/svg/cemera_icon.svg",
         textmsg: " Photo",
     },
@@ -49,7 +49,7 @@ export const Whatsappblocks = [
     {
         profiles: "/assets/image/svg/goodgod.svg",
         holdername: "Goodgod UIUX",
-        time: "12:1 pm",
+        time: "12:10 pm",
         titleicons: "/assets/image/svg/video_icon_gray.svg",
         textmsg: "Video",
     },
