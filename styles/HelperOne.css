@@ -6,7 +6,7 @@
 }
 
 .ellipsis_text_one {
-    width: 77px;
+    width: 55px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -451,7 +451,6 @@ width: 6px !important;
 }
 
 .down_arrow{
-    transform: rotate(90deg);
     display: none;
 }
 .chats_box:hover .down_arrow{
@@ -588,9 +587,7 @@ width: 6px !important;
         padding: 9px 0px 9px 16px !important;
     }
 
-    .ellipsis_text_one {
-        width: 110px;
-    }
+   
 }
 
 
@@ -606,6 +603,9 @@ width: 6px !important;
     .menu_popup_parent {
         width: 230px !important;
     }
+    .ellipsis_text_one {
+        width: 99px;
+    }
 }
 
 @media (min-width:991.98px) {
@@ -620,7 +620,7 @@ width: 6px !important;
     }
 
     .ellipsis_text_one {
-        width: 156px;
+        width: 138px;
     }
 }
 
@@ -630,7 +630,7 @@ width: 6px !important;
     }
 
     .ellipsis_text_one {
-        width: 190px;
+        width: 178px;
     }
 
 }
