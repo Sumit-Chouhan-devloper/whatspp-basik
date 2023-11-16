@@ -47,7 +47,7 @@ const Header = () => {
                         <div className="position-relative click_popup ms_10" onClick={togglePopup}>
                             <Link
                                 href="/"
-                                className="ps-xl-2 ">
+                                className="ps-xl-2 pe-2">
                                 <Image src="/assets/image/svg/three_dots_icon.svg" width={24} height={24} alt="common_icons_size" className="common_icons_size" />
                             </Link>
                             <div className={`mt-2 menu_popup_parent ff_inter bg-white mx-auto position-absolute ${isPopupVisible ? 'd-block' : 'd-none'} click_popup_block end-0`}>

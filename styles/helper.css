@@ -60,3 +60,44 @@
     margin: 0 40px;
   }
 }
+.br_6{
+    border-radius: 6px;
+}
+.get_the_app_button{
+    width: 124px !important;
+    height: 38px;
+    border-radius: 24px;
+}
+.mw_494{
+    max-width: 494px;
+}
+.fs_13{
+    font-size: 13px;
+}
+.pb_92{
+    padding-bottom: 92px;
+}
+.video_height_width{
+    width: 560px;
+    height: 314px;
+}
+.bg_overlay{
+    background-color: rgba(11,20,26, .45);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9edef;
+    overflow: hidden;
+}
+.hidden{
+    display: none !important;
+}
+
+
+
+
+
+        

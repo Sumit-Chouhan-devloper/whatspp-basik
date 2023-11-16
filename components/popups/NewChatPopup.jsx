@@ -4,6 +4,7 @@ import Link from "next/link";
 function NewChatPopup() {
   return (
     <>
+    <div className='whatsapp_chatbox_001 mx-auto'>
       <div className=" ff_inter  text-center ff_inter" id="new_chat_parent">
         <div className="Communities_box bg_dark_green me-auto ps-4  pb-1 pt-5 text-start">
           <h2 className=' font_19 text-white fw_medium mb-0 mt-3'>
@@ -183,6 +184,7 @@ function NewChatPopup() {
           </div>
             <span className="border-bottom ms-auto bottom_border_w d-block"></span>
         </div>
+      </div>
       </div>
     </>
   );

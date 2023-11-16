@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Image from "next/image";
 import { Whatsappblocks } from "./common/Helper";
 import Link from "next/link";
 
 function SmallCountentBox() {
+  const [activeIndex, setActiveIndex] = useState(null);
+  const handleItemClick = (index) => {
+    setActiveIndex(index);
+  };
+
   return (
-    <>
+    <div className="position-relative">
       <Header />
       <div className="bg-white" id="overflowTest">
-        <div className="smal_tab_box bottom_border_full border-bottom " id="new_chat">
+        <div
+          className="smal_tab_box bottom_border_full border-bottom "
+          id="new_chat"
+        >
           <div className="d-flex align-items-center pb-2">
             <div className=" position-relative w-100">
               <input
@@ -35,12 +43,31 @@ function SmallCountentBox() {
             </Link>
           </div>
         </div>
-        
+        <div className="download_app_box download_box_abs cursor_pointer">
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="d-flex align-items-center">
+              <div className="whatsapp_box d-flex align-items-center justify-content-center">
+                <Image
+                  src="/assets/image/svg/logos_whatsapp-icon.svg"
+                  width={18}
+                  height={18}
+                  alt="whatsappLogo"
+                />
+              </div>
+              <p className="mb-0 me-2 fw-normal color_dark_green font-base02 ">Get WhatsApp for Windows</p>
+              <Image width={10} height={13} src="/assets/image/svg/green_right_arrow.svg" alt="Right arrow" />
+            </div>
+            <span className="me-3">
+            <Image src="/assets/image/svg/Search_bar_menu.svg" width={24} height={24} alt="/" className='cross' />
+          </span>
+          </div>
+        </div>
         <div>
-          {Whatsappblocks.map((obj, i) => (
+          {Whatsappblocks.map((obj, index ,i) => (
             <div
-              className="transition chats_box  d-flex d-flex justify-content-center align-items-center  cursor_pointer "
-              key={i}>
+              key={i}  className={`transition chats_box  d-flex d-flex justify-content-center align-items-center  cursor_pointer ${index === activeIndex ? 'active' : ''}`}
+              onClick={() => handleItemClick(index)}
+            >
               <div>
                 <Image
                   src={obj.profiles}
@@ -55,10 +82,7 @@ function SmallCountentBox() {
                   <h1 className="font-base-02 color_lite_black fw-medium mb_2 ellipsis-text">
                     {obj.holdername}
                   </h1>
-                  <p className="font-sm color_gray mb-0 font_12">
-                    {" "}
-                    {obj.time}
-                  </p>
+                  <p className="font-sm color_gray mb-0 font_12"> {obj.time}</p>
                 </div>
                 <div className="d-flex justify-content-between align-items-center  ">
                   <h2 className="d-flex align-items-center gap-1 font_14 channel_pera_two fw-normal mb-0 ">
@@ -73,20 +97,26 @@ function SmallCountentBox() {
                         alt="icons"
                       />
                     ) : null}
-                    <span className="fw-normal font_14 ellipsis_text_one pt-1"> {obj.textmsg} </span>
+                    <span className="fw-normal font_14 ellipsis_text_one pt-1">
+                      {" "}
+                      {obj.textmsg}{" "}
+                    </span>
                   </h2>
+                  <div className="d-flex align-items-center">
                   {obj.unreadnotification ? (
-                    <p className="font-sm green_notification fw_semibold text-white mb-0 font_12" >
+                    <p className="font-sm green_notification fw_semibold text-white mb-0 font_12">
                       {obj.unreadnotification}
                     </p>
                   ) : null}
+                    <Image className="down_arrow ms-1" src="/assets/image/svg/down_arrow.svg" alt="down_arrow" height={20} width={20}/>
+                </div>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

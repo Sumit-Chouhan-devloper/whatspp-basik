@@ -5,6 +5,7 @@ import React from "react";
 const ChannelPopup = () => {
   return (
     <>
+    <div className='whatsapp_chatbox_001 mx-auto'>
       <div className=" overflow-x-hidden ">
         <div className="Communities_box bg_dark_green me-auto ps-4  pb-1 pt-5 text-start d-flex justify-content-between">
           <h2 className="font_19 text-white fw_medium mb-0 mt-3">
@@ -193,6 +194,7 @@ const ChannelPopup = () => {
             </button>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
