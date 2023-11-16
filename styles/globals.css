@@ -397,7 +397,12 @@ body {
 }
 
 /*------------------------------------ Popups Css ------------------------------------ */
-
+.whatsapp-img {
+  background-color: #0adb4f;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
 /*---------- Community Popup Css ---------- */
 .communitie_parent {
   max-width: 631px;

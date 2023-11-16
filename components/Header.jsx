@@ -55,7 +55,7 @@ const Header = () => {
                                     <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4 '>New group</Link>
                                 </div>
                                 <div className="my-xl-1 menu_links">
-                                    <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4 '>New community</Link>
+                                    <Link href="/newcommunity" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4 '>New community</Link>
                                 </div>
                                 <div className="my-xl-1 menu_links">
                                     <Link href="/" className='text-decoration-none color_dark_black fw-normal font-base  lh_25 ps-4 '>Starred messages</Link>
