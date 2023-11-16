@@ -5,7 +5,7 @@ const NewCommunity = () => {
   return (
     <>
       <div className=" overflow-x-hidden ">
-        <div className="Communities_box bg_dark_green me-auto ps-4 gap-3 pt-5 text-start d-flex">
+        <div className="Communities_box bg_dark_green me-auto ps-4 gap-3 pt-5 text-start d-flex px-3">
           <Image
             src="/assets/image/svg/white_left_errow.svg"
             height={24}
@@ -17,14 +17,14 @@ const NewCommunity = () => {
             New community
           </h2>
         </div>
-        <div className="communitie_parent bg-white">
+        <div className="communitie_parent min-vh-100 bg-white pt-5">
           <div className=" d-flex justify-content-center">
             <Image
               src="/assets/image/svg/community.svg"
-              height={220}
+              height={226}
               width={340}
               alt="Errow"
-              className="mt-3"
+              className="mt-5"
             />
           </div>
           <h4 className=" ff_inter text-center fw-semibold font-xl text-black mt-5 ">
@@ -37,9 +37,18 @@ const NewCommunity = () => {
             </p>
           </div>
           <div className="d-flex justify-content-center">
-            <p className=" font-base fw-normal ff_inter text-center color_gray max_w_400 mt-3">
+            <p className=" font-base fw-normal ff_inter text-center color_light_green max_w_400 mt-3 mb-5">
               See example communities &gt;
             </p>
+          </div>
+          <div className="d-flex justify-content-center">
+            <Image
+              src="/assets/image/svg/arrow-right.svg"
+              height={60}
+              width={60}
+              alt="Errow"
+              className="mt-5"
+            />
           </div>
         </div>
       </div>
