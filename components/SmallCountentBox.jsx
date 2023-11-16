@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Image from "next/image";
 import { Whatsappblocks } from "./common/Helper";
 import Link from "next/link";
 
 function SmallCountentBox() {
+  const [activeIndex, setActiveIndex] = useState(null);
+  const handleItemClick = (index) => {
+    setActiveIndex(index);
+  };
+
   return (
     <div className="position-relative">
       <Header />
@@ -59,10 +64,10 @@ function SmallCountentBox() {
         </div>
 
         <div>
-          {Whatsappblocks.map((obj, i) => (
+          {Whatsappblocks.map((obj, index ,i) => (
             <div
-              className="transition chats_box  d-flex d-flex justify-content-center align-items-center  cursor_pointer "
-              key={i}
+              key={i}  className={`transition chats_box  d-flex d-flex justify-content-center align-items-center  cursor_pointer ${index === activeIndex ? 'active' : ''}`}
+              onClick={() => handleItemClick(index)}
             >
               <div>
                 <Image

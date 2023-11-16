@@ -486,7 +486,9 @@ width: 6px !important;
     opacity: 0;
 }
 
-
+.chats_box.active{
+    background-color: #F0F2F5 !important;
+}
 
 
 
