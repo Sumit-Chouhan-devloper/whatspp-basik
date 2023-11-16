@@ -1,20 +1,24 @@
-import React from 'react'
-import SmallCountentBox from '../SmallCountentBox'
-import DesktopChat from '../DesktopChat'
+import React from "react";
+import SmallCountentBox from "../SmallCountentBox";
+import DesktopChat from "../DesktopChat";
 
 function Whatsapp() {
-    return (
-        <div className='custom_container m-auto overflow-hidden'>
-            <div className="d-flex position-relative">
-                <div>
-                    <SmallCountentBox />
-                </div>
-                <div className='w-100 display_show bg_chat_box'>
-                    <DesktopChat />
-                </div>
+  return (
+    <div className="custom_container m-auto overflow-hidde vh-100">
+      <div className="overflow_scroll_sm overflow_scroll">
+        <div className="p_xxl_3 pb-xl-0 position-relative whatsapp_parent_012">
+          <div className="d-flex position-relative whatsapp_chatbox_001 mx-auto">
+            <div className="whatsapp-chat-list">
+              <SmallCountentBox />
             </div>
+            <div className="w_100 min_width_mobile display_show bg_chat_box">
+              <DesktopChat />
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Whatsapp
+export default Whatsapp;

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,15 +12,24 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none !important;
-  font-family: 'Work Sans', sans-serif !important;
+  /* font-family: SegoeUI !important; */
+  /* font-family: "Work Sans", sans-serif !important; */
+  font-family: "Inter", sans-serif !important;
 }
-
+@font-face {
+  font-family: SegoeUI !important;
+  src: url("../public/assets/fonts/SegoeUI.ttf") !important;
+}
+@font-face {
+  font-family: SegoeBold;
+  src: url("../public/assets/fonts/SegoeUIBold.ttf");
+}
 .overflow_hidden_x {
   overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #C6C6C6;
+  background-color: #eae6df;
 }
 
 ::-webkit-scrollbar {
@@ -30,14 +39,21 @@ body {
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
   --color-dark-green: #008069;
-  --color-lite-green: #4BA586;
-  --color-gray: #6B7C85;
-  --color-Sky-blue: #027EB5;
-  --color-lite-black: #111B21;
-  --color-dark-black: #0E0E0F;
+  --color-extra-green: #00a884;
+  --color-light-green: #4ba586;
+
+  --color-gray: #6b7c85;
+  --color-Sky-blue: #027eb5;
+  --color-light-black: #111b21;
+  --color-dark-black: #0e0e0f;
+  --color-light-gray: #3b4a54;
+  --color-light-gray02: #41525d;
+  --app-background: #eae6df;
   --font-xs: 9px;
   --font-sm: 14px;
   --font-base: 16px;
+  --font-base02: 17px;
+  --font-base03: 18px;
   --font-md: 20px;
   --font-lg: 24px;
   --font-2lg: 28px;
@@ -46,12 +62,12 @@ body {
 }
 
 /*----------------- FONT SIZE-SET --------------------  */
-@media (min-width:1800px) {
+@media (min-width: 1800px) {
   :root {
     --font-xs: 10px;
-    --font-sm: 16px;
+    --font-sm: 14px;
     --font-base: 17px;
-    --font-md: 24px;
+    --font-md: 20px;
   }
 
   .small_nav {
@@ -64,38 +80,37 @@ body {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   :root {
     --font-2xl: 35px;
     --font-lg: 22px;
   }
-
 }
 
-@media (max-width:1199.98px) {
+@media (max-width: 1199.98px) {
   :root {
     --font-sm: 12px;
-    --font-base: 14px;
+    --font-base: 15px;
     --font-md: 18px;
     --font-2xl: 27px;
     --font-lg: 20px;
   }
 }
 
-@media (max-width:991.98px) {
+@media (max-width: 991.98px) {
   :root {
     --font-md: 13px;
     --font-sm: 12px;
-    --font-base: 12px;
+    --font-base: 14px;
     --font-sm: 10px;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   :root {
     --font-md: 14px;
     --font-sm: 11px;
-    --font-base: 13px;
+    --font-base: 14px;
     --font-sm: 9px;
     --font-lg: 20px;
     --font-xl: 21px;
@@ -107,7 +122,7 @@ body {
 
 /*--------------------- DEFINE-ALL = Font-Family ------------------------------ */
 .ff_inter {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
@@ -115,18 +130,26 @@ body {
   color: var(--color-dark-green) !important;
 }
 
-.color_lite_green {
-  color: var(--color-lite-green) !important;
+.color_light_green {
+  color: var(--color-light-green) !important;
 }
 
 .color_sky_blue {
   color: var(--color-Sky-blue) !important;
 }
+.color_light_gray {
+  color: var(--color-light-gray);
+}
+.color_light_gray02 {
+  color: var(--color-light-gray02) !important;
+}
 
 .bg_dark_green {
   background-color: var(--color-dark-green);
 }
-
+.bg_extra_green {
+  background-color: var(--color-extra-green);
+}
 .color_gray {
   color: var(--color-gray) !important;
 }
@@ -134,7 +157,9 @@ body {
 .color_lite_black {
   color: var(--color-light-black) !important;
 }
-
+.bg_light_black {
+  background-color: var(--color-light-black) !important;
+}
 .color_dark_black {
   color: var(--color-dark-black) !important;
 }
@@ -146,6 +171,14 @@ body {
 
 .font-base {
   font-size: var(--font-base) !important;
+}
+
+.font-base-02 {
+  font-size: var(--font-base02) !important;
+}
+
+.font-base-03 {
+  font-size: var(--font-base03) !important;
 }
 
 .font-sm {
@@ -183,6 +216,10 @@ body {
 
 .fw_semibold {
   font-weight: 600 !important;
+}
+
+.max_w_400 {
+  max-width: 400px;
 }
 
 /* ------------------------------ COMMON CSS -------------------------- */
@@ -227,11 +264,11 @@ body {
 }
 
 .bg_gray {
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
 }
 
 .bg_green {
-  background-color: #D9FDD3;
+  background-color: #d9fdd3;
 }
 
 .opacity_70 {
@@ -243,7 +280,7 @@ body {
 }
 
 .pb_20 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .fs_ragular {
@@ -275,7 +312,7 @@ body {
 }
 
 .chats_box:hover {
-  background-color: #D9FDD3;
+  background-color: #d9fdd3;
 }
 
 .chats_box {
@@ -288,7 +325,7 @@ body {
 }
 
 .green_notification {
-  background-color: #25D366;
+  background-color: #25d366;
   border-radius: 10px;
 }
 
@@ -299,9 +336,9 @@ body {
 }
 
 .bg_chat_box {
-  background-image: url("/assets/image/png/chat_box_bg.png") !important;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-image: url("../public/assets/image/png/bg_img_whatsapp.png") !important;
+  background-color: rgb(241, 238, 238);
+  background-position: center;
 }
 
 /* --------------------- MSG BOX Css ---------------------  */
@@ -310,7 +347,7 @@ body {
 }
 
 .msg_bg_custom_miss {
-  padding: 10px 24px;
+  padding: 4px 20px;
   border-radius: 10px;
 }
 
@@ -320,7 +357,7 @@ body {
 }
 
 .msg_bg_custom {
-  padding: 10px 49px 10px 19px;
+  padding: 10px 60px 10px 19px;
 }
 
 .white_corner_bg {
@@ -336,12 +373,12 @@ body {
 }
 
 .h_msg_box {
-  height: calc(89% - 90px);
+  height: calc(92% - 60px);
 }
 
 /* ------------------- Footer Css-------------------   */
 #overflowTest {
-  height: calc(100vh - 74px);
+  height: calc(100vh - 60px);
   overflow-y: scroll;
 }
 
@@ -360,7 +397,12 @@ body {
 }
 
 /*------------------------------------ Popups Css ------------------------------------ */
-
+.whatsapp-img {
+  background-color: #0adb4f;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
 /*---------- Community Popup Css ---------- */
 .communitie_parent {
   max-width: 631px;
@@ -372,13 +414,13 @@ body {
 }
 
 .communitiy_btn:hover {
-  color: #4BA586 !important;
+  color: #4ba586 !important;
   background-color: #fff;
   border: 1px solid #008069;
 }
 
 .communitiy_btn {
-  background-color: #4BA586;
+  background-color: #4ba586;
   padding: 13px 28px 13px 28px;
   border-radius: 25px;
   border: transparent;
@@ -386,14 +428,10 @@ body {
 
 /*---------- Menu Popup Css ---------- */
 .menu_popup_parent {
-  padding: 2px 0 6px 24px;
+  padding: 2px 0 6px 0px;
   width: 267px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #00000040;
-}
-
-.menu_links {
-  padding: 10px 0;
 }
 
 /*---------- Search Message Popup Css ---------- */
@@ -421,10 +459,6 @@ body {
   padding: 18px 28px 18px 28px;
 }
 
-.new_chat_box {
-  padding: 0 0 0 24px;
-}
-
 #new_chat_parent input {
   padding: 13px 0px 13px 82px;
 }
@@ -434,13 +468,11 @@ body {
 }
 
 .bottom_border_w {
-  max-width: 88%;
-  margin: 20px 0;
+  max-width: 83%;
 }
 
 .bottom_border_w_two {
-  max-width: 86%;
-  margin: 20px 0;
+  max-width: 83%;
 }
 
 /*---------- Splash Screen Popup Css ---------- */
@@ -477,40 +509,50 @@ body {
 .qr_bg_tutorial {
   background-color: #f9f9fa;
 }
-
-.qr_bg_fade {
-  background-color: #d3d7d9;
-}
-
 .qr_container {
-  max-width: 1140px;
+  max-width: 1600px !important;
   margin: auto;
 }
 
 .bg_light_green {
-  background-color: #4BA586;
+  background-color: #4ba586;
 }
 
 .qr_scaner_box {
   margin-top: -120px;
 }
 
-/*----------------------------- All Meadia Quaries Set ------------------- ---------- */
-@media (min-width:1700px) {
-  .qr_container {
-    max-width: 1620px !important;
-    margin: auto;
-  }
+.whatsapp-chat-list {
+  max-width: 30%;
+  min-width: 320px;
+}
+.whatsapp_chatbox_001 {
+  max-width: 1600px;
+  z-index: 10;
+}
 
-  .qr_right_space {
-    padding-right: 116px !important;
-    max-width: 500px;
+.whatsapp_parent_012::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  /* background-color: var(--color-light-green); */
+  background-color: #00a880;
+  width: 100%;
+  height: 127px;
+}
+
+/*----------------------------- All Meadia Quaries Set ------------------- ---------- */
+@media (min-width: 1700px) {
+  .qr_container {
+    max-width: 1000px !important;
+    margin: auto;
   }
 }
 
-@media (min-width:1500px) {
+@media (min-width: 1500px) {
   .qr_container {
-    max-width: 1366px;
+    max-width: 1000px !important;
     margin: auto;
   }
 
@@ -550,28 +592,20 @@ body {
   }
 }
 
-@media (max-width:1598.98px) {
+@media (max-width: 1598.98px) {
   .small_nav {
-    width: 601px;
+    width: 387px;
     padding: 10px 0 10px 24px;
-  }
-
-  .big_nav {
-    padding: 10px 36px 10px 29px;
   }
 }
 
-@media (max-width:1199.98px) {
+@media (max-width: 1199.98px) {
   .h_msg_box {
     height: calc(90% - 90px);
   }
 
   .small_nav {
     width: 473px;
-    padding: 12px 30px 12px 24px;
-  }
-
-  .big_nav {
     padding: 12px 30px 12px 24px;
   }
 
@@ -584,7 +618,7 @@ body {
   }
 
   .msg_bg_custom_miss {
-    padding: 8px 16px;
+    padding: 4px 16px;
   }
 
   .msg_bg_custom {
@@ -596,10 +630,6 @@ body {
   }
 
   #new_chat input {
-    padding: 9px 0px 9px 44px !important;
-  }
-
-  #footer input {
     padding: 9px 0px 9px 44px !important;
   }
 
@@ -618,9 +648,9 @@ body {
   }
 }
 
-@media (max-width:991.98px) {
+@media (max-width: 991.98px) {
   .h_msg_box {
-    height: calc(95.5% - 90px);
+    height: calc(93% - 90px);
   }
 
   .qr_scaner_box {
@@ -664,11 +694,6 @@ body {
     padding: 12px 16px 12px 12px;
   }
 
-  .big_nav {
-    width: 594px;
-    padding: 12px 12px 12px 12px;
-  }
-
   .small_nav {
     padding: 12px 20px 12px 12px;
   }
@@ -682,16 +707,11 @@ body {
   }
 }
 
-@media (max-width:576px) {
-
+@media (max-width: 576px) {
   .bottom_border_w,
   .bottom_border_w_two {
     margin: 10px 0;
     max-width: 83%;
-  }
-
-  .new_chat_box {
-    padding: 0px 0 0 16px;
   }
 
   .left_green_errow_new_chat {
@@ -800,8 +820,8 @@ body {
   }
 }
 
-@media (max-width:425px) {
-  .display_show {
+@media (max-width: 425px) {
+  /* .display_show {
     display: none;
-  }
+  } */
 }
