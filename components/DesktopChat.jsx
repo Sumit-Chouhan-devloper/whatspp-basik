@@ -38,7 +38,7 @@ function DesktopChat() {
                     </div>
                     {/*----------- Send Msg ----------- */}
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick msg_bg_custom_send text-start bg_green d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick msg_bg_custom_send text-start bg_green d-inline-block mb-0 mt_12px font_14 fw-normal color_lite_black position-relative">
                         <Image className='position-absolute desktop_messege_arrow_send' src="/assets/image/svg/send_svg_desktop.svg" width={8} height={13}  />
                             Oboy the thing goes well
                             <span className="position-absolute bottom_5 right_7 color_lite_black font_11 fw-normal">5:20pm
@@ -83,8 +83,8 @@ function DesktopChat() {
                         </p>
                     </div>
                     {/*---------  Mis Call ---------  */}
-                    <div className="text-center my-3">
-                        <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt_12px">
+                    <div className="text-center mb-3 mt_12px">
+                        <p className="d-inline-block bg-white msg_bg_custom_miss mb-0">
                             <Image src='/assets/image/svg/missed_call_icon.svg' width={24} height={24} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font_14 fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
@@ -97,7 +97,7 @@ function DesktopChat() {
                     </div>
                     {/*----------- Send Msg ----------- */}
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick bg_green text-start d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative msg_bg_custom_send">
+                        <p className="msg_bg_custom_tick bg_green text-start d-inline-block mb-0 mt_12px font_14 fw-normal color_lite_black position-relative msg_bg_custom_send">
                         <Image className='position-absolute desktop_messege_arrow_send' src="/assets/image/svg/send_svg_desktop.svg" width={8} height={13}  />
                             Why you dy call me na?
                             <span className="position-absolute bottom_5 right_7 color_lite_black font_11 fw-normal">5:20pm
@@ -123,7 +123,7 @@ function DesktopChat() {
                     </div>
                     {/*---------  Mis Call ---------  */}
                     <div className="text-center">
-                        <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt-2">
+                        <p className="d-inline-block bg-white msg_bg_custom_miss mb-0 mt_12px">
                             <Image src='/assets/image/svg/missed_call_icon.svg' width={24} height={24} alt="misscall" className='misscall_icon' />
                             <span className="ps-2 font_14 fw-normal color_lite_black mb-0" >Missed voice call at 5:20 pm</span>
                         </p>
@@ -144,7 +144,7 @@ function DesktopChat() {
                     </div>
                     {/*----------- Send Msg ----------- */}
                     <div className="text-end me-xl-4 pe-2 mt_2px">
-                        <p className="msg_bg_custom_tick msg_bg_custom_send text-start bg_green d-inline-block mb-0 mt-3 font_14 fw-normal color_lite_black position-relative">
+                        <p className="msg_bg_custom_tick msg_bg_custom_send text-start bg_green d-inline-block mb-0 mt_12px font_14 fw-normal color_lite_black position-relative">
                         <Image className='position-absolute desktop_messege_arrow_send' src="/assets/image/svg/send_svg_desktop.svg" width={8} height={13}  />
                             Oboy the thing goes well
                             <span className="position-absolute bottom_5 right_7 color_lite_black font_11 fw-normal">5:20pm

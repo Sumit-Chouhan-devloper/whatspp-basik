@@ -4,8 +4,8 @@ import DesktopChat from "../DesktopChat";
 
 function Whatsapp() {
   return (
-    <div className="custom_container m-auto overflow-hidden  vh-100">
-      <div className="overflow_scroll_sm">
+    <div className="custom_container m-auto overflow-hidde vh-100">
+      <div className="overflow_scroll_sm overflow_scroll">
         <div className="p_xxl_3 pb-xl-0 position-relative whatsapp_parent_012">
           <div className="d-flex position-relative whatsapp_chatbox_001 mx-auto">
             <div className="whatsapp-chat-list">

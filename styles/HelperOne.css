@@ -296,8 +296,9 @@ body {
 }
 
 div::-webkit-scrollbar {
-    display: none;
-    width: 6px;
+    /* display: none; */
+    /* width: 6px; */
+    height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -437,11 +438,53 @@ div::-webkit-scrollbar {
     box-shadow: 0px 1px 6px 0px #00000040;
     padding: 14px 30px 10px 30px;
 }
+.overflow_scroll::-webkit-scrollbar:horizontal{
+    display: block;
+}
+.overflow_scroll::-webkit-scrollbar-track:horizontal{
+    background-color:white;
+width: 6px !important;
+}
+.overflow_scroll::-webkit-scrollbar-thumb:horizontal {
+    background-color: rgb(206, 201, 201);
+    width: 6px !important;
+}
 
-
-
-
-
+.down_arrow{
+    transform: rotate(90deg);
+    display: none;
+}
+.chats_box:hover .down_arrow{
+    display: block;
+}
+/* ============= DOWNLOAD APP BOX ============== */
+.whatsapp_box{
+    width: 27px;
+    height: 27px;
+    border-radius: 4px;
+    background-color:#25D366;
+    margin-right: 20px;
+}
+.download_app_box{
+    height: 65px;
+    background-color: white;
+    padding: 20px 0px 10px 16px;
+    z-index: 10;
+    width: 100%;
+    transition: 300ms linear;
+}
+.download_app_box:hover .cross{
+    opacity: 1;
+}
+.download_box_abs{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.cross{
+    transform: rotate(45deg);
+    opacity: 0;
+}
 
 
 
@@ -496,7 +539,6 @@ div::-webkit-scrollbar {
     .overflow_scroll_sm {
         overflow-x: scroll;
     }
-
     .min_width_mobile {
         min-width: 408px !important;
     }
