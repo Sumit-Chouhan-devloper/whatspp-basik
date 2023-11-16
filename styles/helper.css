@@ -49,6 +49,16 @@
 .hidden {
   display: none !important;
 }
+@media (max-width: 1400px) {
+  .pb_66 {
+    padding-bottom: 46px;
+  }
+}
+@media (max-width: 992px) {
+  .pb_66 {
+    padding-bottom: 0px;
+  }
+}
 
 @media (max-width: 576px) {
   .video_height_width {

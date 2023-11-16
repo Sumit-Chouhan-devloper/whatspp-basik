@@ -28,12 +28,12 @@ const ChannelPopup = () => {
     <>
       <div className="qr_bg_fade bg_light_black min-vh-100">
         <div className="bg_light_green px-md-4 pb-4 ff_inter">
-          <div className="bg_light_green container  pt_27 pb_66 px-0 ">
+          <div className="bg_light_green container-xxl  pt_27 pb_66 px-0 ">
             <span className="d-block mb-3"></span>
           </div>
         </div>
-        <div className=" overflow-x-hidden container qr_scaner_box bg-brown SegoeUI px-0 ">
-          <div className="Communities_box bg_dark_green me-auto ps-4  pb-1 pt-5 text-start d-flex justify-content-between">
+        <div className=" overflow-x-hidden container-xxl min-vh-91 qr_scaner_box bg-brown SegoeUI px-0 ">
+          <div className="Communities_box bg_dark_green me-auto px-4  pb-1 pt-5 text-start d-flex justify-content-between">
             <h2 className="font_19 text-white fw_medium mb-0 mt-3">
               <Link href="/" className="me-3 pt-4 me-md-4 pe-md-2 ">
                 <Image
@@ -45,9 +45,15 @@ const ChannelPopup = () => {
               </Link>
               Channels
             </h2>
-            <h4 className="text-white fw-light font-2xl mb-0 me-4 mt-2">+</h4>
+            <Image
+              src="/assets/image/svg/plus.svg"
+              height={24}
+              width={24}
+              alt="Errow"
+              className="mt-3"
+            />
           </div>
-          <div className="bg-white channel min-vh-100 px-3">
+          <div className="bg-white channel min-vh-91 px-3">
             <div className="d-flex align-items-center pt-5 gap-3">
               <div className="whatsapp-img d-flex justify-content-center">
                 <div className=" d-flex align-items-center">
@@ -94,7 +100,7 @@ const ChannelPopup = () => {
                 width={60}
               />
             </div>
-            <p>Yesterday</p>
+            <p className=" color_gray fw-normal font-base-02">Yesterday</p>
             <div className="line"></div>
             <div className="d-flex align-items-center gap-3 mt-4">
               <Image
